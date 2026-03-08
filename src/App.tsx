@@ -1,10 +1,12 @@
 import { startTransition, useEffect, useState } from "react"
-import { ArrowRight, Twitter } from "lucide-react"
+import { ArrowRight } from "lucide-react"
 
 import { ChampionPage } from "@/components/champion-page"
 import { ChampionListPage } from "@/components/champion-list-page"
 import { ChampionSearchAutocomplete } from "@/components/champion-search-autocomplete"
 import { LeaderboardsPage } from "@/components/leaderboards-page"
+import { SiteFooter } from "@/components/site-footer"
+import { SiteHeader } from "@/components/site-header"
 import {
   type AppRoute,
   CHAMPIONS_ROUTE,
@@ -56,9 +58,11 @@ function HomePage({
       <div className="rift-home-overlay" aria-hidden="true" />
 
       <div className="relative z-10 flex min-h-screen flex-col">
+        <SiteHeader hideBrand transparent />
+
         <section
           id="home-content"
-          className="mx-auto flex w-full max-w-3xl flex-1 flex-col px-6 pb-4 pt-10 text-center"
+          className="mx-auto flex w-full max-w-3xl flex-1 flex-col px-6 pb-4 pt-6 text-center"
         >
           <div className="flex flex-1 items-center justify-center">
             <div className="w-full space-y-8">
@@ -111,42 +115,7 @@ function HomePage({
             </div>
           </div>
 
-          <footer className="rift-home-footer">
-            <p>
-              All data sourced from Riot&apos;s official{" "}
-              <a
-                href="https://lolm.qq.com/act/a20220818raider/index.html"
-                target="_blank"
-                rel="noreferrer"
-                className="rift-footer-link"
-              >
-                Wild Rift CN Dia+ Statistics
-              </a>{" "}
-              and{" "}
-              <a
-                href="https://wildrift.leagueoflegends.com/en-us/champions/"
-                target="_blank"
-                rel="noreferrer"
-                className="rift-footer-link"
-              >
-                champions list
-              </a>
-              .
-            </p>
-            <p>
-              Built by{" "}
-              <a
-                href="https://twitter.com/RepotedWR"
-                target="_blank"
-                rel="noreferrer"
-                className="rift-footer-link inline-flex items-center gap-1"
-              >
-                <Twitter className="size-3.5" />
-                RepotedWR
-              </a>{" "}
-              © 2026
-            </p>
-          </footer>
+          <SiteFooter />
         </section>
       </div>
     </main>
@@ -175,6 +144,10 @@ function App() {
       window.removeEventListener("popstate", syncLocationState)
     }
   }, [])
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "auto" })
+  }, [locationState.hash, locationState.search])
 
   const route = routeFromHash(locationState.hash)
   const initialQuery = new URLSearchParams(locationState.search).get("q") ?? ""
@@ -222,28 +195,35 @@ function App() {
     await handleHomeSearch(champion.displayName)
   }
 
-  if (route === LEADERBOARDS_ROUTE) {
-    return <LeaderboardsPage />
-  }
-
-  if (route === CHAMPIONS_ROUTE) {
-    return <ChampionListPage />
-  }
-
-  if (isChampionRoute(route)) {
-    const championSlug = championSlugFromRoute(route)
-
-    if (championSlug) {
-      return <ChampionPage slug={championSlug} />
-    }
-  }
-
-  return (
+  let page = (
     <HomePage
       initialQuery={initialQuery}
       onSearch={handleHomeSearch}
       onChampionSelect={handleChampionSelect}
     />
+  )
+  let showSharedFooter = false
+
+  if (route === LEADERBOARDS_ROUTE) {
+    page = <LeaderboardsPage />
+    showSharedFooter = true
+  } else if (route === CHAMPIONS_ROUTE) {
+    page = <ChampionListPage />
+    showSharedFooter = true
+  } else if (isChampionRoute(route)) {
+    const championSlug = championSlugFromRoute(route)
+
+    if (championSlug) {
+      page = <ChampionPage slug={championSlug} />
+      showSharedFooter = true
+    }
+  }
+
+  return (
+    <>
+      {page}
+      {showSharedFooter ? <SiteFooter /> : null}
+    </>
   )
 }
 

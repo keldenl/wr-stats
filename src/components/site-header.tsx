@@ -8,16 +8,31 @@ import {
 } from "@/lib/hash-routing"
 import { cn } from "@/lib/utils"
 
-export function SiteHeader() {
+export function SiteHeader({
+  hideBrand = false,
+  transparent = false,
+}: {
+  hideBrand?: boolean
+  transparent?: boolean
+}) {
   const route = routeFromHash(window.location.hash)
 
   return (
-    <header className="rift-topbar-shell">
+    <header
+      className={cn(
+        "rift-topbar-shell",
+        transparent && "rift-topbar-shell--transparent"
+      )}
+    >
       <div className="rift-topbar">
-        <a href={routeToHash(HOME_ROUTE)} className="rift-wordmark rift-wordmark--sm">
-          <span className="rift-wordmark-ranked">ranked</span>
-          <span className="rift-wordmark-wr">wr</span>
-        </a>
+        {hideBrand ? (
+          <div aria-hidden="true" className="min-w-0" />
+        ) : (
+          <a href={routeToHash(HOME_ROUTE)} className="rift-wordmark rift-wordmark--sm">
+            <span className="rift-wordmark-ranked">ranked</span>
+            <span className="rift-wordmark-wr">wr</span>
+          </a>
+        )}
 
         <nav aria-label="Primary" className="flex items-center gap-4 sm:gap-6">
           <a

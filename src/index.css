@@ -222,6 +222,10 @@ body {
     @apply border-b border-white/10 bg-black/95 backdrop-blur-sm;
   }
 
+  .rift-topbar-shell--transparent {
+    @apply border-transparent bg-transparent backdrop-blur-none;
+  }
+
   .rift-topbar {
     @apply mx-auto flex w-full max-w-7xl items-center justify-between gap-4 px-6 py-5 sm:px-10 lg:px-14;
   }
