@@ -19,8 +19,8 @@ export function SiteHeader({ rightLabel, rightHref }: SiteHeaderProps) {
   return (
     <header className="rift-topbar">
       <a href={routeToHash(HOME_ROUTE)} className="rift-wordmark rift-wordmark--sm">
-        <span className="rift-wordmark-ranked">Ranked</span>
-        <span className="rift-wordmark-wr">WR</span>
+        <span className="rift-wordmark-ranked">ranked</span>
+        <span className="rift-wordmark-wr">wr</span>
       </a>
       {rightContent ?? <div />}
     </header>

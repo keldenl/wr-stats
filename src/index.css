@@ -363,11 +363,15 @@ body {
   }
 
   .rift-champion-hero-content {
-    @apply relative z-10 mx-auto flex min-h-[inherit] w-full max-w-7xl items-start px-6 pb-8 pt-14 sm:px-10 sm:pt-16 lg:px-14 lg:pt-18;
+    @apply relative z-10 mx-auto flex min-h-[inherit] w-full max-w-7xl px-6 pb-8 pt-14 sm:px-10 sm:pt-16 lg:px-14 lg:pt-18;
   }
 
   .rift-champion-hero-inner {
-    @apply flex w-full max-w-3xl flex-col gap-2;
+    @apply flex w-full max-w-4xl flex-1 flex-col;
+  }
+
+  .rift-champion-title-block {
+    @apply flex flex-col gap-2;
   }
 
   .rift-champion-kicker,
@@ -386,6 +390,66 @@ body {
   .rift-champion-title {
     @apply max-w-3xl text-6xl leading-none font-black tracking-[-0.08em] text-white uppercase italic sm:text-7xl lg:text-[7.25rem];
     text-shadow: 0 14px 34px rgba(0, 0, 0, 0.28);
+  }
+
+  .rift-champion-hero-stats {
+    @apply mt-auto flex w-full max-w-2xl flex-col gap-4 pb-2 text-white sm:pb-3;
+  }
+
+  .rift-champion-stat-label {
+    @apply text-[0.68rem] font-semibold uppercase tracking-[0.22em] text-primary;
+  }
+
+  .rift-champion-bucket-select {
+    @apply min-w-40 border-white/14 bg-transparent text-sm text-white hover:bg-white/6 focus-visible:border-primary/50 focus-visible:ring-primary/25;
+  }
+
+  .rift-champion-bucket-select [data-slot="select-value"] {
+    @apply text-white;
+  }
+
+  .rift-champion-stat-grid {
+    @apply grid grid-cols-2 gap-x-6 gap-y-3 sm:grid-cols-4;
+  }
+
+  .rift-champion-stat-item {
+    @apply flex flex-col gap-1;
+  }
+
+  .rift-champion-stat-tier {
+    @apply min-w-9 justify-center self-start border-white/14 bg-white/8 text-sm text-white;
+  }
+
+  .rift-champion-stat-value {
+    @apply text-lg font-semibold tracking-[-0.03em] text-white sm:text-xl;
+  }
+
+  .rift-champion-hero-stats-controls {
+    @apply flex flex-wrap items-center justify-between gap-3;
+  }
+
+  .rift-champion-role-toggle {
+    @apply flex flex-1 flex-wrap gap-2;
+  }
+
+  .rift-champion-role-toggle-item {
+    @apply inline-flex min-h-10 min-w-10 items-center justify-center rounded-full border border-white/12 bg-transparent px-3 text-white/72 transition-colors hover:border-primary/70 hover:bg-white/6 hover:text-white;
+  }
+
+  .rift-champion-role-toggle [data-slot="toggle-group-item"][data-state="on"] {
+    @apply border-primary bg-primary/10 text-white;
+  }
+
+  .rift-champion-role-toggle [data-slot="toggle-group-item"]:focus-visible {
+    @apply ring-2 ring-primary/35;
+  }
+
+  .rift-champion-hero-stats-fallback {
+    @apply flex flex-col gap-2;
+  }
+
+  .rift-champion-hero-stats-fallback-copy {
+    @apply max-w-xl text-sm leading-6 text-white/78;
   }
 
   .rift-champion-abilities-shell {
@@ -607,12 +671,36 @@ body {
       @apply px-4 pb-8 pt-10;
     }
 
+    .rift-champion-hero-inner {
+      @apply min-h-0;
+    }
+
     .rift-champion-kicker {
       @apply text-xl;
     }
 
     .rift-champion-title {
       @apply text-5xl;
+    }
+
+    .rift-champion-hero-stats {
+      @apply max-w-none gap-3;
+    }
+
+    .rift-champion-bucket-select {
+      @apply w-full min-w-0;
+    }
+
+    .rift-champion-hero-stats-controls {
+      @apply items-stretch;
+    }
+
+    .rift-champion-role-toggle {
+      @apply flex-none;
+    }
+
+    .rift-champion-stat-value {
+      @apply text-base;
     }
 
     .rift-champion-abilities-shell,

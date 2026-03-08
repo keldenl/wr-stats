@@ -8,7 +8,7 @@ import {
 } from "react"
 import { ArrowDown, ArrowUp, ArrowUpDown, CircleHelp, Search } from "lucide-react"
 
-import roleIconsUrl from "@/assets/place-icons.png"
+import { LaneIcon } from "@/components/lane-icon"
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Badge } from "@/components/ui/badge"
@@ -51,6 +51,7 @@ import {
 } from "@/lib/hash-routing"
 import {
   LANE_LABELS,
+  TIER_LABELS,
   loadLeaderboards,
   sortLaneKeys,
   sortNumericKeys,
@@ -66,49 +67,10 @@ const DEFAULT_TIER = "1"
 const ALL_LANE = "all"
 type LaneFilterId = LaneId | typeof ALL_LANE
 const DEFAULT_LANE: LaneFilterId = ALL_LANE
-const LANE_ICON_SCALE = 0.8
-const LANE_ICON_SPRITE_WIDTH = 205
-const LANE_ICON_SPRITE_HEIGHT = 28
-
-const TIER_LABELS: Record<string, string> = {
-  "1": "Diamond+",
-  "2": "Master+",
-  "3": "Challenger",
-  "4": "Peak of the Rift",
-}
 
 const LANE_FILTER_LABELS: Record<LaneFilterId, string> = {
   all: "All",
   ...LANE_LABELS,
-}
-
-const LANE_ICON_SPRITES: Record<
-  LaneId,
-  {
-    xOffset: number
-    width: number
-  }
-> = {
-  "1": {
-    xOffset: -88,
-    width: 27,
-  },
-  "2": {
-    xOffset: 0,
-    width: 26,
-  },
-  "3": {
-    xOffset: -133,
-    width: 26,
-  },
-  "4": {
-    xOffset: -176,
-    width: 29,
-  },
-  "5": {
-    xOffset: -43,
-    width: 29,
-  },
 }
 
 function pickDefaultTier(tiers: string[]) {
@@ -340,35 +302,6 @@ function parseFiltersFromUrl() {
     sort: SortKey
     tier: string
   }
-}
-
-function LaneIcon({
-  lane,
-  label,
-}: {
-  lane: LaneId
-  label: string
-}) {
-  const sprite = LANE_ICON_SPRITES[lane]
-
-  return (
-    <span className="inline-flex items-center justify-center" title={label}>
-      <span
-        aria-hidden="true"
-        className="rift-lane-icon"
-        style={{
-          backgroundImage: `url(${roleIconsUrl})`,
-          backgroundPosition: `${sprite.xOffset * LANE_ICON_SCALE}px 0`,
-          backgroundSize: `${LANE_ICON_SPRITE_WIDTH * LANE_ICON_SCALE}px ${
-            LANE_ICON_SPRITE_HEIGHT * LANE_ICON_SCALE
-          }px`,
-          height: `${LANE_ICON_SPRITE_HEIGHT * LANE_ICON_SCALE}px`,
-          width: `${sprite.width * LANE_ICON_SCALE}px`,
-        }}
-      />
-      <span className="sr-only">{label}</span>
-    </span>
-  )
 }
 
 function LeaderboardTable({

@@ -4,6 +4,7 @@ import {
   dataFileUrl,
   type ChampionCatalog,
   type ChampionPageData,
+  type ChampionPageIndexRecord,
   type ChampionPagesIndex,
 } from "@/lib/static-data"
 
@@ -156,7 +157,9 @@ export async function loadChampionPageByChampionId(championId: string) {
   return loadChampionPageByPath(entry.pagePath)
 }
 
-export async function loadChampionPageBySlug(riotSlug: string) {
+export async function loadChampionPageEntryBySlug(
+  riotSlug: string
+): Promise<ChampionPageIndexRecord> {
   const index = await loadChampionPagesIndex()
   const entry = Object.values(index.champions).find(
     (champion) => champion.riotSlug === riotSlug
@@ -166,5 +169,10 @@ export async function loadChampionPageBySlug(riotSlug: string) {
     throw new Error(`No champion page is available for slug ${riotSlug}.`)
   }
 
+  return entry
+}
+
+export async function loadChampionPageBySlug(riotSlug: string) {
+  const entry = await loadChampionPageEntryBySlug(riotSlug)
   return loadChampionPageByPath(entry.pagePath)
 }

@@ -64,8 +64,8 @@ function HomePage({
             <div className="w-full space-y-8">
               <div className="space-y-3">
                 <h1 className="rift-wordmark rift-wordmark--hero">
-                  <span className="rift-wordmark-ranked">Ranked</span>
-                  <span className="rift-wordmark-wr">WR</span>
+                  <span className="rift-wordmark-ranked">ranked</span>
+                  <span className="rift-wordmark-wr">wr</span>
                 </h1>
               </div>
 

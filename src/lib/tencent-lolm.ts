@@ -21,6 +21,13 @@ import {
 export { LANE_LABELS, sortLaneKeys, sortNumericKeys }
 export type { LaneId }
 
+export const TIER_LABELS: Record<string, string> = {
+  "1": "Diamond+",
+  "2": "Master+",
+  "3": "Challenger",
+  "4": "Peak of the Rift",
+}
+
 export type LeaderboardEntry = {
   alias: string
   avatar: string
@@ -44,6 +51,30 @@ export type LeaderboardPayload = {
   latestSnapshotId: string
   snapshotId: string
   snapshots: SnapshotMeta[]
+  statDate: string
+}
+
+export type ChampionRoleStat = {
+  lane: LaneId
+  laneLabel: string
+  pickRate: number
+  winRate: number
+  banRate: number
+  strengthScore: number
+  strengthTier: ChampionStrengthTier
+}
+
+export type ChampionStatsBucket = {
+  bucket: string
+  label: string
+  roles: ChampionRoleStat[]
+}
+
+export type ChampionHeroStatsPayload = {
+  archivedAt: string
+  buckets: ChampionStatsBucket[]
+  latestSnapshotId: string
+  snapshotId: string
   statDate: string
 }
 
@@ -142,6 +173,64 @@ function buildEntriesByTier(
   return entriesByTier
 }
 
+function normalizeChampionRoleStat(
+  laneKey: LaneId,
+  compactRow: CompactLeaderboardRow
+): ChampionRoleStat {
+  const [, winRate, pickRate, banRate] = compactRow
+  const strengthScore = calculateChampionStrengthScore(winRate, pickRate, banRate)
+
+  return {
+    banRate,
+    lane: laneKey,
+    laneLabel: LANE_LABELS[laneKey] ?? `Lane ${laneKey}`,
+    pickRate,
+    strengthScore,
+    strengthTier: getChampionStrengthTier(strengthScore),
+    winRate,
+  }
+}
+
+function buildChampionStatsBuckets(
+  snapshot: LeaderboardSnapshot,
+  championId: string
+): ChampionStatsBucket[] {
+  return sortNumericKeys(Object.keys(snapshot.tiers))
+    .filter((tierKey) => tierKey !== "0")
+    .map((tierKey) => {
+      const laneKeys = sortLaneKeys(
+        Object.keys(snapshot.tiers[tierKey] ?? {}) as LaneId[]
+      )
+      const laneOrder = new Map(
+        laneKeys.map((laneKey, index) => [laneKey, index] as const)
+      )
+      const roles = laneKeys
+        .map((laneKey) => {
+          const row = snapshot.tiers[tierKey]?.[laneKey]?.find(
+            ([heroId]) => heroId === championId
+          )
+
+          return row ? normalizeChampionRoleStat(laneKey, row) : null
+        })
+        .filter((role): role is ChampionRoleStat => role !== null)
+        .sort((left, right) => {
+          if (left.pickRate !== right.pickRate) {
+            return right.pickRate - left.pickRate
+          }
+
+          return (laneOrder.get(left.lane) ?? Number.MAX_SAFE_INTEGER) -
+            (laneOrder.get(right.lane) ?? Number.MAX_SAFE_INTEGER)
+        })
+
+      return {
+        bucket: tierKey,
+        label: TIER_LABELS[tierKey] ?? `Bucket ${tierKey}`,
+        roles,
+      }
+    })
+    .filter((bucket) => bucket.roles.length > 0)
+}
+
 export async function loadLeaderboards(snapshotId?: string) {
   const [manifest, championCatalog] = await Promise.all([
     loadManifest(),
@@ -175,6 +264,39 @@ export async function loadLeaderboards(snapshotId?: string) {
     snapshots: manifest.snapshots,
     statDate: snapshot.statDate,
   } satisfies LeaderboardPayload
+}
+
+export async function loadChampionHeroStats(
+  championId: string,
+  snapshotId?: string
+) {
+  const manifest = await loadManifest()
+  const selectedSnapshotMeta =
+    manifest.snapshots.find((snapshot) => snapshot.id === snapshotId) ??
+    manifest.snapshots.find((snapshot) => snapshot.id === manifest.latestSnapshotId)
+
+  if (!selectedSnapshotMeta) {
+    throw new Error("No published leaderboard snapshots are available.")
+  }
+
+  const snapshotPath =
+    selectedSnapshotMeta.id === manifest.latestSnapshotId
+      ? manifest.latestPath
+      : selectedSnapshotMeta.path
+
+  const snapshot = await loadSnapshotByPath(snapshotPath)
+
+  if (snapshot.snapshotId !== selectedSnapshotMeta.id) {
+    throw new Error(`Snapshot mismatch for ${selectedSnapshotMeta.id}.`)
+  }
+
+  return {
+    archivedAt: snapshot.fetchedAt,
+    buckets: buildChampionStatsBuckets(snapshot, championId),
+    latestSnapshotId: manifest.latestSnapshotId,
+    snapshotId: snapshot.snapshotId,
+    statDate: snapshot.statDate,
+  } satisfies ChampionHeroStatsPayload
 }
 
 export function normalizeSourceDataForTests(
