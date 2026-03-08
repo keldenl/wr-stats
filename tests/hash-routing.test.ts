@@ -1,6 +1,7 @@
 import { describe, expect, it } from "bun:test"
 
 import {
+  CHAMPIONS_ROUTE,
   CHAMPION_ROUTE_PREFIX,
   HOME_ROUTE,
   LEADERBOARDS_ROUTE,
@@ -21,6 +22,7 @@ describe("hash routing", () => {
 
   it("parses home and leaderboard hashes", () => {
     expect(routeFromHash("#/")).toBe(HOME_ROUTE)
+    expect(routeFromHash("#/champions")).toBe(CHAMPIONS_ROUTE)
     expect(routeFromHash("#/leaderboards")).toBe(LEADERBOARDS_ROUTE)
     expect(routeFromHash("#/champions/smolder")).toBe("/champions/smolder")
   })

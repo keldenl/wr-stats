@@ -2,10 +2,12 @@ import { startTransition, useEffect, useState } from "react"
 import { ArrowRight, Twitter } from "lucide-react"
 
 import { ChampionPage } from "@/components/champion-page"
+import { ChampionListPage } from "@/components/champion-list-page"
 import { ChampionSearchAutocomplete } from "@/components/champion-search-autocomplete"
 import { LeaderboardsPage } from "@/components/leaderboards-page"
 import {
   type AppRoute,
+  CHAMPIONS_ROUTE,
   LEADERBOARDS_ROUTE,
   buildRouteUrl,
   championRoute,
@@ -222,6 +224,10 @@ function App() {
 
   if (route === LEADERBOARDS_ROUTE) {
     return <LeaderboardsPage />
+  }
+
+  if (route === CHAMPIONS_ROUTE) {
+    return <ChampionListPage />
   }
 
   if (isChampionRoute(route)) {

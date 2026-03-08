@@ -1,11 +1,13 @@
 export const HOME_ROUTE = "/" as const
 export const LEADERBOARDS_ROUTE = "/leaderboards" as const
+export const CHAMPIONS_ROUTE = "/champions" as const
 export const CHAMPION_ROUTE_PREFIX = "/champions/" as const
 
 export type ChampionRoute = `${typeof CHAMPION_ROUTE_PREFIX}${string}`
 export type AppRoute =
   | typeof HOME_ROUTE
   | typeof LEADERBOARDS_ROUTE
+  | typeof CHAMPIONS_ROUTE
   | ChampionRoute
 
 export function championRoute(riotSlug: string): ChampionRoute {
@@ -36,6 +38,10 @@ export function routeFromHash(hash: string) {
 
   if (normalizedRoute === LEADERBOARDS_ROUTE) {
     return LEADERBOARDS_ROUTE
+  }
+
+  if (normalizedRoute === CHAMPIONS_ROUTE) {
+    return CHAMPIONS_ROUTE
   }
 
   if (
