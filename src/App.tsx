@@ -1,14 +1,8 @@
 import { startTransition, useEffect, useState } from "react"
-import { ArrowRight, Search, Twitter } from "lucide-react"
+import { ArrowRight, Twitter } from "lucide-react"
 
 import { ChampionPage } from "@/components/champion-page"
-import {
-  InputGroup,
-  InputGroupAddon,
-  InputGroupButton,
-  InputGroupInput,
-} from "@/components/ui/input-group"
-import { Spinner } from "@/components/ui/spinner"
+import { ChampionSearchAutocomplete } from "@/components/champion-search-autocomplete"
 import { LeaderboardsPage } from "@/components/leaderboards-page"
 import {
   type AppRoute,
@@ -20,17 +14,19 @@ import {
   routeFromHash,
   routeToHash,
 } from "@/lib/hash-routing"
-import { findChampionMatch } from "@/lib/champion-pages"
+import { findChampionMatch, type ChampionDirectoryEntry } from "@/lib/champion-pages"
 
-const smolderBackdropUrl =
-  "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/937095edeaa81ee72125de2210982a1cf96325d5.mp4?accountingTag=WR"
+const mainBackdropUrl =
+  "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/acaaf4ca851070d496137ec0bd21d66cab905412.mp4?accountingTag=WR"
 
 function HomePage({
   initialQuery,
   onSearch,
+  onChampionSelect,
 }: {
   initialQuery: string
   onSearch: (query: string) => Promise<void>
+  onChampionSelect: (champion: ChampionDirectoryEntry) => Promise<void>
 }) {
   const [searchQuery, setSearchQuery] = useState(initialQuery)
   const [isSearching, setIsSearching] = useState(false)
@@ -54,7 +50,7 @@ function HomePage({
         className="rift-home-video"
         aria-hidden="true"
       >
-        <source src={smolderBackdropUrl} type="video/mp4" />
+        <source src={mainBackdropUrl} type="video/mp4" />
       </video>
 
       <div className="rift-home-overlay" aria-hidden="true" />
@@ -87,30 +83,22 @@ function HomePage({
                     }
                   }}
                 >
-                  <InputGroup className="rift-home-search h-14">
-                    <InputGroupInput
-                      id="champion-search"
-                      type="search"
-                      value={searchQuery}
-                      onChange={(event) => setSearchQuery(event.target.value)}
-                      placeholder="Search champion"
-                      autoComplete="off"
-                      spellCheck={false}
-                      aria-label="Champion search"
-                    />
-                    <InputGroupAddon align="inline-end">
-                      <InputGroupButton
-                        type="submit"
-                        variant="default"
-                        size="icon-sm"
-                        className="rift-search-submit rift-search-submit--solid"
-                        aria-label="Search"
-                        disabled={isSearching}
-                      >
-                        {isSearching ? <Spinner className="size-4" /> : <Search />}
-                      </InputGroupButton>
-                    </InputGroupAddon>
-                  </InputGroup>
+                  <ChampionSearchAutocomplete
+                    id="champion-search"
+                    value={searchQuery}
+                    onChampionSelect={async (champion) => {
+                      setIsSearching(true)
+
+                      try {
+                        await onChampionSelect(champion)
+                      } finally {
+                        setIsSearching(false)
+                      }
+                    }}
+                    onValueChange={setSearchQuery}
+                    ariaLabel="Champion search"
+                    isSearching={isSearching}
+                  />
                 </form>
 
                 <div className="flex justify-end">
@@ -225,6 +213,15 @@ function App() {
     navigate(LEADERBOARDS_ROUTE, nextParams)
   }
 
+  async function handleChampionSelect(champion: ChampionDirectoryEntry) {
+    if (champion.riotSlug) {
+      navigate(championRoute(champion.riotSlug))
+      return
+    }
+
+    await handleHomeSearch(champion.displayName)
+  }
+
   if (route === LEADERBOARDS_ROUTE) {
     return <LeaderboardsPage />
   }
@@ -237,7 +234,13 @@ function App() {
     }
   }
 
-  return <HomePage initialQuery={initialQuery} onSearch={handleHomeSearch} />
+  return (
+    <HomePage
+      initialQuery={initialQuery}
+      onSearch={handleHomeSearch}
+      onChampionSelect={handleChampionSelect}
+    />
+  )
 }
 
 export default App

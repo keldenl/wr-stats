@@ -53,34 +53,41 @@ function ComboboxInput({
   className,
   children,
   disabled = false,
+  endContent,
   showTrigger = true,
   showClear = false,
   ...props
 }: ComboboxPrimitive.Input.Props & {
+  endContent?: React.ReactNode
   showTrigger?: boolean
   showClear?: boolean
 }) {
+  const hasAddon = Boolean(endContent || showTrigger || showClear)
+
   return (
     <InputGroup className={cn("w-auto", className)}>
       <ComboboxPrimitive.Input
         render={<InputGroupInput disabled={disabled} />}
         {...props}
       />
-      <InputGroupAddon align="inline-end">
-        {showTrigger && (
-          <InputGroupButton
-            size="icon-xs"
-            variant="ghost"
-            asChild
-            data-slot="input-group-button"
-            className="group-has-data-[slot=combobox-clear]/input-group:hidden data-pressed:bg-transparent"
-            disabled={disabled}
-          >
-            <ComboboxTrigger />
-          </InputGroupButton>
-        )}
-        {showClear && <ComboboxClear disabled={disabled} />}
-      </InputGroupAddon>
+      {hasAddon ? (
+        <InputGroupAddon align="inline-end">
+          {endContent}
+          {showTrigger && (
+            <InputGroupButton
+              size="icon-xs"
+              variant="ghost"
+              asChild
+              data-slot="input-group-button"
+              className="group-has-data-[slot=combobox-clear]/input-group:hidden data-pressed:bg-transparent"
+              disabled={disabled}
+            >
+              <ComboboxTrigger />
+            </InputGroupButton>
+          )}
+          {showClear && <ComboboxClear disabled={disabled} />}
+        </InputGroupAddon>
+      ) : null}
       {children}
     </InputGroup>
   )
@@ -93,11 +100,17 @@ function ComboboxContent({
   align = "start",
   alignOffset = 0,
   anchor,
+  collisionAvoidance,
   ...props
 }: ComboboxPrimitive.Popup.Props &
   Pick<
     ComboboxPrimitive.Positioner.Props,
-    "side" | "align" | "sideOffset" | "alignOffset" | "anchor"
+    | "side"
+    | "align"
+    | "sideOffset"
+    | "alignOffset"
+    | "anchor"
+    | "collisionAvoidance"
   >) {
   return (
     <ComboboxPrimitive.Portal>
@@ -107,6 +120,7 @@ function ComboboxContent({
         align={align}
         alignOffset={alignOffset}
         anchor={anchor}
+        collisionAvoidance={collisionAvoidance}
         className="isolate z-50"
       >
         <ComboboxPrimitive.Popup

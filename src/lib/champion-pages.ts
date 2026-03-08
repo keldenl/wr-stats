@@ -12,12 +12,18 @@ let championCatalogPromise: Promise<ChampionCatalog> | null = null
 const championPageCache = new Map<string, Promise<ChampionPageData>>()
 
 export type ChampionDirectoryEntry = {
+  avatarUrl: string
   championId: string
   displayName: string
   riotSlug: string
   riotUrl: string
   searchText: string
   title: string
+}
+
+type ScoredChampionMatch = {
+  champion: ChampionDirectoryEntry
+  rank: number
 }
 
 async function readJson<T>(pathname: string) {
@@ -50,6 +56,7 @@ export async function loadChampionDirectory() {
         Boolean(champion.riotSlug && champion.riotUrl)
     )
     .map((champion) => ({
+      avatarUrl: champion.avatar ? dataFileUrl(champion.avatar) : "",
       championId: champion.id,
       displayName: champion.displayName,
       riotSlug: champion.riotSlug,
@@ -59,19 +66,20 @@ export async function loadChampionDirectory() {
     }))
 }
 
-export function pickChampionMatch(
+export function searchChampionDirectory(
   query: string,
-  champions: ChampionDirectoryEntry[]
+  champions: ChampionDirectoryEntry[],
+  limit = champions.length
 ) {
   const trimmedQuery = query.trim()
 
   if (!trimmedQuery) {
-    return null
+    return []
   }
 
   const normalizedQuery = trimmedQuery.toLowerCase()
   const normalizedIdentityQuery = normalizeChampionIdentityName(trimmedQuery)
-  const scoredMatches = champions
+  const scoredMatches: ScoredChampionMatch[] = champions
     .map((champion) => {
       const displayName = champion.displayName.toLowerCase()
       const riotSlug = champion.riotSlug.toLowerCase()
@@ -110,7 +118,14 @@ export function pickChampionMatch(
       return left.champion.displayName.localeCompare(right.champion.displayName)
     })
 
-  return scoredMatches[0]?.champion ?? null
+  return scoredMatches.slice(0, limit).map((entry) => entry.champion)
+}
+
+export function pickChampionMatch(
+  query: string,
+  champions: ChampionDirectoryEntry[]
+) {
+  return searchChampionDirectory(query, champions, 1)[0] ?? null
 }
 
 export async function findChampionMatch(query: string) {
