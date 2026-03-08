@@ -41,7 +41,6 @@ import { SiteHeader } from "@/components/site-header"
 import { MAIN_BACKDROP_URL } from "@/lib/backdrops"
 import { loadChampionPageBySlug } from "@/lib/champion-pages"
 import {
-  HOME_ROUTE,
   LEADERBOARDS_ROUTE,
   championRoute,
   replaceRouteSearch,
@@ -752,10 +751,7 @@ export function LeaderboardsPage() {
           Skip to results
         </a>
 
-        <SiteHeader
-          rightLabel="Champion Search"
-          rightHref={routeToHash(HOME_ROUTE)}
-        />
+        <SiteHeader />
 
         <section className="rift-leaderboard-hero">
           <video

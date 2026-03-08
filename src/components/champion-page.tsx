@@ -16,7 +16,6 @@ import {
 } from "@/components/ui/select"
 import { Spinner } from "@/components/ui/spinner"
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group"
-import { LEADERBOARDS_ROUTE, routeToHash } from "@/lib/hash-routing"
 import {
   loadChampionPageByChampionId,
   loadChampionPageEntryBySlug,
@@ -206,10 +205,7 @@ export function ChampionPage({ slug }: { slug: string }) {
         Skip to content
       </a>
 
-      <SiteHeader
-        rightLabel="Leaderboards"
-        rightHref={routeToHash(LEADERBOARDS_ROUTE)}
-      />
+      <SiteHeader />
 
       {error ? (
         <section className="mx-auto flex w-full max-w-5xl px-4 py-10 sm:px-6">

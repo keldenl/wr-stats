@@ -218,16 +218,20 @@ body {
     @apply text-foreground transition-colors hover:text-primary;
   }
 
+  .rift-topbar-shell {
+    @apply border-b border-white/10 bg-black/95 backdrop-blur-sm;
+  }
+
   .rift-topbar {
-    @apply flex items-center justify-between gap-4 border-b border-white/10 bg-black px-4 py-4 sm:px-6;
+    @apply mx-auto flex w-full max-w-7xl items-center justify-between gap-4 px-6 py-5 sm:px-10 lg:px-14;
   }
 
   .rift-topbar-link {
-    @apply text-sm leading-none text-muted-foreground transition-colors hover:text-foreground;
+    @apply text-sm leading-none font-semibold uppercase text-muted-foreground transition-colors hover:text-foreground;
   }
 
   .rift-topbar-link--action {
-    @apply shrink-0 font-medium text-foreground;
+    @apply shrink-0 text-foreground;
   }
 
   .rift-page-title {
@@ -750,6 +754,10 @@ body {
   }
 
   @media (max-width: 640px) {
+    .rift-topbar {
+      @apply px-4;
+    }
+
     .rift-leaderboard-hero-content {
       @apply px-4 pb-2 pt-7;
     }
