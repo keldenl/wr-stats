@@ -161,12 +161,13 @@ export async function loadChampionPageEntryBySlug(
   riotSlug: string
 ): Promise<ChampionPageIndexRecord> {
   const index = await loadChampionPagesIndex()
+  const normalizedRiotSlug = riotSlug.trim().toLowerCase()
   const entry = Object.values(index.champions).find(
-    (champion) => champion.riotSlug === riotSlug
+    (champion) => champion.riotSlug.toLowerCase() === normalizedRiotSlug
   )
 
   if (!entry) {
-    throw new Error(`No champion page is available for slug ${riotSlug}.`)
+    throw new Error(`No champion page is available for slug ${normalizedRiotSlug}.`)
   }
 
   return entry

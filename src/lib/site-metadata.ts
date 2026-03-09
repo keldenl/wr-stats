@@ -94,7 +94,7 @@ export function leaderboardsSeoMetadata(
     ? ` Updated for ${summary.statDateLabel}.`
     : ""
   const topChampionPart = summary.topChampionName
-    ? ` Current leaderboard highlights include ${summary.topChampionName}.`
+    ? ` Current tier list highlights include ${summary.topChampionName}.`
     : ""
   const archivedAtPart = summary.archivedAtLabel
     ? ` Snapshot archived ${summary.archivedAtLabel}.`
@@ -102,12 +102,12 @@ export function leaderboardsSeoMetadata(
 
   return {
     description:
-      "Browse Wild Rift champion leaderboards by tier, lane, and snapshot with sortable win rate, pick rate, ban rate, and tier strength from current CN ranked data." +
+      "Browse the Wild Rift tier list by rank bucket, lane, and snapshot with sortable win rate, pick rate, ban rate, and strength score from current CN ranked data." +
       statDatePart +
       topChampionPart +
       archivedAtPart,
     imageUrl: summary.imageUrl ?? DEFAULT_SOCIAL_IMAGE,
-    title: "Wild Rift tier list and champion leaderboards | rankedwr",
+    title: "Wild Rift tier list and champion stats | rankedwr",
   }
 }
 

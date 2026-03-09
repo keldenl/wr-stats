@@ -3,7 +3,26 @@ import { createRoot } from "react-dom/client"
 
 import App from "./App.tsx"
 import "./index.css"
-import { buildRouteUrl, routeFromHash } from "./lib/routing.ts"
+import {
+  buildRouteUrl,
+  canonicalRouteFromPathname,
+  routeFromHash,
+} from "./lib/routing.ts"
+
+function redirectLegacyPathRoute() {
+  const route = canonicalRouteFromPathname(window.location.pathname)
+
+  if (!route) {
+    return
+  }
+
+  const nextParams = new URLSearchParams(window.location.search)
+  const nextUrl = buildRouteUrl(route, nextParams.size ? nextParams : undefined)
+
+  if (`${window.location.pathname}${window.location.search}` !== nextUrl) {
+    window.history.replaceState(null, "", nextUrl)
+  }
+}
 
 function redirectLegacyHashRoute() {
   const legacyHash = window.location.hash
@@ -27,6 +46,7 @@ function redirectLegacyHashRoute() {
   }
 }
 
+redirectLegacyPathRoute()
 redirectLegacyHashRoute()
 
 createRoot(document.getElementById('root')!).render(

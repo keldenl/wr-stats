@@ -16,6 +16,7 @@ import {
   CHAMPIONS_ROUTE,
   LEADERBOARDS_ROUTE,
   buildRouteUrl,
+  canonicalRouteFromPathname,
   championRoute,
   championSlugFromRoute,
   isChampionRoute,
@@ -138,7 +139,7 @@ function HomePage({
 
                 <div className="flex justify-end">
                   <a href={LEADERBOARDS_ROUTE} className="rift-inline-cta">
-                    View leaderboards
+                    View tier list
                     <ArrowRight className="size-4" />
                   </a>
                 </div>
@@ -173,6 +174,31 @@ function App() {
       window.removeEventListener("popstate", syncLocationState)
     }
   }, [])
+
+  useEffect(() => {
+    const canonicalRoute = canonicalRouteFromPathname(locationState.pathname)
+
+    if (!canonicalRoute) {
+      return
+    }
+
+    const nextParams = new URLSearchParams(locationState.search)
+    const nextSearch = nextParams.size ? `?${nextParams.toString()}` : ""
+    const nextUrl = buildRouteUrl(canonicalRoute, nextParams.size ? nextParams : undefined)
+
+    if (`${window.location.pathname}${window.location.search}` !== nextUrl) {
+      window.history.replaceState(null, "", nextUrl)
+    }
+
+    if (locationState.pathname !== canonicalRoute || locationState.search !== nextSearch) {
+      startTransition(() => {
+        setLocationState({
+          pathname: canonicalRoute,
+          search: nextSearch,
+        })
+      })
+    }
+  }, [locationState.pathname, locationState.search])
 
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "auto" })
@@ -242,7 +268,7 @@ function App() {
         structuredData: [
           breadcrumbStructuredData([
             { name: "Home", path: "/" },
-            { name: "Leaderboards", path: LEADERBOARDS_ROUTE },
+            { name: "Tier List", path: LEADERBOARDS_ROUTE },
           ]),
         ],
         title: metadata.title,

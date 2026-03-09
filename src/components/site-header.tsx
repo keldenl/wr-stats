@@ -53,7 +53,7 @@ export function SiteHeader({
             )}
             aria-current={route === LEADERBOARDS_ROUTE ? "page" : undefined}
           >
-            Leaderboard
+            Tier List
           </a>
         </nav>
       </div>

@@ -270,7 +270,7 @@ function breadcrumbStructuredData() {
       {
         "@type": "ListItem",
         item: absoluteSiteUrl(LEADERBOARDS_ROUTE),
-        name: "Leaderboards",
+        name: "Tier List",
         position: 2,
       },
     ],
@@ -559,7 +559,7 @@ export function LeaderboardsPage() {
         const message =
           caughtError instanceof Error
             ? caughtError.message
-            : "Failed to load archived leaderboard data."
+            : "Failed to load archived tier list data."
 
         setError(message)
       } finally {
@@ -931,7 +931,7 @@ export function LeaderboardsPage() {
 
               <div className="rift-champion-title-block">
                 <h1 className="rift-champion-title rift-leaderboard-page-title">
-                  Leaderboards
+                  Tier List
                 </h1>
                 <p className="mt-3 max-w-3xl text-sm text-slate-200 sm:text-base">
                   Track the current Wild Rift tier list with sortable win rate, pick
@@ -999,7 +999,7 @@ export function LeaderboardsPage() {
             <div className="rift-leaderboard-results">
               {error ? (
                 <Alert variant="destructive">
-                  <AlertTitle>Unable to load leaderboards</AlertTitle>
+                  <AlertTitle>Unable to load tier list</AlertTitle>
                   <AlertDescription>{error}</AlertDescription>
                 </Alert>
               ) : isLoading ? (

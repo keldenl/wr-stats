@@ -10,7 +10,7 @@ import {
   applyDocumentSeo,
   type StructuredDataValue,
 } from "@/lib/document-seo"
-import { championRoute } from "@/lib/routing"
+import { CHAMPIONS_ROUTE, championRoute } from "@/lib/routing"
 import {
   absoluteSiteUrl,
   championSeoMetadata,
@@ -102,7 +102,7 @@ function breadcrumbStructuredData(displayName: string, path: string) {
       },
       {
         "@type": "ListItem",
-        item: absoluteSiteUrl("/champions/"),
+        item: absoluteSiteUrl(CHAMPIONS_ROUTE),
         name: "Champions",
         position: 2,
       },

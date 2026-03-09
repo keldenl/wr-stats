@@ -9,7 +9,9 @@ import {
   CHAMPIONS_ROUTE,
   HOME_ROUTE,
   LEADERBOARDS_ROUTE,
+  LEGACY_LEADERBOARDS_ROUTE,
   championRoute,
+  legacyChampionRoute,
 } from "../src/lib/routing"
 import {
   absoluteSiteUrl,
@@ -431,7 +433,7 @@ function renderTopbar() {
       <div class="prerender-brand">${escapeHtml(SITE_NAME)}</div>
       <nav class="prerender-subnav" aria-label="Primary">
         <a href="${HOME_ROUTE}">Home</a>
-        <a href="${LEADERBOARDS_ROUTE}">Leaderboards</a>
+        <a href="${LEADERBOARDS_ROUTE}">Tier List</a>
         <a href="${CHAMPIONS_ROUTE}">Champions</a>
       </nav>
     </header>
@@ -702,7 +704,7 @@ function buildHomePage(
           <h1>Wild Rift champion win rates, tier lists, and official champion pages</h1>
           <p>${escapeHtml(metadata.description)}</p>
           <nav class="prerender-anchor-nav" aria-label="Quick links">
-            <a href="${LEADERBOARDS_ROUTE}">View leaderboards</a>
+            <a href="${LEADERBOARDS_ROUTE}">View tier list</a>
             <a href="${CHAMPIONS_ROUTE}">Browse all champions</a>
           </nav>
           <p class="prerender-muted">Updated every 8 hours with current ranked snapshots.</p>
@@ -764,13 +766,13 @@ function buildLeaderboardsPage(
         ${renderTopbar()}
         ${renderBreadcrumbs([
           { href: HOME_ROUTE, label: "Home" },
-          { href: LEADERBOARDS_ROUTE, label: "Leaderboards" },
+          { href: LEADERBOARDS_ROUTE, label: "Tier List" },
         ])}
         <section id="leaderboard-overview" class="prerender-hero">
           <p class="prerender-kicker">Diamond+</p>
-          <h1>Wild Rift leaderboards</h1>
+          <h1>Wild Rift tier list</h1>
           <p>${escapeHtml(metadata.description)}</p>
-          <nav class="prerender-anchor-nav" aria-label="Leaderboard sections">
+          <nav class="prerender-anchor-nav" aria-label="Tier list sections">
             <a href="#leaderboard-results">Jump to results</a>
             <a href="${CHAMPIONS_ROUTE}">Browse champion pages</a>
           </nav>
@@ -793,7 +795,7 @@ function buildLeaderboardsPage(
     description: metadata.description,
     imageUrl: metadata.imageUrl,
     structuredData: collectionStructuredData(
-      "Leaderboards",
+      "Tier List",
       LEADERBOARDS_ROUTE,
       metadata.description
     ).concat(
@@ -828,7 +830,7 @@ function buildChampionListPage(
           <p>${escapeHtml(metadata.description)}</p>
           <nav class="prerender-anchor-nav" aria-label="Champion page sections">
             <a href="#champion-list-results">Jump to champion list</a>
-            <a href="${LEADERBOARDS_ROUTE}">View leaderboards</a>
+            <a href="${LEADERBOARDS_ROUTE}">View tier list</a>
           </nav>
         </section>
 
@@ -966,7 +968,7 @@ function buildNotFoundPage(): StaticPage {
         <section class="prerender-section">
           <div class="prerender-inline-links">
             <a href="${HOME_ROUTE}">Home</a>
-            <a href="${LEADERBOARDS_ROUTE}">Leaderboards</a>
+            <a href="${LEADERBOARDS_ROUTE}">Tier List</a>
             <a href="${CHAMPIONS_ROUTE}">Champions</a>
           </div>
         </section>
@@ -1204,6 +1206,19 @@ async function main() {
   )
 
   await writeRoutePage(
+    LEGACY_LEADERBOARDS_ROUTE,
+    buildHtmlPage(
+      templateHtml,
+      buildLeaderboardsPage(
+        leaderboardEntries,
+        latestSnapshot,
+        pagesIndex.champions[leaderboardEntries[0]?.championId ?? ""]?.cardImageUrl ??
+          defaultSocialImage
+      )
+    )
+  )
+
+  await writeRoutePage(
     CHAMPIONS_ROUTE,
     buildHtmlPage(
       templateHtml,
@@ -1224,6 +1239,14 @@ async function main() {
 
     await writeRoutePage(
       championRoute(champion.riotSlug),
+      buildHtmlPage(
+        templateHtml,
+        buildChampionPage(champion, page, buildChampionBuckets(latestSnapshot, champion.championId))
+      )
+    )
+
+    await writeRoutePage(
+      legacyChampionRoute(champion.riotSlug),
       buildHtmlPage(
         templateHtml,
         buildChampionPage(champion, page, buildChampionBuckets(latestSnapshot, champion.championId))
