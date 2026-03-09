@@ -28,9 +28,21 @@ export const TIER_LABELS: Record<string, string> = {
   "4": "Peak of the Rift",
 }
 
+export const ALL_LANE = "all" as const
+
+export type LeaderboardLaneFilterId = LaneId | typeof ALL_LANE
+export type RankSortKey = "strengthScore" | "winRate" | "pickRate" | "banRate"
+export type RankSortDirection = "asc" | "desc"
+export type RankMovement = {
+  currentRank: number
+  previousRank: number | null
+  delta: number | null
+}
+
 export type LeaderboardEntry = {
   alias: string
   avatar: string
+  championId: string
   riotSlug: string
   strengthScore: number
   strengthTier: ChampionStrengthTier
@@ -49,6 +61,8 @@ export type LeaderboardPayload = {
   archivedAt: string
   entriesByTier: Record<string, Record<string, LeaderboardEntry[]>>
   latestSnapshotId: string
+  previousEntriesByTier: Record<string, Record<string, LeaderboardEntry[]>> | null
+  previousSnapshotId: string | null
   snapshotId: string
   snapshots: SnapshotMeta[]
   statDate: string
@@ -58,6 +72,9 @@ export type ChampionRoleStat = {
   lane: LaneId
   laneLabel: string
   pickRate: number
+  previousRank: number | null
+  rank: number
+  rankDelta: number | null
   winRate: number
   banRate: number
   strengthScore: number
@@ -74,6 +91,7 @@ export type ChampionHeroStatsPayload = {
   archivedAt: string
   buckets: ChampionStatsBucket[]
   latestSnapshotId: string
+  previousSnapshotId: string | null
   snapshotId: string
   statDate: string
 }
@@ -120,6 +138,161 @@ async function loadSnapshotByPath(pathname: string) {
   return snapshotPromise
 }
 
+function pickSnapshotMeta(manifest: StaticDataManifest, snapshotId?: string) {
+  return (
+    manifest.snapshots.find((snapshot) => snapshot.id === snapshotId) ??
+    manifest.snapshots.find((snapshot) => snapshot.id === manifest.latestSnapshotId) ??
+    null
+  )
+}
+
+function pickPreviousSnapshotMeta(
+  manifest: StaticDataManifest,
+  snapshotId: string
+) {
+  const snapshotIndex = manifest.snapshots.findIndex(
+    (snapshot) => snapshot.id === snapshotId
+  )
+
+  if (snapshotIndex === -1) {
+    return null
+  }
+
+  return manifest.snapshots[snapshotIndex + 1] ?? null
+}
+
+async function loadSnapshotByMeta(
+  manifest: StaticDataManifest,
+  snapshotMeta: SnapshotMeta
+) {
+  const snapshotPath =
+    snapshotMeta.id === manifest.latestSnapshotId
+      ? manifest.latestPath
+      : snapshotMeta.path
+
+  const snapshot = await loadSnapshotByPath(snapshotPath)
+
+  if (snapshot.snapshotId !== snapshotMeta.id) {
+    throw new Error(`Snapshot mismatch for ${snapshotMeta.id}.`)
+  }
+
+  return snapshot
+}
+
+function compareLeaderboardEntries(
+  left: Pick<LeaderboardEntry, RankSortKey>,
+  right: Pick<LeaderboardEntry, RankSortKey>,
+  sortBy: RankSortKey,
+  sortDirection: RankSortDirection
+) {
+  const delta =
+    sortBy === "strengthScore"
+      ? left.strengthScore - right.strengthScore
+      : sortBy === "winRate"
+        ? left.winRate - right.winRate
+        : sortBy === "pickRate"
+          ? left.pickRate - right.pickRate
+          : left.banRate - right.banRate
+
+  return sortDirection === "asc" ? delta : -delta
+}
+
+function leaderboardEntryRankKey(
+  entry: Pick<LeaderboardEntry, "championId" | "lane">
+) {
+  return `${entry.championId}:${entry.lane}`
+}
+
+function compareStrengthRankEntries(
+  left: Pick<
+    LeaderboardEntry,
+    "championId" | "lane" | "strengthScore" | "winRate" | "pickRate" | "banRate"
+  >,
+  right: Pick<
+    LeaderboardEntry,
+    "championId" | "lane" | "strengthScore" | "winRate" | "pickRate" | "banRate"
+  >
+) {
+  if (left.strengthScore !== right.strengthScore) {
+    return right.strengthScore - left.strengthScore
+  }
+
+  if (left.winRate !== right.winRate) {
+    return right.winRate - left.winRate
+  }
+
+  if (left.pickRate !== right.pickRate) {
+    return right.pickRate - left.pickRate
+  }
+
+  if (left.banRate !== right.banRate) {
+    return right.banRate - left.banRate
+  }
+
+  if (left.lane !== right.lane) {
+    return sortLaneKeys([left.lane, right.lane])[0] === left.lane ? -1 : 1
+  }
+
+  return left.championId.localeCompare(right.championId)
+}
+
+function normalizeRankableRow(compactRow: CompactLeaderboardRow) {
+  const [championId, winRate, pickRate, banRate] = compactRow
+
+  return {
+    banRate,
+    championId,
+    pickRate,
+    strengthScore: calculateChampionStrengthScore(winRate, pickRate, banRate),
+    winRate,
+  }
+}
+
+function sortChampionRankRows(rows: CompactLeaderboardRow[]) {
+  return [...rows].sort((left, right) => {
+    const normalizedLeft = normalizeRankableRow(left)
+    const normalizedRight = normalizeRankableRow(right)
+
+    if (normalizedLeft.strengthScore !== normalizedRight.strengthScore) {
+      return normalizedRight.strengthScore - normalizedLeft.strengthScore
+    }
+
+    if (normalizedLeft.winRate !== normalizedRight.winRate) {
+      return normalizedRight.winRate - normalizedLeft.winRate
+    }
+
+    if (normalizedLeft.pickRate !== normalizedRight.pickRate) {
+      return normalizedRight.pickRate - normalizedLeft.pickRate
+    }
+
+    if (normalizedLeft.banRate !== normalizedRight.banRate) {
+      return normalizedRight.banRate - normalizedLeft.banRate
+    }
+
+    return normalizedLeft.championId.localeCompare(normalizedRight.championId)
+  })
+}
+
+function findChampionRank(
+  snapshot: LeaderboardSnapshot | null,
+  tierKey: string,
+  laneKey: LaneId,
+  championId: string,
+  allowedChampionIds?: Set<string>
+) {
+  if (!snapshot) {
+    return null
+  }
+
+  const rows = snapshot.tiers[tierKey]?.[laneKey] ?? []
+  const filteredRows = allowedChampionIds
+    ? rows.filter(([heroId]) => allowedChampionIds.has(heroId))
+    : rows
+  const championIndex = sortChampionRankRows(filteredRows).findIndex(([heroId]) => heroId === championId)
+
+  return championIndex === -1 ? null : championIndex + 1
+}
+
 function normalizeEntry(
   snapshotId: string,
   tierKey: string,
@@ -135,6 +308,7 @@ function normalizeEntry(
   return {
     alias: champion?.alias ?? "",
     avatar: champion?.avatar ? dataFileUrl(champion.avatar) : "",
+    championId: heroId,
     riotSlug: champion?.riotSlug ?? "",
     strengthScore,
     strengthTier: getChampionStrengthTier(strengthScore),
@@ -175,7 +349,9 @@ function buildEntriesByTier(
 
 function normalizeChampionRoleStat(
   laneKey: LaneId,
-  compactRow: CompactLeaderboardRow
+  compactRow: CompactLeaderboardRow,
+  rank: number,
+  previousRank: number | null
 ): ChampionRoleStat {
   const [, winRate, pickRate, banRate] = compactRow
   const strengthScore = calculateChampionStrengthScore(winRate, pickRate, banRate)
@@ -185,6 +361,9 @@ function normalizeChampionRoleStat(
     lane: laneKey,
     laneLabel: LANE_LABELS[laneKey] ?? `Lane ${laneKey}`,
     pickRate,
+    previousRank,
+    rank,
+    rankDelta: previousRank === null ? null : previousRank - rank,
     strengthScore,
     strengthTier: getChampionStrengthTier(strengthScore),
     winRate,
@@ -193,6 +372,7 @@ function normalizeChampionRoleStat(
 
 function buildChampionStatsBuckets(
   snapshot: LeaderboardSnapshot,
+  previousSnapshot: LeaderboardSnapshot | null,
   championId: string
 ): ChampionStatsBucket[] {
   return sortNumericKeys(Object.keys(snapshot.tiers))
@@ -206,11 +386,35 @@ function buildChampionStatsBuckets(
       )
       const roles = laneKeys
         .map((laneKey) => {
-          const row = snapshot.tiers[tierKey]?.[laneKey]?.find(
+          const laneRows = snapshot.tiers[tierKey]?.[laneKey] ?? []
+          const row = laneRows.find(
             ([heroId]) => heroId === championId
           )
 
-          return row ? normalizeChampionRoleStat(laneKey, row) : null
+          if (!row) {
+            return null
+          }
+
+          const currentLaneChampionIds = new Set(laneRows.map(([heroId]) => heroId))
+
+          const rank = findChampionRank(snapshot, tierKey, laneKey, championId)
+
+          if (rank === null) {
+            return null
+          }
+
+          return normalizeChampionRoleStat(
+            laneKey,
+            row,
+            rank,
+            findChampionRank(
+              previousSnapshot,
+              tierKey,
+              laneKey,
+              championId,
+              currentLaneChampionIds
+            )
+          )
         })
         .filter((role): role is ChampionRoleStat => role !== null)
         .sort((left, right) => {
@@ -236,30 +440,26 @@ export async function loadLeaderboards(snapshotId?: string) {
     loadManifest(),
     loadChampionCatalog(),
   ])
-
-  const selectedSnapshotMeta =
-    manifest.snapshots.find((snapshot) => snapshot.id === snapshotId) ??
-    manifest.snapshots.find((snapshot) => snapshot.id === manifest.latestSnapshotId)
+  const selectedSnapshotMeta = pickSnapshotMeta(manifest, snapshotId)
 
   if (!selectedSnapshotMeta) {
     throw new Error("No published leaderboard snapshots are available.")
   }
 
-  const snapshotPath =
-    selectedSnapshotMeta.id === manifest.latestSnapshotId
-      ? manifest.latestPath
-      : selectedSnapshotMeta.path
-
-  const snapshot = await loadSnapshotByPath(snapshotPath)
-
-  if (snapshot.snapshotId !== selectedSnapshotMeta.id) {
-    throw new Error(`Snapshot mismatch for ${selectedSnapshotMeta.id}.`)
-  }
+  const previousSnapshotMeta = pickPreviousSnapshotMeta(manifest, selectedSnapshotMeta.id)
+  const [snapshot, previousSnapshot] = await Promise.all([
+    loadSnapshotByMeta(manifest, selectedSnapshotMeta),
+    previousSnapshotMeta ? loadSnapshotByMeta(manifest, previousSnapshotMeta) : null,
+  ])
 
   return {
     archivedAt: snapshot.fetchedAt,
     entriesByTier: buildEntriesByTier(snapshot, championCatalog.champions),
     latestSnapshotId: manifest.latestSnapshotId,
+    previousEntriesByTier: previousSnapshot
+      ? buildEntriesByTier(previousSnapshot, championCatalog.champions)
+      : null,
+    previousSnapshotId: previousSnapshot?.snapshotId ?? null,
     snapshotId: snapshot.snapshotId,
     snapshots: manifest.snapshots,
     statDate: snapshot.statDate,
@@ -271,32 +471,97 @@ export async function loadChampionHeroStats(
   snapshotId?: string
 ) {
   const manifest = await loadManifest()
-  const selectedSnapshotMeta =
-    manifest.snapshots.find((snapshot) => snapshot.id === snapshotId) ??
-    manifest.snapshots.find((snapshot) => snapshot.id === manifest.latestSnapshotId)
+  const selectedSnapshotMeta = pickSnapshotMeta(manifest, snapshotId)
 
   if (!selectedSnapshotMeta) {
     throw new Error("No published leaderboard snapshots are available.")
   }
 
-  const snapshotPath =
-    selectedSnapshotMeta.id === manifest.latestSnapshotId
-      ? manifest.latestPath
-      : selectedSnapshotMeta.path
-
-  const snapshot = await loadSnapshotByPath(snapshotPath)
-
-  if (snapshot.snapshotId !== selectedSnapshotMeta.id) {
-    throw new Error(`Snapshot mismatch for ${selectedSnapshotMeta.id}.`)
-  }
+  const previousSnapshotMeta = pickPreviousSnapshotMeta(manifest, selectedSnapshotMeta.id)
+  const [snapshot, previousSnapshot] = await Promise.all([
+    loadSnapshotByMeta(manifest, selectedSnapshotMeta),
+    previousSnapshotMeta ? loadSnapshotByMeta(manifest, previousSnapshotMeta) : null,
+  ])
 
   return {
     archivedAt: snapshot.fetchedAt,
-    buckets: buildChampionStatsBuckets(snapshot, championId),
+    buckets: buildChampionStatsBuckets(snapshot, previousSnapshot, championId),
     latestSnapshotId: manifest.latestSnapshotId,
+    previousSnapshotId: previousSnapshot?.snapshotId ?? null,
     snapshotId: snapshot.snapshotId,
     statDate: snapshot.statDate,
   } satisfies ChampionHeroStatsPayload
+}
+
+export function getLeaderboardEntriesForLaneFilter(
+  entriesByLane: Record<string, LeaderboardEntry[]> | null | undefined,
+  lane: LeaderboardLaneFilterId
+) {
+  if (!entriesByLane) {
+    return []
+  }
+
+  if (lane === ALL_LANE) {
+    return sortLaneKeys(Object.keys(entriesByLane) as LaneId[]).flatMap(
+      (laneKey) => entriesByLane[laneKey] ?? []
+    )
+  }
+
+  return entriesByLane[lane] ?? []
+}
+
+export function sortLeaderboardEntries(
+  entries: LeaderboardEntry[],
+  sortBy: RankSortKey,
+  sortDirection: RankSortDirection
+) {
+  return [...entries].sort((left, right) =>
+    compareLeaderboardEntries(left, right, sortBy, sortDirection)
+  )
+}
+
+export function getLeaderboardRankChanges(
+  currentEntries: LeaderboardEntry[],
+  previousEntries: LeaderboardEntry[]
+) {
+  const currentKeys = new Set(currentEntries.map((entry) => leaderboardEntryRankKey(entry)))
+  const previousRanks = new Map(
+    previousEntries
+      .filter((entry) => currentKeys.has(leaderboardEntryRankKey(entry)))
+      .sort(compareStrengthRankEntries)
+      .map(
+      (entry, index) => [leaderboardEntryRankKey(entry), index + 1] as const
+      )
+  )
+
+  return new Map(
+    [...currentEntries].sort(compareStrengthRankEntries).map(
+      (entry, index) => {
+        const previousRank = previousRanks.get(leaderboardEntryRankKey(entry)) ?? null
+
+        return [
+          leaderboardEntryRankKey(entry),
+          {
+            currentRank: index + 1,
+            previousRank,
+            delta: previousRank === null ? null : previousRank - (index + 1),
+          } satisfies RankMovement,
+        ] as const
+      }
+    )
+  )
+}
+
+export function getLeaderboardEntryRankKey(
+  entry: Pick<LeaderboardEntry, "championId" | "lane">
+) {
+  return leaderboardEntryRankKey(entry)
+}
+
+export function resetTencentLolmCacheForTests() {
+  manifestPromise = null
+  championCatalogPromise = null
+  snapshotCache.clear()
 }
 
 export function normalizeSourceDataForTests(

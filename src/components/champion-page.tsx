@@ -2,6 +2,7 @@ import { useEffect, useEffectEvent, useRef, useState } from "react"
 import { ChevronLeft, ChevronRight, Flame } from "lucide-react"
 
 import { LaneIcon } from "@/components/lane-icon"
+import { RankMovementIndicator } from "@/components/rank-movement-indicator"
 import { SiteHeader } from "@/components/site-header"
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import { AspectRatio } from "@/components/ui/aspect-ratio"
@@ -45,6 +46,10 @@ const DEFAULT_BUCKET = "1"
 
 function formatPercent(value: number) {
   return `${value.toFixed(2)}%`
+}
+
+function formatRank(value: number) {
+  return `#${value}`
 }
 
 function strengthTierBadgeVariant(tier: ChampionRoleStat["strengthTier"]) {
@@ -354,6 +359,15 @@ export function ChampionPage({ slug }: { slug: string }) {
                   {heroStats && selectedStatsBucket && activeRoleStats ? (
                     <>
                       <div className="rift-champion-stat-grid">
+                        <div className="rift-champion-stat-item">
+                          <p className="rift-champion-stat-label">Rank</p>
+                          <div className="rift-champion-rank-value-row">
+                            <p className="rift-champion-stat-value">
+                              {formatRank(activeRoleStats.rank)}
+                            </p>
+                            <RankMovementIndicator delta={activeRoleStats.rankDelta} />
+                          </div>
+                        </div>
                         <div className="rift-champion-stat-item">
                           <p className="rift-champion-stat-label">Tier</p>
                           <Badge

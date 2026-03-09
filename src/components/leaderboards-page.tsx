@@ -9,6 +9,7 @@ import {
 import { ArrowDown, ArrowUp, ArrowUpDown, CircleHelp } from "lucide-react"
 
 import { LaneIcon } from "@/components/lane-icon"
+import { RankMovementIndicator } from "@/components/rank-movement-indicator"
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Badge } from "@/components/ui/badge"
@@ -54,22 +55,27 @@ import {
   leaderboardsSeoMetadata,
 } from "@/lib/site-metadata"
 import {
+  ALL_LANE,
   LANE_LABELS,
   TIER_LABELS,
+  getLeaderboardEntriesForLaneFilter,
+  getLeaderboardEntryRankKey,
+  getLeaderboardRankChanges,
   loadLeaderboards,
+  sortLeaderboardEntries,
   sortLaneKeys,
   sortNumericKeys,
   type LaneId,
   type LeaderboardEntry,
+  type LeaderboardLaneFilterId,
   type LeaderboardPayload,
+  type RankMovement,
+  type RankSortDirection,
+  type RankSortKey,
 } from "@/lib/tencent-lolm"
 
-type SortKey = "strengthScore" | "winRate" | "pickRate" | "banRate"
-type SortDirection = "asc" | "desc"
-
 const DEFAULT_TIER = "1"
-const ALL_LANE = "all"
-type LaneFilterId = LaneId | typeof ALL_LANE
+type LaneFilterId = LeaderboardLaneFilterId
 const DEFAULT_LANE: LaneFilterId = ALL_LANE
 
 const LANE_FILTER_LABELS: Record<LaneFilterId, string> = {
@@ -301,25 +307,27 @@ function parseFiltersFromUrl() {
         : "strengthScore",
     tier,
   } satisfies {
-    direction: SortDirection
+    direction: RankSortDirection
     lane: LaneFilterId
     q: string
     snapshotId: string
-    sort: SortKey
+    sort: RankSortKey
     tier: string
   }
 }
 
 function LeaderboardTable({
   entries,
+  rankChanges,
   sortBy,
   sortDirection,
   onSortChange,
 }: {
   entries: LeaderboardEntry[]
-  sortBy: SortKey
-  sortDirection: SortDirection
-  onSortChange: (sortKey: SortKey) => void
+  rankChanges: Map<string, RankMovement>
+  sortBy: RankSortKey
+  sortDirection: RankSortDirection
+  onSortChange: (sortKey: RankSortKey) => void
 }) {
   if (!entries.length) {
     return (
@@ -409,7 +417,17 @@ function LeaderboardTable({
           {entries.map((entry, index) => (
             <TableRow key={entry.id}>
               <TableCell className="font-medium text-muted-foreground">
-                {index + 1}
+                <div className="rift-rank-cell">
+                  <span className="rift-rank-number">
+                    {rankChanges.get(getLeaderboardEntryRankKey(entry))?.currentRank ??
+                      index + 1}
+                  </span>
+                  <RankMovementIndicator
+                    delta={
+                      rankChanges.get(getLeaderboardEntryRankKey(entry))?.delta ?? null
+                    }
+                  />
+                </div>
               </TableCell>
               <TableCell className="rift-role-cell">
                 <LaneIcon lane={entry.lane} label={entry.laneLabel} />
@@ -497,8 +515,8 @@ export function LeaderboardsPage() {
   const [selectedSnapshotId, setSelectedSnapshotId] = useState(
     initialFilters.snapshotId
   )
-  const [sortBy, setSortBy] = useState<SortKey>(initialFilters.sort)
-  const [sortDirection, setSortDirection] = useState<SortDirection>(
+  const [sortBy, setSortBy] = useState<RankSortKey>(initialFilters.sort)
+  const [sortDirection, setSortDirection] = useState<RankSortDirection>(
     initialFilters.direction
   )
   const deferredSearchQuery = useDeferredValue(searchQuery)
@@ -652,44 +670,43 @@ export function LeaderboardsPage() {
     sortDirection,
   ])
 
-  const visibleEntries = useMemo(() => {
+  const normalizedQuery = deferredSearchQuery.trim().toLowerCase()
+
+  const currentRankEntries = useMemo(() => {
     const tierEntries = payload?.entriesByTier[selectedTier]
 
     if (!tierEntries) {
       return []
     }
 
-    const baseEntries =
-      selectedLane === ALL_LANE
-        ? laneKeys.flatMap((laneKey) => tierEntries[laneKey] ?? [])
-        : tierEntries[selectedLane] ?? []
-    const normalizedQuery = deferredSearchQuery.trim().toLowerCase()
+    return getLeaderboardEntriesForLaneFilter(tierEntries, selectedLane)
+  }, [payload, selectedLane, selectedTier])
 
-    const filteredEntries = normalizedQuery
-      ? baseEntries.filter((entry) => entry.searchText.includes(normalizedQuery))
-      : baseEntries
+  const previousRankEntries = useMemo(() => {
+    const tierEntries = payload?.previousEntriesByTier?.[selectedTier]
 
-    return [...filteredEntries].sort((left, right) => {
-      const delta =
-        sortBy === "strengthScore"
-          ? left.strengthScore - right.strengthScore
-          : sortBy === "winRate"
-            ? left.winRate - right.winRate
-            : sortBy === "pickRate"
-              ? left.pickRate - right.pickRate
-              : left.banRate - right.banRate
+    if (!tierEntries) {
+      return []
+    }
 
-      return sortDirection === "asc" ? delta : -delta
-    })
-  }, [
-    deferredSearchQuery,
-    laneKeys,
-    payload,
-    selectedLane,
-    selectedTier,
-    sortBy,
-    sortDirection,
-  ])
+    return getLeaderboardEntriesForLaneFilter(tierEntries, selectedLane)
+  }, [payload, selectedLane, selectedTier])
+
+  const filteredCurrentEntries = useMemo(() => {
+    return normalizedQuery
+      ? currentRankEntries.filter((entry) => entry.searchText.includes(normalizedQuery))
+      : currentRankEntries
+  }, [currentRankEntries, normalizedQuery])
+
+  const visibleEntries = useMemo(
+    () => sortLeaderboardEntries(filteredCurrentEntries, sortBy, sortDirection),
+    [filteredCurrentEntries, sortBy, sortDirection]
+  )
+
+  const rankChanges = useMemo(
+    () => getLeaderboardRankChanges(currentRankEntries, previousRankEntries),
+    [currentRankEntries, previousRankEntries]
+  )
 
   const topChampionEntry = useMemo(() => {
     const tierEntries = payload?.entriesByTier[selectedTier]
@@ -748,7 +765,7 @@ export function LeaderboardsPage() {
     }
   }, [topChampionEntry?.riotSlug])
 
-  function handleSortChange(nextSortKey: SortKey) {
+  function handleSortChange(nextSortKey: RankSortKey) {
     if (sortBy === nextSortKey) {
       setSortDirection((currentDirection) =>
         currentDirection === "asc" ? "desc" : "asc"
@@ -1007,11 +1024,12 @@ export function LeaderboardsPage() {
                   <Spinner className="size-6" />
                 </div>
               ) : (
-                <LeaderboardTable
-                  entries={visibleEntries}
-                  sortBy={sortBy}
-                  sortDirection={sortDirection}
-                  onSortChange={handleSortChange}
+            <LeaderboardTable
+              entries={visibleEntries}
+              rankChanges={rankChanges}
+              sortBy={sortBy}
+              sortDirection={sortDirection}
+              onSortChange={handleSortChange}
                 />
               )}
             </div>

@@ -456,6 +456,30 @@ body {
     @apply px-2 text-center;
   }
 
+  .rift-rank-cell {
+    @apply flex items-center gap-2;
+  }
+
+  .rift-rank-number {
+    @apply text-white/88;
+  }
+
+  .rift-rank-movement {
+    @apply inline-flex items-center gap-0.5 text-xs font-semibold;
+  }
+
+  .rift-rank-movement svg {
+    @apply size-3;
+  }
+
+  .rift-rank-movement[data-direction="up"] {
+    color: oklch(0.82 0.16 150);
+  }
+
+  .rift-rank-movement[data-direction="down"] {
+    color: oklch(0.7 0.19 25);
+  }
+
   .rift-lane-icon {
     @apply block bg-no-repeat;
   }
@@ -543,7 +567,7 @@ body {
   }
 
   .rift-champion-stat-grid {
-    @apply grid grid-cols-2 gap-x-6 gap-y-3 sm:grid-cols-4;
+    @apply grid grid-cols-2 gap-x-6 gap-y-3 sm:grid-cols-5;
   }
 
   .rift-champion-stat-item {
@@ -556,6 +580,10 @@ body {
 
   .rift-champion-stat-value {
     @apply text-lg font-semibold tracking-[-0.03em] text-white sm:text-xl;
+  }
+
+  .rift-champion-rank-value-row {
+    @apply flex items-center gap-2;
   }
 
   .rift-champion-hero-stats-controls {
