@@ -7,6 +7,16 @@ import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import { AspectRatio } from "@/components/ui/aspect-ratio"
 import { Badge } from "@/components/ui/badge"
 import {
+  applyDocumentSeo,
+  type StructuredDataValue,
+} from "@/lib/document-seo"
+import { championRoute } from "@/lib/routing"
+import {
+  absoluteSiteUrl,
+  championSeoMetadata,
+  humanizeDisplayName,
+} from "@/lib/site-metadata"
+import {
   Select,
   SelectContent,
   SelectGroup,
@@ -77,6 +87,33 @@ function pickLaneForBucket(
   }
 
   return bucket.roles[0]?.lane ?? null
+}
+
+function breadcrumbStructuredData(displayName: string, path: string) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        item: absoluteSiteUrl("/"),
+        name: "Home",
+        position: 1,
+      },
+      {
+        "@type": "ListItem",
+        item: absoluteSiteUrl("/champions/"),
+        name: "Champions",
+        position: 2,
+      },
+      {
+        "@type": "ListItem",
+        item: absoluteSiteUrl(path),
+        name: displayName,
+        position: 3,
+      },
+    ],
+  } satisfies StructuredDataValue
 }
 
 export function ChampionPage({ slug }: { slug: string }) {
@@ -180,6 +217,7 @@ export function ChampionPage({ slug }: { slug: string }) {
     championPage?.abilities[selectedAbilityIndex] ?? championPage?.abilities[0] ?? null
   const activeSkin =
     championPage?.skins[selectedSkinIndex] ?? championPage?.skins[0] ?? null
+  const championPath = championRoute(slug)
 
   function scrollSkinRail(direction: "previous" | "next") {
     skinRailRef.current?.scrollBy({
@@ -198,6 +236,55 @@ export function ChampionPage({ slug }: { slug: string }) {
     setSelectedBucket(nextBucket)
     setSelectedLane((currentLane) => pickLaneForBucket(nextBucketData, currentLane))
   }
+
+  useEffect(() => {
+    if (!championPage) {
+      return
+    }
+
+    const displayName = humanizeDisplayName(championPage.title)
+    const metadata = championSeoMetadata({
+      displayName,
+      imageUrl: championPage.fullWidthImageUrl ?? championPage.skins[0]?.imageUrl ?? null,
+      path: championPath,
+      roles: championPage.roles,
+      stats:
+        activeRoleStats && selectedStatsBucket
+          ? {
+              banRate: activeRoleStats.banRate,
+              bucketLabel: selectedStatsBucket.label,
+              laneLabel: activeRoleStats.laneLabel,
+              pickRate: activeRoleStats.pickRate,
+              strengthTier: activeRoleStats.strengthTier,
+              winRate: activeRoleStats.winRate,
+            }
+          : null,
+      subtitle: championPage.subtitle,
+    })
+
+    applyDocumentSeo({
+      canonicalPath: championPath,
+      description: metadata.description,
+      imageUrl: metadata.imageUrl,
+      structuredData: [
+        breadcrumbStructuredData(displayName, championPath),
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          about: {
+            "@type": "Thing",
+            name: displayName,
+            sameAs: championPage.riotUrl,
+          },
+          description: metadata.description,
+          image: metadata.imageUrl,
+          name: metadata.title,
+          url: absoluteSiteUrl(championPath),
+        } satisfies StructuredDataValue,
+      ],
+      title: metadata.title,
+    })
+  }, [activeRoleStats, championPage, championPath, selectedStatsBucket])
 
   return (
     <main className="rift-champion-page-shell">
@@ -220,7 +307,7 @@ export function ChampionPage({ slug }: { slug: string }) {
         </section>
       ) : (
         <>
-          <section className="rift-champion-hero">
+          <section id="champion-overview" className="rift-champion-hero">
             <video
               key={championPage.mastheadVideoUrl}
               autoPlay
@@ -243,7 +330,7 @@ export function ChampionPage({ slug }: { slug: string }) {
                   <h1 className="rift-champion-title">{championPage.title}</h1>
                 </div>
 
-                <div className="rift-champion-hero-stats">
+                <div id="champion-stats" className="rift-champion-hero-stats">
                   {heroStats && selectedStatsBucket && activeRoleStats ? (
                     <>
                       <div className="rift-champion-stat-grid">
@@ -415,7 +502,7 @@ export function ChampionPage({ slug }: { slug: string }) {
             </div>
           </section>
 
-          <section className="rift-champion-skins-shell">
+          <section id="champion-skins" className="rift-champion-skins-shell">
             <div className="rift-champion-skins-inner">
               <div className="rift-champion-section-copy rift-champion-section-copy--centered">
                 <h2 className="rift-champion-section-title rift-champion-section-title--dark">

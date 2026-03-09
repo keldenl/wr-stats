@@ -3,9 +3,8 @@ import {
   HOME_ROUTE,
   LEADERBOARDS_ROUTE,
   isChampionRoute,
-  routeFromHash,
-  routeToHash,
-} from "@/lib/hash-routing"
+  routeFromPathname,
+} from "@/lib/routing"
 import { cn } from "@/lib/utils"
 
 export function SiteHeader({
@@ -15,7 +14,7 @@ export function SiteHeader({
   hideBrand?: boolean
   transparent?: boolean
 }) {
-  const route = routeFromHash(window.location.hash)
+  const route = routeFromPathname(window.location.pathname)
 
   return (
     <header
@@ -28,7 +27,7 @@ export function SiteHeader({
         {hideBrand ? (
           <div aria-hidden="true" className="min-w-0" />
         ) : (
-          <a href={routeToHash(HOME_ROUTE)} className="rift-wordmark rift-wordmark--sm">
+          <a href={HOME_ROUTE} className="rift-wordmark rift-wordmark--sm">
             <span className="rift-wordmark-ranked">ranked</span>
             <span className="rift-wordmark-wr">wr</span>
           </a>
@@ -36,7 +35,7 @@ export function SiteHeader({
 
         <nav aria-label="Primary" className="flex items-center gap-4 sm:gap-6">
           <a
-            href={routeToHash(CHAMPIONS_ROUTE)}
+            href={CHAMPIONS_ROUTE}
             className={cn(
               "rift-topbar-link",
               (route === CHAMPIONS_ROUTE || isChampionRoute(route)) &&
@@ -47,7 +46,7 @@ export function SiteHeader({
             Champions
           </a>
           <a
-            href={routeToHash(LEADERBOARDS_ROUTE)}
+            href={LEADERBOARDS_ROUTE}
             className={cn(
               "rift-topbar-link",
               route === LEADERBOARDS_ROUTE && "rift-topbar-link--action"

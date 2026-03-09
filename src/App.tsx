@@ -8,6 +8,10 @@ import { LeaderboardsPage } from "@/components/leaderboards-page"
 import { SiteFooter } from "@/components/site-footer"
 import { SiteHeader } from "@/components/site-header"
 import {
+  applyDocumentSeo,
+  type StructuredDataValue,
+} from "@/lib/document-seo"
+import {
   type AppRoute,
   CHAMPIONS_ROUTE,
   LEADERBOARDS_ROUTE,
@@ -15,11 +19,34 @@ import {
   championRoute,
   championSlugFromRoute,
   isChampionRoute,
-  routeFromHash,
-  routeToHash,
-} from "@/lib/hash-routing"
+  routeFromPathname,
+} from "@/lib/routing"
 import { MAIN_BACKDROP_URL } from "@/lib/backdrops"
 import { findChampionMatch, type ChampionDirectoryEntry } from "@/lib/champion-pages"
+import {
+  absoluteSiteUrl,
+  championListSeoMetadata,
+  homeSeoMetadata,
+  leaderboardsSeoMetadata,
+} from "@/lib/site-metadata"
+
+function breadcrumbStructuredData(
+  items: Array<{
+    name: string
+    path: string
+  }>
+) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: items.map((item, index) => ({
+      "@type": "ListItem",
+      item: absoluteSiteUrl(item.path),
+      name: item.name,
+      position: index + 1,
+    })),
+  } satisfies StructuredDataValue
+}
 
 function HomePage({
   initialQuery,
@@ -106,7 +133,7 @@ function HomePage({
                 </form>
 
                 <div className="flex justify-end">
-                  <a href={routeToHash(LEADERBOARDS_ROUTE)} className="rift-inline-cta">
+                  <a href={LEADERBOARDS_ROUTE} className="rift-inline-cta">
                     View leaderboards
                     <ArrowRight className="size-4" />
                   </a>
@@ -124,32 +151,30 @@ function HomePage({
 
 function App() {
   const [locationState, setLocationState] = useState(() => ({
-    hash: window.location.hash,
+    pathname: window.location.pathname,
     search: window.location.search,
   }))
 
   useEffect(() => {
     function syncLocationState() {
       setLocationState({
-        hash: window.location.hash,
+        pathname: window.location.pathname,
         search: window.location.search,
       })
     }
 
-    window.addEventListener("hashchange", syncLocationState)
     window.addEventListener("popstate", syncLocationState)
 
     return () => {
-      window.removeEventListener("hashchange", syncLocationState)
       window.removeEventListener("popstate", syncLocationState)
     }
   }, [])
 
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "auto" })
-  }, [locationState.hash, locationState.search])
+  }, [locationState.pathname, locationState.search])
 
-  const route = routeFromHash(locationState.hash)
+  const route = routeFromPathname(locationState.pathname)
   const initialQuery = new URLSearchParams(locationState.search).get("q") ?? ""
 
   function navigate(route: AppRoute, params?: URLSearchParams) {
@@ -160,7 +185,7 @@ function App() {
 
     startTransition(() => {
       setLocationState({
-        hash: routeToHash(route),
+        pathname: route,
         search: nextSearch ? `?${nextSearch}` : "",
       })
     })
@@ -194,6 +219,70 @@ function App() {
 
     await handleHomeSearch(champion.displayName)
   }
+
+  useEffect(() => {
+    if (isChampionRoute(route)) {
+      return
+    }
+
+    if (route === LEADERBOARDS_ROUTE) {
+      const metadata = leaderboardsSeoMetadata({
+        path: LEADERBOARDS_ROUTE,
+      })
+
+      applyDocumentSeo({
+        canonicalPath: LEADERBOARDS_ROUTE,
+        description: metadata.description,
+        imageUrl: metadata.imageUrl,
+        robots: locationState.search ? "noindex,follow" : "index,follow",
+        structuredData: [
+          breadcrumbStructuredData([
+            { name: "Home", path: "/" },
+            { name: "Leaderboards", path: LEADERBOARDS_ROUTE },
+          ]),
+        ],
+        title: metadata.title,
+      })
+      return
+    }
+
+    if (route === CHAMPIONS_ROUTE) {
+      const metadata = championListSeoMetadata(0)
+
+      applyDocumentSeo({
+        canonicalPath: CHAMPIONS_ROUTE,
+        description: metadata.description,
+        imageUrl: metadata.imageUrl,
+        robots: locationState.search ? "noindex,follow" : "index,follow",
+        structuredData: [
+          breadcrumbStructuredData([
+            { name: "Home", path: "/" },
+            { name: "Champions", path: CHAMPIONS_ROUTE },
+          ]),
+        ],
+        title: metadata.title,
+      })
+      return
+    }
+
+    const metadata = homeSeoMetadata()
+
+    applyDocumentSeo({
+      canonicalPath: "/",
+      description: metadata.description,
+      imageUrl: metadata.imageUrl,
+      structuredData: [
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          description: metadata.description,
+          name: "rankedwr",
+          url: absoluteSiteUrl("/"),
+        } satisfies StructuredDataValue,
+      ],
+      title: metadata.title,
+    })
+  }, [locationState.search, route])
 
   let page = (
     <HomePage

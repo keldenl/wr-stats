@@ -39,13 +39,20 @@ import {
 } from "@/components/ui/tooltip"
 import { SiteHeader } from "@/components/site-header"
 import { MAIN_BACKDROP_URL } from "@/lib/backdrops"
+import {
+  applyDocumentSeo,
+  type StructuredDataValue,
+} from "@/lib/document-seo"
 import { loadChampionPageBySlug } from "@/lib/champion-pages"
 import {
   LEADERBOARDS_ROUTE,
   championRoute,
   replaceRouteSearch,
-  routeToHash,
-} from "@/lib/hash-routing"
+} from "@/lib/routing"
+import {
+  absoluteSiteUrl,
+  leaderboardsSeoMetadata,
+} from "@/lib/site-metadata"
 import {
   LANE_LABELS,
   TIER_LABELS,
@@ -249,6 +256,27 @@ function initialsFromName(name: string) {
   return letters || "?"
 }
 
+function breadcrumbStructuredData() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        item: absoluteSiteUrl("/"),
+        name: "Home",
+        position: 1,
+      },
+      {
+        "@type": "ListItem",
+        item: absoluteSiteUrl(LEADERBOARDS_ROUTE),
+        name: "Leaderboards",
+        position: 2,
+      },
+    ],
+  } satisfies StructuredDataValue
+}
+
 function parseFiltersFromUrl() {
   const params = new URLSearchParams(window.location.search)
   const q = params.get("q") ?? ""
@@ -389,7 +417,7 @@ function LeaderboardTable({
               <TableCell>
                 {entry.riotSlug ? (
                   <a
-                    href={routeToHash(championRoute(entry.riotSlug))}
+                    href={championRoute(entry.riotSlug)}
                     className="rift-champion-link"
                   >
                     <Avatar size="lg" className="rounded-xl">
@@ -744,6 +772,34 @@ export function LeaderboardsPage() {
         ? formatLastUpdatedDate(payload.statDate)
         : "Loading"
 
+  useEffect(() => {
+    const metadata = leaderboardsSeoMetadata({
+      archivedAtLabel: payload ? formatRelativeArchiveTime(payload.archivedAt) : undefined,
+      imageUrl: topChampionEntry?.avatar ?? null,
+      path: LEADERBOARDS_ROUTE,
+      statDateLabel: payload ? formatLastUpdatedDate(payload.statDate) : undefined,
+      topChampionName: topChampionEntry?.name,
+    })
+
+    applyDocumentSeo({
+      canonicalPath: LEADERBOARDS_ROUTE,
+      description: metadata.description,
+      imageUrl: metadata.imageUrl,
+      robots: window.location.search ? "noindex,follow" : "index,follow",
+      structuredData: [
+        breadcrumbStructuredData(),
+        {
+          "@context": "https://schema.org",
+          "@type": "CollectionPage",
+          description: metadata.description,
+          name: metadata.title,
+          url: absoluteSiteUrl(LEADERBOARDS_ROUTE),
+        } satisfies StructuredDataValue,
+      ],
+      title: metadata.title,
+    })
+  }, [payload, topChampionEntry])
+
   return (
     <TooltipProvider>
       <main className="rift-champion-page-shell rift-leaderboard-page-shell">
@@ -753,7 +809,7 @@ export function LeaderboardsPage() {
 
         <SiteHeader />
 
-        <section className="rift-leaderboard-hero">
+        <section id="leaderboard-overview" className="rift-leaderboard-hero">
           <video
             key={heroVideo?.videoUrl ?? MAIN_BACKDROP_URL}
             autoPlay

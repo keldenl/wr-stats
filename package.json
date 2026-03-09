@@ -6,9 +6,10 @@
   "packageManager": "bun@1.2.23",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build && bun run scripts/prerender-pages.ts",
     "lint": "eslint .",
     "preview": "vite preview",
+    "prerender": "bun run scripts/prerender-pages.ts",
     "sync:data": "bun run scripts/sync-static-data.ts",
     "test": "bun test"
   },

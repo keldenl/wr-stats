@@ -19,11 +19,18 @@ import { InputGroup, InputGroupInput } from "@/components/ui/input-group"
 import { Spinner } from "@/components/ui/spinner"
 import { MAIN_BACKDROP_URL } from "@/lib/backdrops"
 import {
+  applyDocumentSeo,
+  type StructuredDataValue,
+} from "@/lib/document-seo"
+import {
   CHAMPIONS_ROUTE,
   championRoute,
   replaceRouteSearch,
-  routeToHash,
-} from "@/lib/hash-routing"
+} from "@/lib/routing"
+import {
+  absoluteSiteUrl,
+  championListSeoMetadata,
+} from "@/lib/site-metadata"
 import {
   loadChampionDirectory,
   type ChampionDirectoryEntry,
@@ -46,6 +53,27 @@ function initialsFromName(name: string) {
     .join("")
 
   return letters || "?"
+}
+
+function breadcrumbStructuredData() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        item: absoluteSiteUrl("/"),
+        name: "Home",
+        position: 1,
+      },
+      {
+        "@type": "ListItem",
+        item: absoluteSiteUrl(CHAMPIONS_ROUTE),
+        name: "Champions",
+        position: 2,
+      },
+    ],
+  } satisfies StructuredDataValue
 }
 
 export function ChampionListPage() {
@@ -133,6 +161,41 @@ export function ChampionListPage() {
         visibleChampions.length === champions.length ? "" : ` / ${champions.length}`
       } champions`
 
+  useEffect(() => {
+    const metadata = championListSeoMetadata(
+      champions.length,
+      champions[0]?.avatarUrl ?? null
+    )
+
+    applyDocumentSeo({
+      canonicalPath: CHAMPIONS_ROUTE,
+      description: metadata.description,
+      imageUrl: metadata.imageUrl,
+      robots: searchQuery.trim() ? "noindex,follow" : "index,follow",
+      structuredData: [
+        breadcrumbStructuredData(),
+        {
+          "@context": "https://schema.org",
+          "@type": "CollectionPage",
+          description: metadata.description,
+          name: metadata.title,
+          url: absoluteSiteUrl(CHAMPIONS_ROUTE),
+        } satisfies StructuredDataValue,
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          itemListElement: champions.map((champion, index) => ({
+            "@type": "ListItem",
+            name: champion.displayName,
+            position: index + 1,
+            url: absoluteSiteUrl(championRoute(champion.riotSlug)),
+          })),
+        } satisfies StructuredDataValue,
+      ],
+      title: metadata.title,
+    })
+  }, [champions, searchQuery])
+
   return (
     <main className="rift-champion-page-shell rift-leaderboard-page-shell">
       <a href="#champion-list-results" className="skip-link">
@@ -141,7 +204,7 @@ export function ChampionListPage() {
 
       <SiteHeader />
 
-      <section className="rift-leaderboard-hero">
+      <section id="champion-list-overview" className="rift-leaderboard-hero">
         <video
           autoPlay
           muted
@@ -200,7 +263,7 @@ export function ChampionListPage() {
                 {visibleChampions.map((champion) => (
                   <a
                     key={champion.championId}
-                    href={routeToHash(championRoute(champion.riotSlug))}
+                    href={championRoute(champion.riotSlug)}
                     className="rift-champion-list-item"
                   >
                     <Avatar size="xl" className="rift-champion-list-avatar">
