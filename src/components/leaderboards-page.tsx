@@ -791,14 +791,25 @@ export function LeaderboardsPage() {
         {
           "@context": "https://schema.org",
           "@type": "CollectionPage",
+          dateModified: payload?.archivedAt,
           description: metadata.description,
           name: metadata.title,
           url: absoluteSiteUrl(LEADERBOARDS_ROUTE),
         } satisfies StructuredDataValue,
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          itemListElement: visibleEntries.slice(0, 10).map((entry, index) => ({
+            "@type": "ListItem",
+            name: entry.name,
+            position: index + 1,
+            url: absoluteSiteUrl(championRoute(entry.riotSlug)),
+          })),
+        } satisfies StructuredDataValue,
       ],
       title: metadata.title,
     })
-  }, [payload, topChampionEntry])
+  }, [payload, topChampionEntry, visibleEntries])
 
   return (
     <TooltipProvider>
@@ -922,9 +933,13 @@ export function LeaderboardsPage() {
                 <h1 className="rift-champion-title rift-leaderboard-page-title">
                   Leaderboards
                 </h1>
+                <p className="mt-3 max-w-3xl text-sm text-slate-200 sm:text-base">
+                  Track the current Wild Rift tier list with sortable win rate, pick
+                  rate, ban rate, and strength score across ranked buckets and lanes.
+                </p>
               </div>
 
-                <div className="rift-leaderboard-hero-panel">
+              <div className="rift-leaderboard-hero-panel">
                 <div className="rift-leaderboard-controls">
                   <div>
                     <InputGroup className="rift-leaderboard-search h-11">

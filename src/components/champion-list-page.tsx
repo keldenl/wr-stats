@@ -225,6 +225,10 @@ export function ChampionListPage() {
               <h1 className="rift-champion-title rift-leaderboard-page-title">
                 Champions
               </h1>
+              <p className="mt-3 max-w-2xl text-sm text-slate-200 sm:text-base">
+                Browse every Wild Rift champion page with direct access to current
+                stats, roles, abilities, skins, and Riot source details.
+              </p>
             </div>
 
             <InputGroup className="rift-leaderboard-search rift-champion-list-search h-11">
@@ -293,6 +297,7 @@ export function ChampionListPage() {
             </Empty>
           )}
         </div>
+
       </section>
     </main>
   )

@@ -505,7 +505,7 @@ body {
   }
 
   .rift-champion-title-block {
-    @apply flex flex-col gap-2;
+    @apply flex flex-col gap-1;
   }
 
   .rift-champion-kicker,

@@ -245,7 +245,7 @@ export function ChampionPage({ slug }: { slug: string }) {
     const displayName = humanizeDisplayName(championPage.title)
     const metadata = championSeoMetadata({
       displayName,
-      imageUrl: championPage.fullWidthImageUrl ?? championPage.skins[0]?.imageUrl ?? null,
+      imageUrl: championPage.skins[0]?.imageUrl ?? championPage.fullWidthImageUrl ?? null,
       path: championPath,
       roles: championPage.roles,
       stats:
@@ -276,6 +276,8 @@ export function ChampionPage({ slug }: { slug: string }) {
             name: displayName,
             sameAs: championPage.riotUrl,
           },
+          dateModified: heroStats?.archivedAt ?? championPage.generatedAt,
+          datePublished: championPage.publishDate,
           description: metadata.description,
           image: metadata.imageUrl,
           name: metadata.title,
@@ -284,7 +286,7 @@ export function ChampionPage({ slug }: { slug: string }) {
       ],
       title: metadata.title,
     })
-  }, [activeRoleStats, championPage, championPath, selectedStatsBucket])
+  }, [activeRoleStats, championPage, championPath, heroStats?.archivedAt, selectedStatsBucket])
 
   return (
     <main className="rift-champion-page-shell">
@@ -328,6 +330,24 @@ export function ChampionPage({ slug }: { slug: string }) {
                 <div className="rift-champion-title-block">
                   <p className="rift-champion-kicker">{championPage.subtitle}</p>
                   <h1 className="rift-champion-title">{championPage.title}</h1>
+                  <p className="mt-1.5 max-w-2xl text-sm text-slate-200 sm:text-base">
+                    Explore current Wild Rift stats, role strength, abilities, and
+                    skins for {championPage.title}.
+                  </p>
+                  <nav
+                    aria-label="Champion page sections"
+                    className="mt-2.5 flex flex-wrap gap-4 text-sm text-slate-200"
+                  >
+                    <a href="#champion-stats" className="rift-inline-cta">
+                      Stats
+                    </a>
+                    <a href="#champion-content" className="rift-inline-cta">
+                      Abilities
+                    </a>
+                    <a href="#champion-skins" className="rift-inline-cta">
+                      Skins
+                    </a>
+                  </nav>
                 </div>
 
                 <div id="champion-stats" className="rift-champion-hero-stats">
@@ -580,6 +600,28 @@ export function ChampionPage({ slug }: { slug: string }) {
                 </Alert>
               )}
             </div>
+          </section>
+
+          <section className="mx-auto w-[calc(100%-2rem)] max-w-5xl rounded-3xl border border-white/10 bg-slate-950/35 p-6 text-sm text-slate-200 backdrop-blur-sm sm:w-[calc(100%-3rem)] sm:p-7">
+            <h2 className="text-lg font-semibold text-foreground">
+              About {championPage.title} on rankedwr
+            </h2>
+            <p className="mt-3">
+              This page combines Riot&apos;s official champion details with the latest
+              ranked snapshot available on rankedwr, making it easier to compare role
+              strength and then move straight into abilities and skins.
+            </p>
+            <p className="mt-3">
+              Official Riot profile:{" "}
+              <a
+                href={championPage.riotUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="rift-inline-cta"
+              >
+                {championPage.riotUrl}
+              </a>
+            </p>
           </section>
         </>
       )}

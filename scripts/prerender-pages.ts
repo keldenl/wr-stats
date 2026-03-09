@@ -365,6 +365,11 @@ function buildHtmlPage(templateHtml: string, page: StaticPage) {
   )
   html = replaceOrInsertTag(
     html,
+    /<meta[^>]+property="og:image:alt"[^>]*>/i,
+    `<meta property="og:image:alt" content="${escapeAttribute(page.title)}" />`
+  )
+  html = replaceOrInsertTag(
+    html,
     /<meta[^>]+name="twitter:card"[^>]*>/i,
     '<meta name="twitter:card" content="summary_large_image" />'
   )
@@ -382,6 +387,11 @@ function buildHtmlPage(templateHtml: string, page: StaticPage) {
     html,
     /<meta[^>]+name="twitter:image"[^>]*>/i,
     `<meta name="twitter:image" content="${escapeAttribute(page.imageUrl)}" />`
+  )
+  html = replaceOrInsertTag(
+    html,
+    /<meta[^>]+name="twitter:image:alt"[^>]*>/i,
+    `<meta name="twitter:image:alt" content="${escapeAttribute(page.title)}" />`
   )
   html = replaceOrInsertTag(
     html,
@@ -612,6 +622,7 @@ function championStructuredData(
         name: displayName,
         sameAs: riotUrl,
       },
+      dateModified: new Date().toISOString(),
       description,
       image: imageUrl,
       name: `${displayName} Wild Rift stats, abilities, and tier`,
@@ -650,6 +661,24 @@ function collectionStructuredData(name: string, path: string, description: strin
   ]
 }
 
+function itemListStructuredData(
+  items: Array<{
+    name: string
+    path: string
+  }>
+) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    itemListElement: items.map((item, index) => ({
+      "@type": "ListItem",
+      name: item.name,
+      position: index + 1,
+      url: absoluteSiteUrl(item.path),
+    })),
+  } satisfies StructuredDataValue
+}
+
 function buildHomePage(
   champions: ChampionDirectoryEntry[],
   featuredEntries: LeaderboardEntry[],
@@ -676,6 +705,7 @@ function buildHomePage(
             <a href="${LEADERBOARDS_ROUTE}">View leaderboards</a>
             <a href="${CHAMPIONS_ROUTE}">Browse all champions</a>
           </nav>
+          <p class="prerender-muted">Updated every 8 hours with current ranked snapshots.</p>
         </section>
 
         <section class="prerender-section">
@@ -691,11 +721,26 @@ function buildHomePage(
     structuredData: [
       {
         "@context": "https://schema.org",
+        "@type": "Organization",
+        logo: absoluteSiteUrl("/apple-touch-icon.png"),
+        name: "rankedwr",
+        sameAs: ["https://twitter.com/RepotedWR"],
+        url: absoluteSiteUrl(HOME_ROUTE),
+      } satisfies StructuredDataValue,
+      {
+        "@context": "https://schema.org",
         "@type": "WebSite",
+        alternateName: "Ranked WR",
         description: metadata.description,
         name: "rankedwr",
         url: absoluteSiteUrl(HOME_ROUTE),
       } satisfies StructuredDataValue,
+      itemListStructuredData(
+        featuredChampions.map((champion) => ({
+          name: champion.displayName,
+          path: championRoute(champion.riotSlug),
+        }))
+      ),
     ],
     title: metadata.title,
   }
@@ -725,12 +770,22 @@ function buildLeaderboardsPage(
           <p class="prerender-kicker">Diamond+</p>
           <h1>Wild Rift leaderboards</h1>
           <p>${escapeHtml(metadata.description)}</p>
+          <nav class="prerender-anchor-nav" aria-label="Leaderboard sections">
+            <a href="#leaderboard-results">Jump to results</a>
+            <a href="${CHAMPIONS_ROUTE}">Browse champion pages</a>
+          </nav>
         </section>
 
         <section id="leaderboard-results" class="prerender-section">
           <h2>Top champions right now</h2>
           <p>Sorted by weighted strength score across current Diamond+ lane tables.</p>
           ${renderLeaderboardTable(entries.slice(0, MAX_LEADERBOARD_ROWS))}
+        </section>
+
+        <section class="prerender-section">
+          <h2>How this Wild Rift tier list works</h2>
+          <p>Rankedwr combines official Tencent CN ranked ladder snapshots with a weighted strength score based on win rate, pick rate, and ban rate.</p>
+          <p>Use the filters to narrow by lane, bucket, and archive snapshot, then open any champion row to view a dedicated page with abilities, skins, and role-specific performance.</p>
         </section>
       </main>
     `,
@@ -741,6 +796,13 @@ function buildLeaderboardsPage(
       "Leaderboards",
       LEADERBOARDS_ROUTE,
       metadata.description
+    ).concat(
+      itemListStructuredData(
+        entries.slice(0, 10).map((entry) => ({
+          name: entry.displayName,
+          path: championRoute(entry.riotSlug),
+        }))
+      )
     ),
     title: metadata.title,
   }
@@ -764,11 +826,20 @@ function buildChampionListPage(
           <p class="prerender-kicker">Champion index</p>
           <h1>Browse every Wild Rift champion</h1>
           <p>${escapeHtml(metadata.description)}</p>
+          <nav class="prerender-anchor-nav" aria-label="Champion page sections">
+            <a href="#champion-list-results">Jump to champion list</a>
+            <a href="${LEADERBOARDS_ROUTE}">View leaderboards</a>
+          </nav>
         </section>
 
         <section id="champion-list-results" class="prerender-section">
           <h2>Champion pages</h2>
           ${renderChampionLinks(champions)}
+        </section>
+
+        <section class="prerender-section">
+          <h2>Use the champion index to reach every stats page faster</h2>
+          <p>Each champion page links current CN ranked performance with Riot&apos;s official champion data, so you can move from search to win rate, role, ability, and skin info without leaving the site.</p>
         </section>
       </main>
     `,
@@ -779,6 +850,13 @@ function buildChampionListPage(
       "Champions",
       CHAMPIONS_ROUTE,
       metadata.description
+    ).concat(
+      itemListStructuredData(
+        champions.slice(0, 24).map((champion) => ({
+          name: champion.displayName,
+          path: championRoute(champion.riotSlug),
+        }))
+      )
     ),
     title: metadata.title,
   }
@@ -795,7 +873,7 @@ function buildChampionPage(
   const defaultRole = defaultBucket?.roles[0] ?? null
   const metadata = championSeoMetadata({
     displayName: champion.displayName,
-    imageUrl: page.fullWidthImageUrl ?? champion.cardImageUrl,
+    imageUrl: page.skins[0]?.imageUrl ?? champion.cardImageUrl,
     path: canonicalPath,
     roles: page.roles,
     stats:
@@ -820,6 +898,7 @@ function buildChampionPage(
         <section id="champion-overview" class="prerender-hero">
           <p class="prerender-kicker">${escapeHtml(page.roles.map(humanizeDisplayName).join(" / "))}</p>
           <h1>${escapeHtml(champion.displayName)}</h1>
+          <p>${escapeHtml(`Explore current Wild Rift stats, role strength, abilities, and skins for ${champion.displayName}.`)}</p>
           <p>${escapeHtml(page.subtitle)}</p>
           <p class="prerender-muted">
             Riot page:
@@ -852,6 +931,11 @@ function buildChampionPage(
           <h2>Skins</h2>
           ${renderSkins(page)}
           <p class="prerender-muted">Published ${escapeHtml(formatDate(page.publishDate))}</p>
+        </section>
+
+        <section class="prerender-section">
+          <h2>About ${escapeHtml(champion.displayName)} on rankedwr</h2>
+          <p>This page combines Riot&apos;s official champion details with rankedwr&apos;s latest published ranked snapshot so you can compare role strength, then move straight into abilities and skins.</p>
         </section>
       </main>
     `,
@@ -1022,17 +1106,21 @@ function buildChampionBuckets(
 function buildSitemapXml(
   champions: ChampionDirectoryEntry[],
   pagesIndex: ChampionPagesIndex,
-  manifest: StaticDataManifest
+  manifest: StaticDataManifest,
+  championPages: Map<string, ChampionPageData>,
+  defaultImageUrl: string
 ) {
   const latestModified = formatDateForSitemap(manifest.generatedAt)
   const urls = [
-    { lastmod: latestModified, path: HOME_ROUTE },
-    { lastmod: latestModified, path: LEADERBOARDS_ROUTE },
-    { lastmod: latestModified, path: CHAMPIONS_ROUTE },
+    { image: defaultImageUrl, lastmod: latestModified, path: HOME_ROUTE },
+    { image: defaultImageUrl, lastmod: latestModified, path: LEADERBOARDS_ROUTE },
+    { image: defaultImageUrl, lastmod: latestModified, path: CHAMPIONS_ROUTE },
     ...champions.map((champion) => {
       const pageEntry = pagesIndex.champions[champion.championId]
+      const page = championPages.get(champion.riotSlug)
 
       return {
+        image: page?.skins[0]?.imageUrl ?? pageEntry?.cardImageUrl ?? defaultImageUrl,
         lastmod: formatDateForSitemap(pageEntry?.publishDate ?? pagesIndex.generatedAt),
         path: championRoute(champion.riotSlug),
       }
@@ -1040,12 +1128,15 @@ function buildSitemapXml(
   ]
 
   return `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 ${urls
   .map(
     (entry) => `  <url>
     <loc>${escapeHtml(absoluteSiteUrl(entry.path))}</loc>
     <lastmod>${escapeHtml(entry.lastmod)}</lastmod>
+    <image:image>
+      <image:loc>${escapeHtml(entry.image)}</image:loc>
+    </image:image>
   </url>`
   )
   .join("\n")}
@@ -1146,7 +1237,13 @@ async function main() {
   )
   await writeFile(
     path.join(DIST_DIR, "sitemap.xml"),
-    buildSitemapXml(champions, pagesIndex, manifest)
+    buildSitemapXml(
+      champions,
+      pagesIndex,
+      manifest,
+      championPages,
+      defaultSocialImage
+    )
   )
 }
 

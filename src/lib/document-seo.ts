@@ -83,6 +83,10 @@ export function applyDocumentSeo({
     content: imageUrl,
     property: "og:image",
   })
+  upsertMeta('meta[property="og:image:alt"]', {
+    content: title,
+    property: "og:image:alt",
+  })
 
   upsertMeta('meta[name="twitter:card"]', {
     content: "summary_large_image",
@@ -99,6 +103,10 @@ export function applyDocumentSeo({
   upsertMeta('meta[name="twitter:image"]', {
     content: imageUrl,
     name: "twitter:image",
+  })
+  upsertMeta('meta[name="twitter:image:alt"]', {
+    content: title,
+    name: "twitter:image:alt",
   })
 
   for (const node of document.head.querySelectorAll("[data-rift-structured-data]")) {

@@ -81,9 +81,9 @@ export function absoluteSiteUrl(path: string) {
 export function homeSeoMetadata(imageUrl?: string | null): SeoMetadata {
   return {
     description:
-      "Wild Rift champion win rates, tier lists, and searchable champion pages built from official Riot champion data and live ranked stats.",
+      "Wild Rift champion win rates, tier lists, and searchable champion pages built from official Riot champion data and CN ranked stats.",
     imageUrl: imageUrl ?? DEFAULT_SOCIAL_IMAGE,
-    title: "rankedwr | Wild Rift champion win rates and tier lists",
+    title: "Wild Rift tier list, champion win rates, and stats | rankedwr",
   }
 }
 
@@ -102,12 +102,12 @@ export function leaderboardsSeoMetadata(
 
   return {
     description:
-      "Browse Wild Rift champion leaderboards by tier, lane, and snapshot with sortable win rate, pick rate, ban rate, and tier strength." +
+      "Browse Wild Rift champion leaderboards by tier, lane, and snapshot with sortable win rate, pick rate, ban rate, and tier strength from current CN ranked data." +
       statDatePart +
       topChampionPart +
       archivedAtPart,
     imageUrl: summary.imageUrl ?? DEFAULT_SOCIAL_IMAGE,
-    title: "Wild Rift leaderboards and tier list | rankedwr",
+    title: "Wild Rift tier list and champion leaderboards | rankedwr",
   }
 }
 
@@ -122,7 +122,7 @@ export function championListSeoMetadata(
       `${countPart} with direct links to Wild Rift stats, abilities, roles, and skin galleries.` +
       " Use the champion index to jump straight to each page.",
     imageUrl: imageUrl ?? DEFAULT_SOCIAL_IMAGE,
-    title: "Wild Rift champion index | rankedwr",
+    title: "Wild Rift champion pages and stats index | rankedwr",
   }
 }
 
@@ -139,6 +139,6 @@ export function championSeoMetadata(summary: ChampionSeoSummary): SeoMetadata {
     description:
       `${rolePart}${subtitlePart}${statsPart} Explore abilities, skins, and official Riot champion details.`,
     imageUrl: summary.imageUrl ?? DEFAULT_SOCIAL_IMAGE,
-    title: `${summary.displayName} Wild Rift stats, abilities, and tier | rankedwr`,
+    title: `${summary.displayName} Wild Rift stats, win rate, abilities, and skins | rankedwr`,
   }
 }

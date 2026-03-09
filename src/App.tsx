@@ -98,6 +98,10 @@ function HomePage({
                   <span className="rift-wordmark-ranked">ranked</span>
                   <span className="rift-wordmark-wr">wr</span>
                 </h1>
+                <p className="mx-auto max-w-xl text-sm text-slate-200 sm:text-base">
+                  Wild Rift champion win rates, tier lists, and searchable champion
+                  pages built from official Riot champion data and CN ranked stats.
+                </p>
               </div>
 
               <div className="mx-auto w-full max-w-2xl space-y-3">
@@ -267,18 +271,27 @@ function App() {
 
     const metadata = homeSeoMetadata()
 
-    applyDocumentSeo({
-      canonicalPath: "/",
-      description: metadata.description,
-      imageUrl: metadata.imageUrl,
-      structuredData: [
-        {
-          "@context": "https://schema.org",
-          "@type": "WebSite",
-          description: metadata.description,
-          name: "rankedwr",
-          url: absoluteSiteUrl("/"),
-        } satisfies StructuredDataValue,
+      applyDocumentSeo({
+        canonicalPath: "/",
+        description: metadata.description,
+        imageUrl: metadata.imageUrl,
+        structuredData: [
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            logo: absoluteSiteUrl("/apple-touch-icon.png"),
+            name: "rankedwr",
+            sameAs: ["https://twitter.com/RepotedWR"],
+            url: absoluteSiteUrl("/"),
+          } satisfies StructuredDataValue,
+          {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            alternateName: "Ranked WR",
+            description: metadata.description,
+            name: "rankedwr",
+            url: absoluteSiteUrl("/"),
+          } satisfies StructuredDataValue,
       ],
       title: metadata.title,
     })
