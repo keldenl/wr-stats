@@ -67,6 +67,31 @@ export async function loadChampionDirectory() {
     }))
 }
 
+export function pickLatestChampionPageEntry(
+  champions: ChampionPageIndexRecord[]
+): ChampionPageIndexRecord | null {
+  const publishedChampions = champions
+    .filter((champion) => {
+      if (!champion.publishDate) {
+        return false
+      }
+
+      return Number.isFinite(Date.parse(champion.publishDate))
+    })
+    .sort((left, right) => {
+      const publishDateDelta =
+        Date.parse(right.publishDate ?? "") - Date.parse(left.publishDate ?? "")
+
+      if (publishDateDelta !== 0) {
+        return publishDateDelta
+      }
+
+      return left.riotSlug.localeCompare(right.riotSlug)
+    })
+
+  return publishedChampions[0] ?? null
+}
+
 export function searchChampionDirectory(
   query: string,
   champions: ChampionDirectoryEntry[],
@@ -157,6 +182,17 @@ export async function loadChampionPageByChampionId(championId: string) {
   return loadChampionPageByPath(entry.pagePath)
 }
 
+export async function loadLatestChampionPageEntry() {
+  const index = await loadChampionPagesIndex()
+  const entry = pickLatestChampionPageEntry(Object.values(index.champions))
+
+  if (!entry) {
+    throw new Error("No published champion page is available.")
+  }
+
+  return entry
+}
+
 export async function loadChampionPageEntryBySlug(
   riotSlug: string
 ): Promise<ChampionPageIndexRecord> {
@@ -176,4 +212,15 @@ export async function loadChampionPageEntryBySlug(
 export async function loadChampionPageBySlug(riotSlug: string) {
   const entry = await loadChampionPageEntryBySlug(riotSlug)
   return loadChampionPageByPath(entry.pagePath)
+}
+
+export async function loadLatestChampionPage() {
+  const entry = await loadLatestChampionPageEntry()
+  return loadChampionPageByPath(entry.pagePath)
+}
+
+export function resetChampionPagesCacheForTests() {
+  championPagesIndexPromise = null
+  championCatalogPromise = null
+  championPageCache.clear()
 }

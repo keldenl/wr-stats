@@ -5,9 +5,11 @@ import path from "node:path"
 
 import type { RiotChampionListEntry } from "../src/lib/champion-identity"
 import {
+  backdropManifestPath,
   championPageDataPath,
   championPagesIndexPath,
   type ChampionCatalog,
+  type BackdropManifest,
   type ChampionPageData,
   type ChampionPagesIndex,
   type ChampionRecord,
@@ -255,6 +257,12 @@ describe("syncRiotChampionPages", () => {
     )
 
     await writeJson(path.join(dataRoot, "champions.v1.json"), championCatalog)
+    await writeJson(path.join(dataRoot, backdropManifestPath().replace(/^data\//, "")), {
+      generatedAt: PREVIOUS_NOW.toISOString(),
+      latestChampionSlug: aatrox.riotSlug,
+      mainBackdropUrl: storedPage.mastheadVideoUrl,
+      version: 1,
+    } satisfies BackdropManifest)
     await writeJson(
       path.join(dataRoot, championPagesIndexPath().replace(/^data\//, "")),
       index
@@ -275,6 +283,7 @@ describe("syncRiotChampionPages", () => {
 
     expect(summary.fetchedPages).toBe(0)
     expect(summary.changed).toBe(false)
+    expect(summary.backdropManifestChanged).toBe(false)
     expect(summary.indexChanged).toBe(false)
     expect(summary.pageFilesWritten).toBe(0)
   })
@@ -332,8 +341,16 @@ describe("syncRiotChampionPages", () => {
     ) as ChampionPageData
 
     expect(summary.fetchedPages).toBe(1)
+    expect(summary.backdropManifestChanged).toBe(true)
     expect(summary.pageFilesWritten).toBe(1)
     expect(storedPage.hash).toBe(fetchedPage.hash)
+
+    const backdropManifest = JSON.parse(
+      await readFile(path.join(dataRoot, backdropManifestPath().replace(/^data\//, "")), "utf8")
+    ) as BackdropManifest
+
+    expect(backdropManifest.latestChampionSlug).toBe("aatrox")
+    expect(backdropManifest.mainBackdropUrl).toBe(fetchedPage.mastheadVideoUrl)
   })
 
   it("fetches only changed champions when the Riot list changes", async () => {
@@ -421,6 +438,7 @@ describe("syncRiotChampionPages", () => {
 
     expect(summary.listChanged).toBe(true)
     expect(summary.fetchedPages).toBe(1)
+    expect(summary.backdropManifestChanged).toBe(true)
     expect(summary.pageFilesWritten).toBe(0)
     expect(beforeAatroxPage).toBe(afterAatroxPage)
     expect(nextIndex.champions["10002"].listEntryHash).toBe(nextAatrox.listEntryHash)

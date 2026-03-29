@@ -8,10 +8,12 @@ import {
 } from "../src/lib/champion-identity"
 import {
   STATIC_DATA_VERSION,
+  backdropManifestPath,
   championPageDataPath,
   championPagesIndexPath,
   sortNumericKeys,
   stableSerialize,
+  type BackdropManifest,
   type ChampionCatalog,
   type ChampionPageData,
   type ChampionPageIndexRecord,
@@ -33,6 +35,7 @@ type SyncOptions = {
 }
 
 type SyncSummary = {
+  backdropManifestChanged: boolean
   changed: boolean
   championCatalogChanged: boolean
   fetchedPages: number
@@ -118,6 +121,7 @@ type RiotMedia = {
 }
 
 type StoredChampionPageMetadata = {
+  mastheadVideoUrl: string
   pageHash: string
   publishDate?: string
 }
@@ -381,9 +385,29 @@ async function readStoredChampionPageMetadata(
   }
 
   return {
+    mastheadVideoUrl: pageFile.mastheadVideoUrl,
     pageHash: pageFile.hash,
     publishDate: pageFile.publishDate,
   }
+}
+
+function pickLatestChampionPageRecord(
+  records: ChampionPageIndexRecord[]
+): ChampionPageIndexRecord | null {
+  return (
+    records
+      .filter((record) => record.publishDate && Number.isFinite(Date.parse(record.publishDate)))
+      .sort((left, right) => {
+        const publishDateDelta =
+          Date.parse(right.publishDate ?? "") - Date.parse(left.publishDate ?? "")
+
+        if (publishDateDelta !== 0) {
+          return publishDateDelta
+        }
+
+        return left.riotSlug.localeCompare(right.riotSlug)
+      })[0] ?? null
+  )
 }
 
 export function planChampionPageFetches(args: {
@@ -421,6 +445,7 @@ export async function syncRiotChampionPages({
   now = new Date(),
 }: SyncOptions = {}) {
   const championsPath = path.join(dataRoot, "champions.v1.json")
+  const backdropPath = path.join(dataRoot, backdropManifestPath().replace(/^data\//, ""))
   const indexPath = path.join(dataRoot, championPagesIndexPath().replace(/^data\//, ""))
   const championCatalog = await readJsonFile<ChampionCatalog>(championsPath)
 
@@ -483,6 +508,9 @@ export async function syncRiotChampionPages({
 
       storedMetadata = existingRecord
         ? {
+            mastheadVideoUrl: (
+              await readJsonFile<ChampionPageData>(storedPagePath)
+            )?.mastheadVideoUrl ?? "",
             pageHash: existingRecord.pageHash,
             publishDate: existingRecord.publishDate,
           }
@@ -491,6 +519,7 @@ export async function syncRiotChampionPages({
 
     const metadata = fetchedPage
       ? {
+          mastheadVideoUrl: fetchedPage.mastheadVideoUrl,
           pageHash: fetchedPage.hash,
           publishDate: fetchedPage.publishDate,
         }
@@ -540,6 +569,46 @@ export async function syncRiotChampionPages({
     generatedAt:
       indexChanged || !existingIndex ? now.toISOString() : existingIndex.generatedAt,
   } satisfies ChampionPagesIndex
+  const latestChampionRecord = pickLatestChampionPageRecord(
+    Object.values(nextChampionPageIndexRecords)
+  )
+
+  if (!latestChampionRecord) {
+    throw new Error("Unable to determine the latest published champion page.")
+  }
+
+  const latestChampionPage =
+    fetchedPagesBySlug.get(latestChampionRecord.riotSlug) ??
+    (await readJsonFile<ChampionPageData>(
+      path.join(dataRoot, latestChampionRecord.pagePath.replace(/^data\//, ""))
+    ))
+
+  if (!latestChampionPage?.mastheadVideoUrl) {
+    throw new Error(
+      `Missing masthead video for latest champion ${latestChampionRecord.riotSlug}.`
+    )
+  }
+
+  const existingBackdropManifest = await readJsonFile<BackdropManifest>(backdropPath)
+  const nextBackdropManifest = {
+    generatedAt: now.toISOString(),
+    latestChampionSlug: latestChampionRecord.riotSlug,
+    mainBackdropUrl: latestChampionPage.mastheadVideoUrl,
+    version: STATIC_DATA_VERSION,
+  } satisfies BackdropManifest
+  const backdropManifestChanged =
+    stableSerialize(
+      existingBackdropManifest
+        ? {
+            ...existingBackdropManifest,
+            generatedAt: "",
+          }
+        : null
+    ) !==
+    stableSerialize({
+      ...nextBackdropManifest,
+      generatedAt: "",
+    })
   const desiredSlugs = new Set(Object.values(mapping).map((entry) => entry.riotSlug))
   const stalePagePaths = Object.values(existingIndex?.champions ?? {})
     .filter((record) => !desiredSlugs.has(record.riotSlug))
@@ -573,8 +642,18 @@ export async function syncRiotChampionPages({
     await writeJsonFile(indexPath, nextIndex)
   }
 
+  if (backdropManifestChanged) {
+    await writeJsonFile(backdropPath, nextBackdropManifest)
+  }
+
   return {
-    changed: championCatalogChanged || indexChanged || pageFilesWritten > 0 || stalePagePaths.length > 0,
+    changed:
+      championCatalogChanged ||
+      indexChanged ||
+      backdropManifestChanged ||
+      pageFilesWritten > 0 ||
+      stalePagePaths.length > 0,
+    backdropManifestChanged,
     championCatalogChanged,
     fetchedPages: championIdsToFetch.length,
     indexChanged,

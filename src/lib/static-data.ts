@@ -91,6 +91,13 @@ export type StaticDataManifest = {
   snapshots: SnapshotMeta[]
 }
 
+export type BackdropManifest = {
+  version: number
+  generatedAt: string
+  latestChampionSlug: string
+  mainBackdropUrl: string
+}
+
 export type ChampionPageIndexRecord = {
   championId: string
   riotSlug: string
@@ -165,6 +172,10 @@ export function championPageDataPath(riotSlug: string) {
 
 export function championPagesIndexPath() {
   return "data/champion-pages.index.v1.json"
+}
+
+export function backdropManifestPath() {
+  return "data/backdrops.v1.json"
 }
 
 export function championNameFromPoster(poster?: string) {
