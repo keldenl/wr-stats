@@ -1485,6 +1485,17 @@
       "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/nocturne/",
       "title": "NOCTURNE"
     },
+    "10152": {
+      "cardImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3a7df03714afd695c4558b8aba7986ec797c6efd-285x323.jpg",
+      "championId": "10152",
+      "listEntryHash": "16ae906b730671947052de20365b933b837bc1e4572e62852e0d0ea52c17322d",
+      "pageHash": "2b68d6a78e27693bd06e39b797d923cb3abbc6ecc9a1de78a520e47e30e3f5f5",
+      "pagePath": "data/champion-pages/ksante.v1.json",
+      "publishDate": "2026-04-08T15:35:08Z",
+      "riotSlug": "ksante",
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ksante/",
+      "title": "K'Sante"
+    },
     "10166": {
       "cardImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6a1ba2f0d1178b81cf869741e94e9453ffd3e69f-285x323.jpg",
       "championId": "10166",
@@ -1497,8 +1508,8 @@
       "title": "NORRA"
     }
   },
-  "listHash": "f4360d224ab04ffb54755d5d6c3555423a14200ac8bd56e29d68cf9c8dde9d21",
+  "listHash": "a9aa17990e20d2c88ad0cd9437a646f496f9f38b4b1d7a89166aec94e72cdba1",
   "sourceLocale": "en-us",
   "version": 1,
-  "generatedAt": "2026-03-12T09:04:35.733Z"
+  "generatedAt": "2026-04-09T03:32:13.492Z"
 }

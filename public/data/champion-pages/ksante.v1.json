@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "generatedAt": "2026-04-09T03:32:13.492Z",
+  "championId": "10152",
+  "riotSlug": "ksante",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ksante/",
+  "title": "K'Sante",
+  "subtitle": "The Pride of Nazumah",
+  "roles": [
+    "TANK",
+    "FIGHTER"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "High",
+    "value": 3
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/c655ac09a2e07c13d7a7bfb0402b8c255d36ea7a.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "K’Sante’s damage dealing abilities mark enemies to take more damage on his next hit. \nWhen All Out, K’Sante’s attacks, abilities, and passive deal more damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/89738e4f1a418a2abe780849077b92e661315aa4-256x256.png?accountingTag=WR",
+      "label": "DAUNTLESS INSTINCT",
+      "subtitle": "PASSIVE",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/262e399d3ff6f73e0038e848fb6501bae804d825.mp4?accountingTag=WR"
+    },
+    {
+      "description": "K’sante slams his weapon, dealing physical damage and slowing enemies in a line. On hit, grants a stack of Ntofo Strikes. At 2 stacks, K’Sante instead fires a shockwave that stuns and pulls enemies. \nWhen All Out, the cooldown is reduced.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/38a40e5e53893d15e5ea7bd5d000f92e1720673e-256x256.png?accountingTag=WR",
+      "label": "NTOFO STRIKES",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/45b9c27bd42f340bfe52a729eb98bc831b3776e9.mp4?accountingTag=WR"
+    },
+    {
+      "description": "K’Sante charges up, gaining displacement immunity and reduced damage. He then dashes forward, dealing damage, knocking back and stunning enemies. \nWhen All Out, cooldown is refreshed, deals additional damage, no longer knocks back or stuns, but also grants increased damage reduction and dash speed.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/87e393f8026c31d6beb1cf9260ab497ecb3810f3-256x256.png?accountingTag=WR",
+      "label": "PATH MAKER",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/ebc0bdb76f23a741fa41c6464380ddf95ed16eb9.mp4?accountingTag=WR"
+    },
+    {
+      "description": "K’Sante dashes and gains a shield. If he dashes to an ally, the dash distance is increased and both gain a shield. \nWhen All Out, cooldown is reduced and dash speed is increased.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5311f274db1465351c376494bf2a6a83cd25e58c-256x256.png?accountingTag=WR",
+      "label": "FOOTWORK",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/40add2024c9dbd4db3799957286e719f21150243.mp4?accountingTag=WR"
+    },
+    {
+      "description": "K’Sante becomes unstoppable and splits his ntofos to know back an enemy. If the enemy collides with terrain, they are knocked through, taking additional damage. K’Sante, then dashes behind them and enters All Out. While All Out, K’Sante’s abilities are upgraded. He also gains Attack Speed, Armor Penetration, and Omnivamp, while losing some maximum Health, Armor, and Magic Resist.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3a022550213addb4aab8bc69f7dd79adb53d128d-256x256.png?accountingTag=WR",
+      "label": "ALL OUT",
+      "subtitle": "ULTIMATE",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/099cd97aec1678f9cf36fbe13d3d4c65178e90da.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d6986393dcbfc9af99b4759c79bf2ffafe1af967-1280x720.jpg?accountingTag=WR",
+      "label": "K'SANTE, THE PRIDE OF NAZUMAH",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d6986393dcbfc9af99b4759c79bf2ffafe1af967-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/cb1c01271a5e4da46e12cd3153127956d509a38b-1280x720.jpg?accountingTag=WR",
+      "label": "HEARTSTEEL K'SANTE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/cb1c01271a5e4da46e12cd3153127956d509a38b-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2026-04-08T15:35:08Z",
+  "hash": "2b68d6a78e27693bd06e39b797d923cb3abbc6ecc9a1de78a520e47e30e3f5f5"
+}

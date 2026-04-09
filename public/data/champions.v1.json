@@ -1350,6 +1350,16 @@
       "riotSlug": "nocturne",
       "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/nocturne/"
     },
+    "10152": {
+      "alias": "kuisangti",
+      "avatar": "data/avatars/10152.png",
+      "displayName": "Ksante",
+      "id": "10152",
+      "searchText": "ksante 纳祖芒荣耀 奎桑提 kuisangti",
+      "title": "纳祖芒荣耀",
+      "riotSlug": "ksante",
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ksante/"
+    },
     "10166": {
       "alias": "nuola",
       "avatar": "data/avatars/10166.png",
@@ -1361,7 +1371,7 @@
       "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/norra/"
     }
   },
-  "generatedAt": "2026-03-12T09:03:47.519Z",
-  "hash": "140dfd03ed93a087a534fe9f54b82559f271969c3d74bfa9137a7501b9ae8e11",
+  "generatedAt": "2026-04-09T03:30:32.482Z",
+  "hash": "06fe4339d988d0f36fbda126ae8b38c56c896d7fd8bac9203942a05989a324c7",
   "version": 1
 }
