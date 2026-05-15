@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "generatedAt": "2026-05-15T04:31:10.153Z",
+  "championId": "10146",
+  "riotSlug": "taliyah",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/taliyah/",
+  "title": "TALIYAH",
+  "subtitle": "The Stoneweaver",
+  "roles": [
+    "MAGE",
+    "SUPPORT"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/f6a7d614032c44671d51b2364edf46de7f268edf.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "When not in combat, Taliyah gains Move Speed near walls.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2aa6cbe71e60bc3cf879f21f9ce1f24be5cc3f5f-128x128.png?accountingTag=WR",
+      "label": "ROCK SURFING",
+      "subtitle": "PASSIVE",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/b773d2d448cac56beeac50e58ac83316e82ec61e.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Taliyah throws a volley of rocks in a target direction, each rock dealing magic damage to the first enemy hit and creating a quarry in the area around them. \nIf Taliyah casts Threaded Volley in a quarry, she consumes the ground to throw a stronger boulder that damages and slows enemies.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ca4e1f0f2480b17723ca84014626fd3de5eb30b6-128x128.png?accountingTag=WR",
+      "label": "THREADED VOLLEY",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/a0c2e9b3d8926958f538e0a967f6bcdb5d5c2460.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Taliyah causes an area of ground to erupt and throws enemies within it in a direction of her choosing.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bdb0ed908613d0ad12113fee39f96aeb414477e0-128x128.png?accountingTag=WR",
+      "label": "SEISMIC SHOVE",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/f758e8b8b36d50ab82aefc2d2137c4459b8ea01d.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Taliyah creates a slowing minefield. If enemies dash through it or are knocked through it, the mines explode, damaging and slowing them.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e89929c23626fe4d0f46d3a91e384770407cd262-128x128.png?accountingTag=WR",
+      "label": "UNRAVELED EARTH",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/94009345c350b772856e46f292d9c39b69649b40.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Taliyah summons a massive wall. If she immediately casts it again, she steps on and surfs along it. \nThe wall knocks back enemies. Once it’s fully formed, Taliyah can cast again to destroy it early.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/69fd6704e3575f30acbde478f5d531d2da38fb43-128x128.png?accountingTag=WR",
+      "label": "WEAVER'S WALL",
+      "subtitle": "ULTIMATE",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/f498039e618769e9200aef84cbf7db944e7fd71f.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3324323d1711b361aea335dd89e945070a86041c-1280x720.jpg?accountingTag=WR",
+      "label": "TALIYAH, THE STONEWEAVER",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3324323d1711b361aea335dd89e945070a86041c-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f10078bd5d17ea481df408f5d22cdd67f924820b-1280x720.jpg?accountingTag=WR",
+      "label": "POOL PARTY TALIYAH",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f10078bd5d17ea481df408f5d22cdd67f924820b-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2026-05-13T07:32:46Z",
+  "hash": "206d28670f2ad6c581b429fc6518a11dea1f07886f7b4b79d9a771d3ea18d51f"
+}

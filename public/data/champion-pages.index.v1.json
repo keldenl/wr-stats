@@ -1474,6 +1474,17 @@
       "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/viktor/",
       "title": "VIKTOR"
     },
+    "10146": {
+      "cardImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/18126e948c466734781770a100bbaecba8526702-285x323.jpg",
+      "championId": "10146",
+      "listEntryHash": "7fbf23f7a279339c2a12204920829c5ce4a5e091ba9625ad366be257476c8e9b",
+      "pageHash": "206d28670f2ad6c581b429fc6518a11dea1f07886f7b4b79d9a771d3ea18d51f",
+      "pagePath": "data/champion-pages/taliyah.v1.json",
+      "publishDate": "2026-05-13T07:32:46Z",
+      "riotSlug": "taliyah",
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/taliyah/",
+      "title": "TALIYAH"
+    },
     "10151": {
       "cardImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/401c6039075be773174cc07a447fe37ede3f6edb-285x323.jpg",
       "championId": "10151",
@@ -1508,8 +1519,8 @@
       "title": "NORRA"
     }
   },
-  "listHash": "a9aa17990e20d2c88ad0cd9437a646f496f9f38b4b1d7a89166aec94e72cdba1",
+  "listHash": "9faf95f606d5c8b8a4910fa73193a080b32e6e5a44d0831fb8c4e623383b46e8",
   "sourceLocale": "en-us",
   "version": 1,
-  "generatedAt": "2026-04-09T03:32:13.492Z"
+  "generatedAt": "2026-05-15T04:31:10.153Z"
 }
