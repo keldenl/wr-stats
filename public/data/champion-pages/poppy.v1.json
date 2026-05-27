@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10076",
   "riotSlug": "poppy",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/poppy/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/poppy",
   "title": "POPPY",
   "subtitle": "KEEPER OF THE HAMMER",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Poppy throws her buckler that bounces off the target. Poppy can pick it up to gain a temporary shield.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/c281b1897574bb81fdc0ad763140c81d0699db75-128x128.png?accountingTag=WR",
       "label": "IRON AMBASSADOR",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/41caaaee3af703abdbb053b90a7e75ea98b8dd92.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Poppy channels a hammer strike that knocks enemies very far away.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/c0914102996462a76c3032c9eddcdf03e6650a30-128x128.png?accountingTag=WR",
       "label": "KEEPER'S VERDICT",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/0343252eea458b4e6e458ecaf09d788f15376db6.mp4?accountingTag=WR"
     }
   ],
@@ -68,5 +68,5 @@
     }
   ],
   "publishDate": "2025-03-25T22:42:44Z",
-  "hash": "03027bc5aac80d9f0cd9581d71620842281bb20e62cd04aa576ccffda46a16cd"
+  "hash": "883926bedc3b95e9205f1b6dbba5e63b7e4b0b135f0b644dd37e7ca515b5345d"
 }

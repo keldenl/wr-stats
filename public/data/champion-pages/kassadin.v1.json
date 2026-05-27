@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10103",
   "riotSlug": "kassadin",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/kassadin/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/kassadin",
   "title": "KASSADIN",
   "subtitle": "the Void Walker",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "When Kassadin casts a spell near a visible enemy champion, he gains a magic shield.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e8edc7324929cb69de2ef5c9179d945efb9ffcfb-96x96.jpg?accountingTag=WR",
       "label": "VOID STONE",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/a97c344b5bca92cbcb94edde6cc907f3d250afa0.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Blinks to target location and deals magic damage to nearby enemies. Casting Riftwalk causes the next Riftwalk within a certain amount of time to deal more damage and cost double the mana. (Up to 3 times)",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/251e1fa529c267da8b9bf3643205ea3a06657cbf-96x96.jpg?accountingTag=WR",
       "label": "RIFTWALK",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/ee4e10aa2d37f93473e64d89d84dcd4ed8db21e6.mp4?accountingTag=WR"
     }
   ],
@@ -83,5 +83,5 @@
     }
   ],
   "publishDate": "2022-07-22T19:01:00Z",
-  "hash": "c133d0497d505ee85fe4a4e3bc526228c55bbffd8199d156a40687b3447d06f0"
+  "hash": "c4c58f364a4e0e378304313688ed772e1b36c4b9a6312f081a6c53a824c5823b"
 }

@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10108",
   "riotSlug": "milio",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/milio/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/milio",
   "title": "MILIO",
   "subtitle": "THE GENTLE FLAME",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Milio's abilities enchant allies on touch, making their next damage deal a burst of extra damage and burn the target.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/19767a64f3d9565b4007a6d99c6838ce9b6f882a-512x512.png?accountingTag=WR",
       "label": "FIRED UP!",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/7ebd22aaf40ccc3e71a3855be8c5b34937e0efb5.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Milio unleashes a wave of soothing flames that heal and remove crowd control effects from allies in range.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/04d0105a2b7b33abaea90c8669a8fe888c75eb09-512x512.png?accountingTag=WR",
       "label": "BREATH OF LIFE",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/f4ec15694f84287ec58178755ede4e9ffa3dc310.mp4?accountingTag=WR"
     }
   ],
@@ -68,5 +68,5 @@
     }
   ],
   "publishDate": "2024-09-19T21:11:42Z",
-  "hash": "b363934e9885ec3b6d70b5d1769e8a5458dd7648953e36344400759ff525f816"
+  "hash": "84d788e90f89849da6b848cfa6cbd609df87b9dbbf33596e59e1b61382cabf26"
 }

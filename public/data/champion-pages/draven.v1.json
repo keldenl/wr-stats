@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10077",
   "riotSlug": "draven",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/draven/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/draven",
   "title": "DRAVEN",
   "subtitle": "the Glorious Executioner",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Draven gains his fans' Adoration when he catches a Spinning Axe or kills a minion, monster, or tower. Killing enemy champions grants Draven bonus gold based on how much Adoration he has.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/e7103b14b366e5e0f58a59107e820e8148eaf9c6-96x96.jpg?accountingTag=WR",
       "label": "LEAGUE OF DRAVEN",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/a934ab1bae1801c454c2fd9e36925576134f7be2.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Draven hurls two massive axes to deal physical damage to each unit struck. Whirling Death slowly reverses direction and returns to Draven after striking an enemy champion. Draven may also activate this ability while the axes are in flight to cause it to return early. Deals less damage for each unit hit and resets when the axes reverse direction.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/9a8400e05e90632cfb60df06188fa731ee2ebc8f-96x96.jpg?accountingTag=WR",
       "label": "WHIRLING DEATH",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/fdae7346872993fa5249f234a23547bd7a794add.mp4?accountingTag=WR"
     }
   ],
@@ -107,5 +107,5 @@
     }
   ],
   "publishDate": "2021-01-26T21:56:30Z",
-  "hash": "5c79a1615321fc274ba78a3d9149293da3830c98e093b9295577330b67abf161"
+  "hash": "601d6accdfd61530c49210ab5dfe9d943a737cbef4b0c334cb4dcbd11f7b7d08"
 }

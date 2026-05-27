@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10025",
   "riotSlug": "twisted-fate",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/twisted-fate/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/twisted-fate",
   "title": "TWISTED FATE",
   "subtitle": "the Card Master",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Upon killing a unit, Twisted Fate rolls his 'lucky' dice receiving bonus gold.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/807306195f80238e63b54751b4bfe2444ae9a6d6-96x96.jpg?accountingTag=WR",
       "label": "Loaded Dice",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/a02cb9d7036188e395b97bdb2cf7fb349c623fd5.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Twisted Fate predicts the fortunes of his foes, revealing all enemy champions and enabling the use of Gate, which teleports Twisted Fate to any target location in 1.5 seconds.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/e37efb04b174e0fd2a8195286e4e3f4973fb4269-96x96.jpg?accountingTag=WR",
       "label": "Destiny",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/0c55a963735b761c9efc553e05d08304c17d485c.mp4?accountingTag=WR"
     }
   ],
@@ -108,5 +108,5 @@
     }
   ],
   "publishDate": "2020-10-08T20:50:06Z",
-  "hash": "a9e7e3fd245f28ee4bccf4c13fb01b912425e3e7b7f941ad7e97bff89421248d"
+  "hash": "23514fc1ec19ea57644450da10cf85692638e7e6fbb6a44f2233f219af7a2c55"
 }

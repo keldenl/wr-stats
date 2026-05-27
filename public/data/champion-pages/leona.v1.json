@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10044",
   "riotSlug": "leona",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/leona/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/leona",
   "title": "LEONA",
   "subtitle": "the Radiant Dawn",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Damaging spells afflict enemies with Sunlight. When allied Champions deal damage to those targets, they consume the Sunlight to deal additional magic damage.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d0f2105e9fbdfdb8003b55c595b3e2c49d7ab0ce-96x96.jpg?accountingTag=WR",
       "label": "SUNLIGHT",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/d03676e92a99ada6e4de95694fd146098b4af9b9.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Leona calls down a beam of solar energy, dealing damage to enemies in an area. Enemies in the center of the area are stunned, while enemies on the outside are slowed.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/b3377baff2a2495573c7da1bf2262a1d44ec8428-96x96.jpg?accountingTag=WR",
       "label": "SOLAR FLARE",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/58ef7d00cbd08471c7ae7e7240afab618a898a52.mp4?accountingTag=WR"
     }
   ],
@@ -98,5 +98,5 @@
     }
   ],
   "publishDate": "2021-04-28T21:17:11Z",
-  "hash": "618f81db68b88573949f182b37b57198c2d2b9c8e0f52e9e06c0e39229388cd9"
+  "hash": "9e04d5c41df4a6df932c37a46d28f7aa7055c26fbd3734ac374cfe058f7b10f2"
 }

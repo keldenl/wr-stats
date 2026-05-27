@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10051",
   "riotSlug": "xayah",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/xayah/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/xayah",
   "title": "XAYAH",
   "subtitle": "the Rebel",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "After using an ability, Xayah's next basic attacks will hit all targets along their path and leave a Feather.\n\nLover's Leap: Xayah can join Rakan's recall.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1115328c45a907f27e2a3dc0ffea2cbcadd0f032-96x96.jpg?accountingTag=WR",
       "label": "CLEAN CUTS",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/9af644548440d99e2ae3ae0ac7db3edb7e05866d.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Xayah leaps into the air becoming untargetable and throwing out a fan of daggers, dropping Feathers she can recall.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/de3906f82a93ebaeceb99128977f161fd34fc0fd-96x96.jpg?accountingTag=WR",
       "label": "FEATHERSTORM",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/577a94d9bed61163939d3b8cf6fdb78371cfb1ec.mp4?accountingTag=WR"
     }
   ],
@@ -103,5 +103,5 @@
     }
   ],
   "publishDate": "2021-02-11T07:53:12Z",
-  "hash": "b4b60ea23b35fda1fb695846c247ba64e2751810504a96e3daeb074f409997d3"
+  "hash": "8d8c5a42d9da48adb51883ab6cdedc2bcf63212a15e991f35b753a6dbdfc03f5"
 }

@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10057",
   "riotSlug": "viego",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/viego/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/viego",
   "title": "VIEGO",
   "subtitle": "The Ruined King",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Enemies who fall before Viego become wraiths. By attacking a wraith, Viego temporarily seizes control of the dead enemy's body, healing for a percentage of his target's max health and gaining access to their basic abilities and items. He replaces their Ultimate with a free cast of his own.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/b8f7f3d99331fc10fcdbb0e025aa1d4bba2001b0-64x64.jpg?accountingTag=WR",
       "label": "SOVEREIGN'S DOMINATION",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/80cbc0d6a9ee109ecfa457207507f19e2d363145.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Viego teleports to a nearby location and executes an enemy champion on arrival, piercing their heart and causing a destructive shockwave around them that knocks away their allies.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/abe11e5c8f70824e6f2c13c32c663da1960398cc-64x64.jpg?accountingTag=WR",
       "label": "HEARTBREAKER",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/b7117ac88895b388a4d7a4a3184442623afe23c5.mp4?accountingTag=WR"
     }
   ],
@@ -84,8 +84,13 @@
       "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8c56ae2153a3d0b3ebc4a164d0f4d3eaa3c38a65-1280x720.jpg?accountingTag=WR",
       "label": "CALLIGRAPHIA VIEGO",
       "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8c56ae2153a3d0b3ebc4a164d0f4d3eaa3c38a65-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ba90a34531099c1ab81ebf922bed70b8002285d1-1280x720.jpg?accountingTag=WR",
+      "label": "SOUL FIGHTER VIEGO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ba90a34531099c1ab81ebf922bed70b8002285d1-1280x720.jpg?accountingTag=WR"
     }
   ],
   "publishDate": "2024-05-06T19:33:26Z",
-  "hash": "a52eedb992db8c7257eeca60d763e576110f0f83ebfdeffb16862e066cd9bb3c"
+  "hash": "929a8937513d19e5984d6278f4fa74376639c035245289c018fb4d27a67ae9c5"
 }

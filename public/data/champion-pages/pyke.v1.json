@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10124",
   "riotSlug": "pyke",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/pyke/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/pyke",
   "title": "PYKE",
   "subtitle": "the Bloodharbor Ripper",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "When Pyke is hidden from enemies, he regenerates damage that he has recently taken from champions. Pyke also cannot gain extra Maximum Health from any source, and instead gains Bonus AD.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/f4a0827d6e473e5ff752d943b9acfd47f698a1de-96x96.jpg?accountingTag=WR",
       "label": "GIFT OF THE DROWNED ONES",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/3d714ac9a42252cf54835e3a25dd6e1161dc7ee6.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Pyke blinks to and executes low health enemies, allowing him to cast this spell again and granting additional gold to an ally who assists.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/8c44262d9de51b9d14a240333c284cddfbc15a2d-96x96.jpg?accountingTag=WR",
       "label": "DEATH FROM BELOW",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/ad3c36b4631777bee4dba9f6a142f98b9f0ede03.mp4?accountingTag=WR"
     }
   ],
@@ -83,5 +83,5 @@
     }
   ],
   "publishDate": "2022-06-15T04:15:44Z",
-  "hash": "c1f3bd73cbae0bc9a68c24418122540fb3b7c50ad5ae07c8b17753b29b55ca90"
+  "hash": "695f38dfc2e375fb22b91f6af9568a9c12aa5486abaaab74b3b96f42919d924c"
 }

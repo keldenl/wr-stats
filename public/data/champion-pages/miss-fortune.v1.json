@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10066",
   "riotSlug": "miss-fortune",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/miss-fortune/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/miss-fortune",
   "title": "MISS FORTUNE",
   "subtitle": "the Bounty Hunter",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Miss Fortune deals bonus physical damage whenever she basic attacks a new target.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/f742630f390586c3f9336a63674f4a5b1ae6699c-96x96.jpg?accountingTag=WR",
       "label": "Love Tap",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/f513b86b43e0427f1e282811ccaad994f5a72a61.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Miss Fortune channels a barrage of bullets into a cone in front of her, dealing large amounts of damage to enemies. Each wave of Bullet Time can critically strike",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/d4d9e564880bee9ef9208743f72a65d7eca82149-96x96.jpg?accountingTag=WR",
       "label": "Bullet Time",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/7eda26f190286f6b44d75f232676ef3b3df52500.mp4?accountingTag=WR"
     }
   ],
@@ -113,5 +113,5 @@
     }
   ],
   "publishDate": "2020-10-08T20:45:31Z",
-  "hash": "58a07dc637d60c7b0670f1882af059b97f3d423374846a25a55656418016ab5c"
+  "hash": "f3314c56b1c1fdbb79a135195ca3d18d0b2b8a75dc4404ee1804a7e8499f4c98"
 }

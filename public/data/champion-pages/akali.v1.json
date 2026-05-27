@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10031",
   "riotSlug": "akali",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/akali/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/akali",
   "title": "AKALI",
   "subtitle": "the Rogue Assassin",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Dealing spell damage to a champion creates a ring of energy around them. Exiting that ring empowers Akali's next autoattack with bonus range and damage.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/491bce87a1f9bc04bf4754991a79cdde1f01066d-96x96.jpg?accountingTag=WR",
       "label": "ASSASSIN'S MARK",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/db496e214271adbf8ef2fe6d65cc98713cd050ee.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Akali leaps in a direction, damaging enemies she strikes. Re-casting dashes in a direction, executing all enemies she strikes.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/3fa9f9b5cf7fd0ea7f33674ec88bd2e3d20bea5d-96x96.jpg?accountingTag=WR",
       "label": "PERFECT EXECUTION",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/4ee4dd2ed594bb61940359181384ce35bfcd4975.mp4?accountingTag=WR"
     }
   ],
@@ -102,5 +102,5 @@
     }
   ],
   "publishDate": "2020-10-29T22:02:26Z",
-  "hash": "5104180a64752a1b87432a5672ad80472540643d3f0a666873c0ee6d245fd477"
+  "hash": "c5995c99bd683c30e489dc2c70866a6d11d1f5efbee82620643938c9d87a88bb"
 }

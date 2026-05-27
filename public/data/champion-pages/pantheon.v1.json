@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10030",
   "riotSlug": "pantheon",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/pantheon/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/pantheon",
   "title": "PANTHEON",
   "subtitle": "the Unbreakable Spear",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Every few spells or attacks, Pantheon's next spell is empowered.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d8edeb2027d59bf58c22269eb9f824751a88762a-96x96.jpg?accountingTag=WR",
       "label": "MORTAL WILL",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/6034a3205726b25d846d394d40493cc93d220056.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Pantheon composes himself and then leaps into the air, landing at a chosen location as a comet, slowing and dealing damage in a line pointing to where he lands.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/8af60988ad4fef1a9c403c103acbb213d003ce80-96x96.jpg?accountingTag=WR",
       "label": "GRAND STARFALL",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/c240442fb150d209f259ccc65fab33a6302f52b3.mp4?accountingTag=WR"
     }
   ],
@@ -95,8 +95,13 @@
       "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/451f530f5af6cc5f53209f14e8ab91a383d3815d-1280x720.jpg?accountingTag=WR",
       "label": "CRYPTIC DEPTH PANTHEON",
       "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/451f530f5af6cc5f53209f14e8ab91a383d3815d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3627e408631f314f170030d718d2213228790864-1280x720.jpg?accountingTag=WR",
+      "label": "TURRET COSPLAY PANTHEON",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3627e408631f314f170030d718d2213228790864-1280x720.jpg?accountingTag=WR"
     }
   ],
   "publishDate": "2021-04-28T21:28:12Z",
-  "hash": "ffa7f1f12e7344e5d54ad9e9a496075365c838f64cfdc714ce9330883ff457fb"
+  "hash": "be537f931eabc4e03a64c145015abc3ab74eb67c0b4078b40ed7a82097a52988"
 }

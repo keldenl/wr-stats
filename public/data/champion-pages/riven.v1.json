@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10092",
   "riotSlug": "riven",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/riven/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/riven",
   "title": "RIVEN",
   "subtitle": "the Exile",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Riven's abilities charge her blade, and her basic attacks expend charges to deal an additional damage.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/620a140684393e24fd478c4cbca55a925f92553c-96x96.jpg?accountingTag=WR",
       "label": "RUNIC BLADE",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/6bf07f9e5c12b93abe086b7e19c1cdfaae518ff6.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Riven empowers her keepsake weapon with energy, and gains Attack Damage and Range. During this time, she also gains the ability to use Wind Slash, a powerful ranged attack, once. Taking down a target with her will extend the ability time and grant a re-cast of Wind Slash.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/02acead0cb59ca94a343b6c80e3ec674e62bb9ca-96x96.jpg?accountingTag=WR",
       "label": "BLADE OF THE EXILE",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/879b6e9bf36aa76be35339e1c722c7583e07cfbf.mp4?accountingTag=WR"
     }
   ],
@@ -118,5 +118,5 @@
     }
   ],
   "publishDate": "2021-05-27T07:56:41Z",
-  "hash": "e9d7e4db6e6baecc19434365bdef7b5f22cacc3131de35bff9071a2a5aa4086d"
+  "hash": "7ddd4df89a53984f4f02ec5beed4de92e1e066cd57f9ac1807898619d8570909"
 }

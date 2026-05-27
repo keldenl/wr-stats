@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10085",
   "riotSlug": "aurora",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/aurora/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/aurora",
   "title": "AURORA",
   "subtitle": "THE WITCH BETWEEN WORLDS",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Aurora's spells and attacks exorcise spirits from the enemies she damages. Exorcised spirits follow Aurora around and heal her.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/db12ec662ba9f6ee9cc707bfea650f593c5ab2cd-512x512.png?accountingTag=WR",
       "label": "SPIRIT ABJURATION",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/793b468cbd87e17b0eb37d4782babd9fa924d1b6.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Aurora leaps in a direction of her choosing, releasing a shockwave that damages and slows any enemies it hits. Afterward, she creates an area that slows enemies within it and allows Aurora to teleport from one side of the area to the other.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bc3de3a4b16af67f81ae5f957d3d9a9fd5160ad6-512x512.png?accountingTag=WR",
       "label": "BETWEEN WORLDS",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/72d75bf227c87dc3f3789db2c1aac9b6fd12708a.mp4?accountingTag=WR"
     }
   ],
@@ -70,8 +70,13 @@
       "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d9dd15c098c19b3332197ff5fd221c6d85d990d0-1280x720.jpg?accountingTag=WR",
       "label": "SUMMER PARTY AURORA EXQUISITE EDITION",
       "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d9dd15c098c19b3332197ff5fd221c6d85d990d0-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/cfb80432c29c35ad9a459554e2b96c0c49be2d61-1280x720.jpg?accountingTag=WR",
+      "label": "NEON DAREDEVIL AURORA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/cfb80432c29c35ad9a459554e2b96c0c49be2d61-1280x720.jpg?accountingTag=WR"
     }
   ],
   "publishDate": "2025-08-12T00:58:34Z",
-  "hash": "33e4aa994bdfbac4b7718d6b75206909cb6392fd4ec78aa5e86876aaa3a8889c"
+  "hash": "cb50af804499c2e327a3353e27b10d5f8b04b5ddebf721ddd3512ab35b3599de"
 }

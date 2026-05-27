@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10054",
   "riotSlug": "gwen",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/gwen/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/gwen",
   "title": "GWEN",
   "subtitle": "The Hallowed Seamstress",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Gwen's attacks deal bonus magic damage based on the target's health. She heals for a portion of the damage dealt to champions by this effect.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/302ffb4029c54364ac227e123438f7e2859d173a-96x96.jpg?accountingTag=WR",
       "label": "THOUSAND CUTS",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/b0789e61844ac031f80b0ec9a855080c0cec2c51.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Gwen hurls a needle that slows enemies hit, deals magic damage, and applies A Thousand Cuts to champions hit. This ability can be cast up to two more times, with each cast throwing additional needles and dealing more damage.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d3630543bf9ccd8588a5218434eb4e3da1996727-96x96.jpg?accountingTag=WR",
       "label": "NEEDLEWORK",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/2a145d2de462c2386531d65ce6a8b536851a0917.mp4?accountingTag=WR"
     }
   ],
@@ -112,5 +112,5 @@
     }
   ],
   "publishDate": "2022-09-12T21:07:10Z",
-  "hash": "a6609e250f4be44ca095a3589bf80ba9a82c1f8db31892075755455d59ac40bd"
+  "hash": "05cba4707aa616b842a6a2eedf9d3210c6bc325b0e5f28ae9dc95afcf08b4931"
 }

@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10022",
   "riotSlug": "jhin",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/jhin/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/jhin",
   "title": "JHIN",
   "subtitle": "the Virtuoso",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Jhin's hand cannon, Whisper, is a precise instrument designed to deal superior damage. It fires at a fixed rate and carries only four shots. Jhin imbues the final bullet with dark magics to critically strike and deal bonus execute damage. Whenever Whisper crits, it inspires Jhin with a burst of movement speed.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/e68c9203ae7b25e39a78d9486fbc04f736ef61de-96x96.jpg?accountingTag=WR",
       "label": "Whisper",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/b8f85702bd8fde57ca32815abebcc29ec4446b4b.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Jhin channels, transforming Whisper into a shoulder-mounted mega-cannon. It is able to fire 4 super shots at extreme range that pierce through minions and monsters, but stop on the first champion impacted. Whisper cripples enemies hit, which slows them and deals execute damage. The 4th shot is perfectly crafted, epically powerful, and guaranteed to critically strike.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a7675d9c1bc90207ebda6a9aeb4a67a2d10e0b8b-96x96.jpg?accountingTag=WR",
       "label": "Curtain Call",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/d0419ca6be65d6a568dfac85e1ff9dc75aec9b44.mp4?accountingTag=WR"
     }
   ],
@@ -72,14 +72,14 @@
       "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4a4c734c6cfb111f82dc3d08fa97d09666515f9f-1280x720.jpg?accountingTag=WR"
     },
     {
-      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4f1215e7d80c05254b259442c3acd3f00c81dd1c-1280x720.jpg?accountingTag=WR",
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/45c06bee36f9d62e486db340e0b24a1f2336046d-1280x720.jpg?accountingTag=WR",
       "label": "Blood Moon Jhin",
-      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4f1215e7d80c05254b259442c3acd3f00c81dd1c-1280x720.jpg?accountingTag=WR"
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/45c06bee36f9d62e486db340e0b24a1f2336046d-1280x720.jpg?accountingTag=WR"
     },
     {
-      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/67ec9f52f47e8fe4ca2be456e4066fdcb9cbc50e-1280x720.jpg?accountingTag=WR",
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6cc9acbe90ec6d323a096232bb59f22ed8af849d-1280x720.jpg?accountingTag=WR",
       "label": "PROJECT: Jhin",
-      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/67ec9f52f47e8fe4ca2be456e4066fdcb9cbc50e-1280x720.jpg?accountingTag=WR"
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6cc9acbe90ec6d323a096232bb59f22ed8af849d-1280x720.jpg?accountingTag=WR"
     },
     {
       "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ecfe76663ae331c4f277f5cbb310858604b68c36-1280x720.jpg?accountingTag=WR",
@@ -87,9 +87,9 @@
       "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ecfe76663ae331c4f277f5cbb310858604b68c36-1280x720.jpg?accountingTag=WR"
     },
     {
-      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8cd76c2874821056756382e5e15d91a763751870-1280x720.jpg?accountingTag=WR",
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e8dbaf86ab7595177cb3d4cee6b60a4550e59ce0-1280x720.jpg?accountingTag=WR",
       "label": "Shan Hai Scrolls Jhin",
-      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8cd76c2874821056756382e5e15d91a763751870-1280x720.jpg?accountingTag=WR"
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e8dbaf86ab7595177cb3d4cee6b60a4550e59ce0-1280x720.jpg?accountingTag=WR"
     },
     {
       "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b179708468e5633e53284857b278823fb4897b6e-1920x1080.jpg?accountingTag=WR",
@@ -97,11 +97,16 @@
       "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b179708468e5633e53284857b278823fb4897b6e-1920x1080.jpg?accountingTag=WR"
     },
     {
-      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3bc566accffa13e701b4f809552d3944de5e740e-1280x720.jpg?accountingTag=WR",
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/30d974efd97cebc9dee3f2779d856739610f2d2d-1280x720.jpg?accountingTag=WR",
       "label": "SUPER VILLAIN JHIN",
-      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3bc566accffa13e701b4f809552d3944de5e740e-1280x720.jpg?accountingTag=WR"
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/30d974efd97cebc9dee3f2779d856739610f2d2d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0bac2fc87af90e1b35347acd121ca6055d7e7dad-1280x720.jpg?accountingTag=WR",
+      "label": "PRESTIGE SELECT DARK COSMIC JHIN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0bac2fc87af90e1b35347acd121ca6055d7e7dad-1280x720.jpg?accountingTag=WR"
     }
   ],
   "publishDate": "2020-10-08T20:10:53Z",
-  "hash": "d9ddb24f2b52aaf253a5c24291ea13df9090c5aeab711550f2433fde03c2cc97"
+  "hash": "9171988557160dbab5beb69103806fa5304d7b97241b93443ca09de2e8748cca"
 }

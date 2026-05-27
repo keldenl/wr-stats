@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10126",
   "riotSlug": "swain",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/swain/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/swain",
   "title": "SWAIN",
   "subtitle": "The Noxian Grand General",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Swain's ravens collect Soul Fragments that heal him and permanently increase his maximum health and scaling with Ability Power.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/eb1adbdc116bb9eb9ca089219aafc43ea6af0726-96x96.jpg?accountingTag=WR",
       "label": "Ravenous Flock",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/c838bef391248b4d668549b22896a7ea322cbf4b.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Swain transforms into a demon and drains health from nearby enemy champions, minions, and neutral monsters. Swain can cast Demonflare to decimate multiple times and slow nearby enemies with a nova of soulfire. This form is indefinite as long as Swain drains enemy champions.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/abb38b0db16286903e4b12742d95e6698339c93d-96x96.jpg?accountingTag=WR",
       "label": "Demonic Ascension",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/0694f427bba4f00cca6f0965c243cca8fb6db83f.mp4?accountingTag=WR"
     }
   ],
@@ -75,8 +75,13 @@
       "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d978ab8f5a71bf5c75b7d892f9009552ab95441e-1920x1080.jpg?accountingTag=WR",
       "label": "NIGHTBRINGER SWAIN",
       "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d978ab8f5a71bf5c75b7d892f9009552ab95441e-1920x1080.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6288bfed48add9bc5b424eb443f6f440d798c4e1-1280x720.jpg?accountingTag=WR",
+      "label": "COSMIC COMMANDER SWAIN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6288bfed48add9bc5b424eb443f6f440d798c4e1-1280x720.jpg?accountingTag=WR"
     }
   ],
   "publishDate": "2023-05-23T18:21:15Z",
-  "hash": "53371e98994d53644219e8c2c1eaed0f283edc88e2186cc50262b77672c309d2"
+  "hash": "afa4b5bc366126712ad7de3e10abd568a71876b1913a26c4029b118e51d34046"
 }

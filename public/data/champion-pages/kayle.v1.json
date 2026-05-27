@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10041",
   "riotSlug": "kayle",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/kayle/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/kayle",
   "title": "KAYLE",
   "subtitle": "the Righteous",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Kayle's attacks are empowered by the heavens as she levels up and spends skill points. Her wings are lit aflame as she progressively gains Attack Speed, Movement Speed, Attack Range, and waves of fire on her attacks.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/29177357449ce40cbf88d8630e9a49a02b19d8be-96x96.jpg?accountingTag=WR",
       "label": "DIVINE ASCENT",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/2c55f5dcbaa8215416113306a7834ff3becb303f.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Kayle makes an ally invulnerable and calls upon former Aspects of Justice to purify the area around her target with a holy rain of swords.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/6df49ee652057c43fc96bf3a69dd8b0273b3b5fa-96x96.jpg?accountingTag=WR",
       "label": "DIVINE JUDGMENT",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/4d3bf1688376287599faefa44be756b8c08a695e.mp4?accountingTag=WR"
     }
   ],
@@ -88,5 +88,5 @@
     }
   ],
   "publishDate": "2021-12-01T21:19:19Z",
-  "hash": "0086d896239ad488128166e63c2078ff45d5bb0091c6cfca088335a713957216"
+  "hash": "b9e24db1baddc520cf521ff109ea10eae79270e67fcdbc043ee2d01fdbc493ef"
 }

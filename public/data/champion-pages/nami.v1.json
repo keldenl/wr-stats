@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10091",
   "riotSlug": "nami",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/nami/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/nami",
   "title": "NAMI",
   "subtitle": "the Tidecaller",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "When Nami's abilities hit allied champions they gain Movement Speed for a short duration.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/029ed19d4b70ba8d44d01a1301360a8a09a15163-96x96.jpg?accountingTag=WR",
       "label": "Surging Tides",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/cf8fc86766773435a7b132da8a17837b4703c5e4.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Summons a massive Tidal Wave that knocks up, slows, and damages enemies. Allies hit gain double the effect of Surging Tides.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/f0eaa13d3cdc73b833af670a9ebbc92fd563ab18-96x96.jpg?accountingTag=WR",
       "label": "Tidal Wave",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/bb878cd1e36afded56653c3e49fb616d2fc92fe3.mp4?accountingTag=WR"
     }
   ],
@@ -103,5 +103,5 @@
     }
   ],
   "publishDate": "2020-10-08T20:45:56Z",
-  "hash": "bf33378617c8e149eee3a7be11808266a196d333d0e7da031cbd861d4afcb4cf"
+  "hash": "4525a829cd655cbb73b8729fa785160ff7b0ee21391680febb14cdd783d95aef"
 }

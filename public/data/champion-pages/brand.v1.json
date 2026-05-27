@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10119",
   "riotSlug": "brand",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/brand/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/brand",
   "title": "BRAND",
   "subtitle": "the Burning Vengeance",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Brand's spells light his targets ablaze, dealing damage over 1 seconds, stacking up to 2 times. If Brand kills an enemy while it is ablaze he regains mana. When Blaze reaches max stacks on a Champion or large monster, it becomes unstable. It detonates in 3 seconds, applying spell effects and dealing massive damage in an area around the victim.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/9082ae5399375300780db93e5d7b8a601ea77b81-96x96.jpg?accountingTag=WR",
       "label": "BLAZE",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/37d1a1ab4b342bddc60a8d02786b23f4842cdbd3.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Launches a projectile that travels to the target, dealing damage and applying a stack of Brand’s passive. The projectile will then bounce to a nearby target. Does not damage Brand.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/11aef3994f7aae05e4a5dc3e94e7ed9ac535abeb-96x96.jpg?accountingTag=WR",
       "label": "PYROCLASM",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/ae4479eccad86bb2573619c7131611a84dccb943.mp4?accountingTag=WR"
     }
   ],
@@ -102,5 +102,5 @@
     }
   ],
   "publishDate": "2021-09-03T21:29:35Z",
-  "hash": "911deb6ac8a0cf96bca4024bb27e3a31e627ea25e9566ed381e6026839af755b"
+  "hash": "e157ad46fd274ff3ed2ab7489b9cf80b10821ec78a2d10e86aa2499e17509b90"
 }

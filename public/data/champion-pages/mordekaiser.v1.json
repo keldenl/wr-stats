@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10035",
   "riotSlug": "mordekaiser",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/mordekaiser/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/mordekaiser",
   "title": "MORDEKAISER",
   "subtitle": "THE IRON REVENANT",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Mordekaiser gains a powerful damage aura and Move Speed after landing 3 attacks or spells against champions or monsters.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/6a443232a5b3bfeaada3e2b97b471ee6bdcb1d6e-500x500.jpg?accountingTag=WR",
       "label": "DARKNESS RISE",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/10a5682a8f6f4752f41f65df89de019a926945e3.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Mordekaiser drags his victim to a different dimension with him and steals a portion of their stats. If he kills them, he keeps the stats until the victim respawns.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/bd9db471f6dfe724dd076913861c99b54413fc04-500x500.jpg?accountingTag=WR",
       "label": "REALM OF DEATH",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/2cd9bf98a914750478298744df7912c0fb270f23.mp4?accountingTag=WR"
     }
   ],
@@ -78,5 +78,5 @@
     }
   ],
   "publishDate": "2024-09-03T20:47:58Z",
-  "hash": "bd81295e19732855d741d8070a251c1d5b5db32d9eafb726a5d2d478c6258309"
+  "hash": "a169ea629c6de46a2cb0361c11e4b12d8c026a8d33df8e312c7d6ce5c709ca4a"
 }

@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10105",
   "riotSlug": "bard",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/bard/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/bard",
   "title": "BARD",
   "subtitle": "THE WANDERING CARETAKER",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Bard attracts and collects Chimes, granting him XP, Mana, and out-of-combat Move Speed. Every collected Chime buffs Bard’s Meeps. Bard summons Meeps regularly, assisting with his basic attacks and dealing extra magic damage. When Bard has collected enough Chimes, his meeps will also deal damage in an area and slow enemies hit.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bdfed53e63326d4f0db131312fa1ab4fa4eea5d4-256x256.png?accountingTag=WR",
       "label": "TRAVELER’S CALL",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/01d02198f290474f65932fe84a8f34b54debdcfa.mp4?accountingTag=WR"
     },
     {
@@ -35,7 +35,7 @@
     },
     {
       "description": "Bard conjures a Health shrine at a target location, granting the first ally champion to enter Move Speed, AP, and Health. The shrine continues growing for a short while, powering up its healing value.",
-      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/168f470456592a11f7a27b2813414145ef58174d-256x256.png?accountingTag=WR",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/168f470456592a11f7a27b2813414145ef58174d-256x256.png?accountingTag=WR",
       "label": "CARETAKER’S SHRINE",
       "subtitle": "2",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/78e36dea956b1c24c28653a8392a8de6ceebbab5.mp4?accountingTag=WR"
@@ -49,9 +49,9 @@
     },
     {
       "description": "Bard sends spirit energy arcing to a location, putting all champions, minions, monsters, and turrets hit into stasis for a brief time, as well as stunning them. Enemies hit are revealed for the duration.",
-      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b8352ce5c0e147b7b7b8af3383208c4319aba584-256x256.png?accountingTag=WR",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/b8352ce5c0e147b7b7b8af3383208c4319aba584-256x256.png?accountingTag=WR",
       "label": "TEMPERED FATE",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/625b9ab00f4c99b0d33b00982c4ae3e0ab8d802e.mp4?accountingTag=WR"
     }
   ],
@@ -68,5 +68,5 @@
     }
   ],
   "publishDate": "2025-08-20T16:50:24Z",
-  "hash": "528dba1c4accda92ff07e850a62a74437a9514483420b1fefa77ae30c3781670"
+  "hash": "eccca267e7fc1ec30aec0ad5b0437108bbf489413a395250c3f0ae1814f49fea"
 }

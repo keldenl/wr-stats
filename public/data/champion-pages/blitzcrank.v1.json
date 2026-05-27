@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10033",
   "riotSlug": "blitzcrank",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/blitzcrank/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/blitzcrank",
   "title": "BLITZCRANK",
   "subtitle": "the Great Steam Golem",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Blitzcrank gains a shield based on his mana when dropping to low health.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4df4393cd54bcddd5c7944d5caf52ef42eef11ae-96x96.jpg?accountingTag=WR",
       "label": "Mana Barrier",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/0dd20e73c2d6c2aa6bb9005fc60acadd28cb5364.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Enemies attacked by Blitzcrank are marked and take lightning damage after 1 second. Additionally, Blitzcrank can activate this ability to damage nearby enemies, and silence them briefly.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/f8bc034f9655eacf2d3972753369b0d782752a3e-96x96.jpg?accountingTag=WR",
       "label": "Static Field",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/d7b8200d4d5bcf89cd0ac5419f3e361286f6af74.mp4?accountingTag=WR"
     }
   ],
@@ -88,5 +88,5 @@
     }
   ],
   "publishDate": "2020-10-08T20:04:56Z",
-  "hash": "0addb800f528f0dfa733aebcbdc03fd559b7c513acdf51af02302d9ea435d2c9"
+  "hash": "e8a582c0109c4774c38f778c74e91299a887cb45c223b71109dacb6f6bc4a15f"
 }

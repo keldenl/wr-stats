@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10125",
   "riotSlug": "sion",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/sion/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/sion",
   "title": "SION",
   "subtitle": "the Undead Juggernaut",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "After being killed, Sion will temporarily reanimate with rapidly decaying Health. His attacks become very rapid, heal him, and deal bonus damage based on his target's maximum Health.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/b620dc72097afe1c659fc451c7fc0f5c7cc2b67d-96x96.jpg?accountingTag=WR",
       "label": "GLORY IN DEATH",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/3cac16096c54ac5397ba0d51248e55832e09e91c.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Sion charges in a direction, ramping up speed over time. He can steer his charge slightly with the mouse cursor location. When he collides with an enemy he deals damage and knocks them up based on the distance he has charged.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/c838fcde2c785be0c4a81e879e0001bf40a0550c-96x96.jpg?accountingTag=WR",
       "label": "UNSTOPPABLE ONSLAUGHT",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/a596ce7b68b3cdbb6cb6559cb8e2c40caa7cf095.mp4?accountingTag=WR"
     }
   ],
@@ -73,5 +73,5 @@
     }
   ],
   "publishDate": "2022-08-20T03:10:42Z",
-  "hash": "62c9d179ed30cf0e80e04c776b5cd599e0f46da3716cfd2367a881fb61c0555d"
+  "hash": "5a3a1d6638425f4a40d9e0cfda9a9b770693d9f28d9c0e322440f92bc8ab8a80"
 }

@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10060",
   "riotSlug": "corki",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/corki/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/corki",
   "title": "CORKI",
   "subtitle": "the Daring Bombardier",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "A percentage of Corki's basic attack damage is converted into magic damage. Corki can occasionally retrieve The Package inside his base, granting him movement speed and an empowered cast of Valkyrie.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/d09485518c31e0d585787136ad28c9d60a8498c5-96x96.jpg?accountingTag=WR",
       "label": "HEXTECH MUNITIONS",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/fc6560b0e38471c571f4e8bf64d05bc9a1bb878e.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Corki fires a missile toward his target location that explodes on impact, dealing damage to enemies in an area. Corki stores missiles over time, up to a maximum. Every third missile fired will be a Big One, dealing extra damage.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/1ed44a286e69cccbea36d38fd19fa24c6d077768-96x96.jpg?accountingTag=WR",
       "label": "MISSILE BARRAGE",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/662ba490aff6226bd33c93484f9efa480de7a7ac.mp4?accountingTag=WR"
     }
   ],
@@ -87,5 +87,5 @@
     }
   ],
   "publishDate": "2021-01-26T23:10:24Z",
-  "hash": "7fd98712e298da9a09ccb6490eefe4160bf1771c465ab92295e4252f36dd2a55"
+  "hash": "c774eea7af7f9c33184e204e34daa4be3e85d9b908534456be3d937d253678da"
 }

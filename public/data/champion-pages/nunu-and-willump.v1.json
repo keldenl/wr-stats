@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10008",
   "riotSlug": "nunu-and-willump",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/nunu-and-willump/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/nunu-and-willump",
   "title": "NUNU & WILLUMP",
   "subtitle": "the Boy and His Yeti",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Nunu increases the attack speed and movement speed of Willump and a nearby ally, and causes Willump's basic attacks to damage enemies around the target.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/e8061f08256ca278b9238504f9dd822f029f2ad5-96x96.jpg?accountingTag=WR",
       "label": "CALL OF THE FRELJORD",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/2b8dba4c10814678be5b2d97013b7f66e4ca6a59.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Nunu & Willump create a powerful blizzard in an area that slows enemies and deals massive damage at the end.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/e053ad79b9b5c2add0b525591e0e578d4527fd2e-96x96.jpg?accountingTag=WR",
       "label": "ABSOLUTE ZERO",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/b92bc00ed3796640706d4b5a8263fcb6668eccea.mp4?accountingTag=WR"
     }
   ],
@@ -78,5 +78,5 @@
     }
   ],
   "publishDate": "2021-09-03T23:02:52Z",
-  "hash": "49cd7a4e632dce3ce6832cf9ec5d0d029b92ad2b2ce52fe48430b136eeb3e03d"
+  "hash": "30ed034d9728bae60b28637683f50bf47e22c83d82d2b44e6e5a4f8b5beaf3b6"
 }

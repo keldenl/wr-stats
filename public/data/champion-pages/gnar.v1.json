@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10078",
   "riotSlug": "gnar",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/gnar/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/gnar",
   "title": "GNAR",
   "subtitle": "The Missing Link",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Gnar generates Rage when dealing and receiving damage. At maximum Rage his next ability will transform him into Mega Gnar, granting increased health, armor, magic resistance, and attack. Back in his Mini Gnar form he will still gain move speed and attack speed and range.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/780f09821c45e23b9098fa8780b5d4338fb9b633-128x128.png?accountingTag=WR",
       "label": "RAGE GENE",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/b901c6bb192c03061dc2834773b6744ba0220ad8.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Mega Gnar throws everything around him in a chosen direction, dealing damage and slowing them. Any enemy that hits a wall is stunned and takes bonus damage.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/84d5e92de7d9f434bdbb8ca35ded2d85a4ca00ed-128x128.png?accountingTag=WR",
       "label": "GNAR!",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/cb8bc7c905205dcda3495029e094eccc04d81960.mp4?accountingTag=WR"
     }
   ],
@@ -73,5 +73,5 @@
     }
   ],
   "publishDate": "2025-02-18T18:57:14Z",
-  "hash": "83fdb6556b37d1957925b67d001bbfb17216e9c23670ccbd88e7df5d81a6d512"
+  "hash": "a0c4f4c3adbdd8cb34bad162dbff95d9683549449f76cabdbd6a8e9616edfdd0"
 }

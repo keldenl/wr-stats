@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10104",
   "riotSlug": "samira",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/samira/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/samira",
   "title": "SAMIRA",
   "subtitle": "the Desert Rose",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Samira builds a combo by hitting attacks or abilities unique from the previous hit. Samira's attacks in melee range deal additional magic damage. Samira's attacks against enemies affected by Immobilizing effects will dash her to her attack range. If the enemy is Knocked Up, she also keeps them Knocked Up briefly.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/842434ad82a25eecdf9c8b20f8608efcf76bee7d-96x96.jpg?accountingTag=WR",
       "label": "DAREDEVIL IMPULSE",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/40d8b02b3033367b830359bfd1b8378714ea1481.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Samira unleashes a torrent of shots from her weapons, wildly shooting all enemies surrounding her.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/21c0827d15a1b5996cda2f2c1af56fe89949bb0d-96x96.jpg?accountingTag=WR",
       "label": "INFERNO TRIGGER",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/10c2f28c7c2840d85eb0bbddc3d0399ad064688b.mp4?accountingTag=WR"
     }
   ],
@@ -88,5 +88,5 @@
     }
   ],
   "publishDate": "2022-08-20T02:27:22Z",
-  "hash": "a22d429551a5cfd4889a91d5b41afd370c0c920ac5f9bf62f40dfcac5505f05f"
+  "hash": "ff28fb350e3d0e79bd34444b90c1cc7c7832cb6898af375de4bbcf302f059448"
 }

@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10017",
   "riotSlug": "khazix",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/khazix/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/khazix",
   "title": "KHA'ZIX",
   "subtitle": "the Voidreaver",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "When the enemy team loses sight of Kha'Zix its next attack against enemy champions deals bonus magic damage and slows them briefly.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/0371e2057feaccf934e6d986d6c79bd93d4be01a-96x96.jpg?accountingTag=WR",
       "label": "UNSEEN THREAT",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/34ab877980af46b075d5e1d47b110fe339c20357.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Passive: each upgrade to Void Assault allows for Kha'Zix to evolve one of his abilities. Active: Kha'Zix becomes invisible and gains movement speed briefly. Evolved Adaptive Cloaking: invisibility duration lasts longer and can be cast multiple times.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7de1100b260f41abc68b796d1fb076126b00de5f-96x96.jpg?accountingTag=WR",
       "label": "VOID ASSAULT",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/2b6a3bf785f47a3a321859a20503ee6fd889332d.mp4?accountingTag=WR"
     }
   ],
@@ -88,5 +88,5 @@
     }
   ],
   "publishDate": "2021-04-27T21:09:55Z",
-  "hash": "d20e81c2b300cc878575956c278438a6a93d937f0581cd06d5b7cb8653e1ff1c"
+  "hash": "3022cb7657dfd5740ff63655121e6defaa36614f181c7ff412b3b8dbaab5a905"
 }

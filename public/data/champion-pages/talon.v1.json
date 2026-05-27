@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10128",
   "riotSlug": "talon",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/talon/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/talon",
   "title": "TALON",
   "subtitle": "The Blade's Shadow",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Talon's spells Wound champions and large monsters, stacking up to 3 times. When Talon attacks a champion with 3 stacks of Wound, they bleed for heavy damage over time.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/8f6773f770de4b73bb319ef6aba99080bed479f2-96x96.jpg?accountingTag=WR",
       "label": "BLADE'S END",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/43c26bb8f298679d20de2a834fdbaf84594f0c6d.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Talon disperses a ring of blades and becomes Invisible while gaining additional Move Speed. When Talon emerges from Invisibility, the blades converge on his location. Each time the blades move, Shadow Assault deals physical damage to enemies hit by at least one blade.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1b7bf6e1615eb09d9cb7494a8ed3101b6ff577ba-96x96.jpg?accountingTag=WR",
       "label": "SHADOW ASSAULT",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/d772bdf16842e8fea3977d125575a4ce46b5252b.mp4?accountingTag=WR"
     }
   ],
@@ -92,5 +92,5 @@
     }
   ],
   "publishDate": "2024-02-14T20:40:28Z",
-  "hash": "cd8cc3877689400135aa7098ff5cfeee4ffd82312f19a54977b333fc4d7f07ef"
+  "hash": "4b2252aa3bf6b0a3b7f593c189e5cae6f4ce70bfe7809933dd9c6631b1ed71a5"
 }

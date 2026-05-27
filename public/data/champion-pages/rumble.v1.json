@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10140",
   "riotSlug": "rumble",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/rumble/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/rumble",
   "title": "RUMBLE",
   "subtitle": "THE MECHANIZED MENACE",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Every spell Rumble casts grants him Heat. When he reaches 50 Heat he enters the Danger Zone, granting all his basic abilities bonus effects. When he reaches 150 Heat, he starts Overheating, gaining bonus Attack Speed and granting his basic attacks bonus damage, but making him unable to cast spells for a few seconds.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/c6f4daa024f674a93c90f73db21f39cadaf18fbc-128x128.png?accountingTag=WR",
       "label": "JUNKYARD TITAN",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/c6cba11153cc515432fcdaac3e154bad944c61c7.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Rumble fires off a group of rockets, creating a wall of flames that damages and slows enemies.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/07f2333ec63ae9346f3b7e6bc5bbda5555b0a145-128x128.png?accountingTag=WR",
       "label": "THE EQUALIZER",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/467c96f702a78a5294638d70d0f05b8bfba3c2db.mp4?accountingTag=WR"
     }
   ],
@@ -68,5 +68,5 @@
     }
   ],
   "publishDate": "2025-01-09T23:42:56Z",
-  "hash": "4d1a91a07f93e6b4b4ae95d4878b1d4ce55d3280fbc887b1f9f752a432781648"
+  "hash": "1b730c72267d2b24791574a4b9c2dbe9a4de43865ae15fb1913f2764b1c9655f"
 }

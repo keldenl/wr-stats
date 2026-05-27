@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10034",
   "riotSlug": "seraphine",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/seraphine/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/seraphine",
   "title": "SERAPHINE",
   "subtitle": "the Starry-Eyed Songstress",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Every third ability cast will Echo, casting it again. Casting Seraphine's abilities grants a Note to nearby allies. For each Note, Seraphine's next basic attack gains Attack Range and bonus damage.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/8531a6b00deaac5ece9290c1614491183a9ef4b0-96x96.jpg?accountingTag=WR",
       "label": "STAGE PRESENCE",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/e4d9adad24f56bd9688b0a34d0e7f920260efc1f.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Seraphine deals damage in a line, charming and slowing enemies. Encore extends if it touches an ally or enemy champion.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/20872128eabe45eb7a940a0c656ff2f0f5411659-96x96.jpg?accountingTag=WR",
       "label": "ENCORE",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/ec94ba12accccc5161bfa8d2fbd403dd5a61395c.mp4?accountingTag=WR"
     }
   ],
@@ -108,5 +108,5 @@
     }
   ],
   "publishDate": "2020-10-29T22:16:03Z",
-  "hash": "389296895e0c46f6b620d6fe125cc30a50886006b091dd17330a8fe981779933"
+  "hash": "c49ecaea57f301223d4ebac55a29b5b88dac22f0337e8d9495f10ef43bdf1eb0"
 }

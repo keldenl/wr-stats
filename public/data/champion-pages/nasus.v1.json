@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10065",
   "riotSlug": "nasus",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/nasus/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/nasus",
   "title": "NASUS",
   "subtitle": "the Curator of the Sands",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Gains bonus physical vamp.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ea571ee7e0ca9b8618bd9aa770790c7a4f92bbde-96x96.jpg?accountingTag=WR",
       "label": "Soul Eater",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/41065e71a9395a9b19f3aafc4efc3825a89c4be0.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Nasus unleashes a mighty sandstorm that batters nearby enemies. While the storm rages, he gains increased Health, Attack Range, damages nearby enemies, has a reduced cooldown on Siphoning Strike, and gains bonus Armor and Magic Resistance for the duration.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/8ea0ca2ccea0bd448dc12269b6ce417c0d606125-96x96.jpg?accountingTag=WR",
       "label": "Fury of the Sands",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/beaf48682beb60d6ddf41278fd6a175724e565a1.mp4?accountingTag=WR"
     }
   ],
@@ -98,5 +98,5 @@
     }
   ],
   "publishDate": "2020-10-08T20:46:25Z",
-  "hash": "6feeea16755cb660b42024de87bca35a3a19604f42414b4b787373acd397d329"
+  "hash": "b1379056418df9c248fd2c3d613cb66d85a5415ce2481dd6e7b93e2ec5288c61"
 }

@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10048",
   "riotSlug": "lulu",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/lulu/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/lulu",
   "title": "LULU",
   "subtitle": "the Fae Sorceress",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Pix fires magical bolts of energy whenever the champion he's following attacks another enemy unit. These bolts are homing, but can be intercepted by other units.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/affa8a832f986546437e90aab1b2e4fe19637af5-96x96.jpg?accountingTag=WR",
       "label": "PIX, FAERIE COMPANION",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/c3fc8845e0b8af1db36551afade95b6bd6586feb.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Lulu enlarges an ally (or herself), knocking nearby enemies into the air and granting the ally a large amount of bonus health. For the next few seconds, that ally gains an aura that slows nearby enemies.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/4f5e1ca4c0e4836727c5618695575542ea42afc0-96x96.jpg?accountingTag=WR",
       "label": "WILD GROWTH",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/216cb7b5abd3e40b3474a29f282cf51ae1cfe678.mp4?accountingTag=WR"
     }
   ],
@@ -108,5 +108,5 @@
     }
   ],
   "publishDate": "2021-01-26T23:53:25Z",
-  "hash": "75317693bcfbd0257257aba051f5b595b72c07ae012348c4ac1e82f274831410"
+  "hash": "a78dbf0f121ae3fe5c07fa375b00411c71a603e9bcc96e435d9b98d325be901a"
 }

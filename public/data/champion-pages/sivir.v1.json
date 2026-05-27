@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10107",
   "riotSlug": "sivir",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/sivir/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/sivir",
   "title": "SIVIR",
   "subtitle": "The Battle Mistress",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Sivir gains a short burst of Move Speed when she attacks an enemy champion.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/17299554b18651045d3837d5d92a7ed616bae4f7-256x256.jpg?accountingTag=WR",
       "label": "FLEET OF FOOT",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/a1afd8d34af26ce795d31872edd58041a079d5fe.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Sivir leads her allies in battle, granting them a burst of move speed for a short time. In addition, her ability cooldowns are reduced. \nSivir gains morale when damaging an enemy, granting a buff to allies and refreshing her ultimate at max morale.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/d2428cdf3e99a8d83cd6cb37391b5f9fea538838-512x512.jpg?accountingTag=WR",
       "label": "ON THE HUNT",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/c344606399811ee4ada9b9ad6748cbc0b1795427.mp4?accountingTag=WR"
     }
   ],
@@ -77,5 +77,5 @@
     }
   ],
   "publishDate": "2023-11-20T23:58:48Z",
-  "hash": "ea072e29c584cd496fea6d7cc8b3afb6fbc07535d9a8e2fa50126d88a22f2ecf"
+  "hash": "926b719f64057c1c0a7141b9dfc35c6269110e0fabe7170b8c035c7f4220e6db"
 }

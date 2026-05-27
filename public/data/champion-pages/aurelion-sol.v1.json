@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10023",
   "riotSlug": "aurelion-sol",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/aurelion-sol/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/aurelion-sol",
   "title": "AURELION SOL",
   "subtitle": "the Star Forger",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Aurelion Sol's damaging abilities break down enemies into permanent stacks of Stardust, which improve each of his abilities.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/3c64f48d9b44cb35ff343db64e86cfe55494250b-96x96.jpg?accountingTag=WR",
       "label": "COSMIC CREATOR",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/441e07a7836bcc4d708ba486905b842049b4d4d8.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Falling Star: Aurelion Sol calls down a star. The impact deals magic damage and stuns enemies hit while also granting Stardust for each enemy champion hit. Gathering enough Stardust transforms Aurelion Sol's next ult cast into The Skies Descend. \nThe Skies Descend: Aurelion Sol calls a giant star down from the heavens with an increased impact zone and increased damage, knocking up enemies rather than stunning them. A shockwave then spreads from the edge of the impact zone, which damages and slows the enemies it hits.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/4d73f0006584c3effbee3a671d040e10028eb31f-96x96.jpg?accountingTag=WR",
       "label": "FALLING STAR / THE SKIES DESCEND",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/d4202439cd411bc8b56e0c4d891b23e5abab32a6.mp4?accountingTag=WR"
     }
   ],
@@ -87,5 +87,5 @@
     }
   ],
   "publishDate": "2020-10-08T20:04:30Z",
-  "hash": "533ceb9e20f77faede44d3e72bc0bc74f05eb94526f10247fc3baaff1a6465af"
+  "hash": "bb6d126f39c7ad00971a07872c7e83d62f273d1373688e571b23e3181db7e6a5"
 }

@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10024",
   "riotSlug": "syndra",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/syndra/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/syndra",
   "title": "SYNDRA",
   "subtitle": "The Dark Sovereign",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Syndra collects Splinters of Wrath by dealing ability damage to enemies and every time she levels up an ability. Splinters of Wrath can be used to upgrade her abilities and increase ability power.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/8b3a11545161e2ed512ceba4a52eb8f69fb896f7-96x96.jpg?accountingTag=WR",
       "label": "TRANSCENDENT",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/397432ccba0ad4ecb6c67694ee12c00b50adf375.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Syndra launches the Dark Spheres orbiting her and any nearby at an enemy champion, dealing magic damage for each Sphere. Upgrade: The Dark Spheres execute enemies with low Health. When killing an enemy, the Spheres will explode on the spot and deal damage to nearby enemy champions.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6ce0878fccf8b84daef332d8f9f85bdbf2d11134-96x96.jpg?accountingTag=WR",
       "label": "UNLEASHED POWER",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/9f94910cebaed641ff2da95c1714db7db12889c0.mp4?accountingTag=WR"
     }
   ],
@@ -82,5 +82,5 @@
     }
   ],
   "publishDate": "2024-01-16T21:46:59Z",
-  "hash": "401e0033b80b8196fa3da628292c31acec30578d92a422cb4381d93f3014c420"
+  "hash": "eac5e4bbabba0c303d71577fc23c655adcef28d38de1f52a5c5de26873944109"
 }

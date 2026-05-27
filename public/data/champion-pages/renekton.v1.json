@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10121",
   "riotSlug": "renekton",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/renekton/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/renekton",
   "title": "RENEKTON",
   "subtitle": "the Butcher of the Sands",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Renekton's attacks generate Fury, increased when he is low on life. This Fury can empower his abilities with bonus effects.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/50cde43c4dde7c120dde8114d412ffffcc47eeb2-96x96.jpg?accountingTag=WR",
       "label": "REIGN OF ANGER",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/7ea9dcc15712c98d09ae20e7e3e5dad676809009.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Renekton transforms into the Tyrant form, gaining bonus Health and dealing damage to enemies around him. While in this form, Renekton gains Fury periodically.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/a1346ef84d7d13e33b7d48be3b9efeab95aa2c0e-96x96.jpg?accountingTag=WR",
       "label": "DOMINUS",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/164d9b6774b8d8e882b6185a9fa88b8787e1d025.mp4?accountingTag=WR"
     }
   ],
@@ -97,5 +97,5 @@
     }
   ],
   "publishDate": "2021-05-04T00:25:46Z",
-  "hash": "3aac5dfb57753e12c5fa360f208c3858d2bad618e6eec30f868dee6efc5a0e0c"
+  "hash": "dcbae384c547528266c45a9e7bf14ee294ecaf2886c72ba8cb4021d32ef0c48c"
 }

@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10037",
   "riotSlug": "yasuo",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/yasuo/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/yasuo",
   "title": "YASUO",
   "subtitle": "the Unforgiven",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Yasuo's Critical Strike Chance is doubled. Additionally, Yasuo builds toward a shield whenever he is moving. The shield triggers when he takes damage from a champion or monster.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/bc023cb8d66261ad463de6b359744d94b036cb39-96x96.jpg?accountingTag=WR",
       "label": "Way of the Wanderer",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/8d071bb03a8c9ee6b2d52577c598301596b87c08.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Blinks to an Airborne enemy champion, dealing physical damage and holding all Airborne enemies in the area in the air. Grants maximum Flow but resets all stacks of Gathering Storm. For a moderate time afterwards, Yasuo's critical strikes gain significant Bonus Armor Penetration.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/b73893eb774be615d51cdd61a2dcdb9f34acfab7-96x96.jpg?accountingTag=WR",
       "label": "Last Breath",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/aaf5a7a202b16846dd601a3d56df5468f579a9fe.mp4?accountingTag=WR"
     }
   ],
@@ -128,5 +128,5 @@
     }
   ],
   "publishDate": "2020-10-08T20:52:55Z",
-  "hash": "19de3a94ee7cced963bcaae4cbc646c6fb53649bb222e4430fed499fbab1e7ef"
+  "hash": "020c552cc3ce4824ef77ffbbb86f7584e51995e238d7e5d1ab48f1ed5ba91f2c"
 }

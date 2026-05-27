@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10011",
   "riotSlug": "ekko",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ekko/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ekko",
   "title": "EKKO",
   "subtitle": "the Boy who Shattered Time",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Every third attack or damaging spell on the same target deals bonus magic damage, and grants Ekko a burst of speed if the target is a champion.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/9589c60f5329d26496ab94311c6eda2e1be33b0c-96x96.jpg?accountingTag=WR",
       "label": "Z-DRIVE RESONANCE",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/f830293d013b86f36c5e9dfa69b5528adaf1581e.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Ekko shatters his timeline, becoming untargetable and rewinding to a more favorable point in time. He returns to whenever he was a few seconds ago, and heals for a percentage of the damage received in that duration. Enemies near his arrival zone take massive damage.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ecd1af4b45ea957dc369a91df31bf39f1e33a6dc-96x96.jpg?accountingTag=WR",
       "label": "CHRONOBREAK",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/c89d7d68c89364f08dfd55ca854aa4d72f27cee2.mp4?accountingTag=WR"
     }
   ],
@@ -93,5 +93,5 @@
     }
   ],
   "publishDate": "2022-05-05T20:44:13Z",
-  "hash": "0786350f9534b4d0221c50e2b9e159a0155b21df6227566aec2f8c19d50f2bc6"
+  "hash": "15f70cadb96e5b7219eb917431aa92f88d24e8e01d54cc51023a4ca6529b6f7a"
 }

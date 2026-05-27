@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10056",
   "riotSlug": "jarvan-iv",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/jarvan-iv/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/jarvan-iv",
   "title": "JARVAN IV",
   "subtitle": "the Exemplar of Demacia",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Jarvan's first basic attack on an enemy deals bonus physical damage based on their current Health. This effect cannot occur again on the same enemy for a few seconds.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/e24dbf99fd6f81bb48e84081fff46ebeb2b83943-96x96.jpg?accountingTag=WR",
       "label": "Martial Cadence",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/f6c24cf2e8e5a591c07ae057b0830d690c913b9d.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Jarvan IV heroically leaps into battle at a target with such force that he terraforms the surrounding area to create an arena around them. Nearby enemies are damaged at the moment of impact.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/ee63b6658f44354ed8ec5f0176e5026c67ac577a-96x96.jpg?accountingTag=WR",
       "label": "Cataclysm",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/8551adf76e53c2090690d6b48f14aafc485d32c9.mp4?accountingTag=WR"
     }
   ],
@@ -113,5 +113,5 @@
     }
   ],
   "publishDate": "2020-10-08T20:10:02Z",
-  "hash": "f198850b65e4cba50f62be48512909dc6f75b6d0acb0dc03ae50859ca953303c"
+  "hash": "125fce87f0a51e3c2b733f6ff2a3caded083cf25756729a7b5f51683219ba914"
 }

@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10081",
   "riotSlug": "alistar",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/alistar/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/alistar",
   "title": "ALISTAR",
   "subtitle": "the Minotaur",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Alistar charges his roar by stunning or displacing enemy champions or when nearby enemies die. When fully charged he heals himself all nearby allied champions.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/2a233067fb7679958f9e9eee2c5a9088c05c63e2-96x96.jpg?accountingTag=WR",
       "label": "Triumphant Roar",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/d80c44ce6b0a19afe6ce4338a81cb69738869460.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Alistar lets out a wild roar, removing all crowd control effects on himself, and reducing incoming physical and magical damage for the duration.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a8ebcb93ec42ca17735c5acdce29d07d1291728f-96x96.jpg?accountingTag=WR",
       "label": "Unbreakable Will",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/660a6d02d6044f0c37d1b9369ecb09f05a3f504b.mp4?accountingTag=WR"
     }
   ],
@@ -75,8 +75,13 @@
       "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a1cc623bc0943d358b5d4c4924ba5a1fa7f5344b-1280x720.jpg?accountingTag=WR",
       "label": "LUNAR BEAST ALISTAR",
       "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a1cc623bc0943d358b5d4c4924ba5a1fa7f5344b-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6a698da044d3317f7b5818b993e5bf548481c7db-1280x720.jpg?accountingTag=WR",
+      "label": "FUNNY ALISTAR",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6a698da044d3317f7b5818b993e5bf548481c7db-1280x720.jpg?accountingTag=WR"
     }
   ],
   "publishDate": "2020-10-08T20:02:42Z",
-  "hash": "99c35b22136342c74d654ef1884c7befafd7bd595330e2937950134753a63e5d"
+  "hash": "dd7552e2d163a15867ed3466c97fde30b4678e56b754396ebaca0bef3d4cf3d7"
 }

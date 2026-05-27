@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10013",
   "riotSlug": "diana",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/diana/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/diana",
   "title": "DIANA",
   "subtitle": "Scorn of the Moon",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Every third strike cleaves nearby enemies for an additional magic damage. After using an ability, Diana gains attack speed for her next 3 attacks.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/48e1919a464e9999719470a28095018d9de21ec8-96x96.jpg?accountingTag=WR",
       "label": "MOONSILVER BLADE",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/783e55aef27f7b44752178435b04e59f7b870434.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Diana summons the moon in an area, slowing enemies nearby and applying Moonlight in a growing area. Releasing the button slams the moon down, spiraling enemies toward her and dealing damage scaling with the charge time.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b455286831732745e1840396fb3afbbf5c2f388e-96x96.jpg?accountingTag=WR",
       "label": "MOONFALL",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/3048245f616d9292d50b6ff0f2ba1ea4ea1a57f4.mp4?accountingTag=WR"
     }
   ],
@@ -98,5 +98,5 @@
     }
   ],
   "publishDate": "2021-04-28T21:08:21Z",
-  "hash": "6534a87754416f0a2c369ed1e2df9f44aff11ab5fff5c48a122d8c4139e60b55"
+  "hash": "758d956f0bdf73eeb5355ce8e52f68e71ca32a5354d0a55f2ce0d871e8104732"
 }

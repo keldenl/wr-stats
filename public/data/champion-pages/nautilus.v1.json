@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10132",
   "riotSlug": "nautilus",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/nautilus/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/nautilus",
   "title": "NAUTILUS",
   "subtitle": "the Titan of the Depths",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Nautilus' first Attack against a target deals increased physical damage and roots them briefly.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/4d69aeeb436d31c6afed6fd0c1988fa7c93c7465-96x96.jpg?accountingTag=WR",
       "label": "STAGGERING BLOW",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/7de7666fa9d08a3bc9af541ccc4102be6febcf03.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Nautilus fires a shockwave into the earth that chases an opponent. This shockwave rips up the earth above it, knocking enemies into the air. When it reaches the opponent, the shockwave erupts, knocking his target into the air and stunning them.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/5e9575b001d05ea1d2aab5b80caeb1bd40fef637-96x96.jpg?accountingTag=WR",
       "label": "DEPTH CHARGE",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/115a4f826b905677b64d123558f412f21b16675a.mp4?accountingTag=WR"
     }
   ],
@@ -78,5 +78,5 @@
     }
   ],
   "publishDate": "2022-06-15T00:07:59Z",
-  "hash": "bd4f632a605fc60664b291d079d76e9f5f5794458e22d08328a3208c2b71d6bb"
+  "hash": "2bf2d6aff303fa90dc51f8ce32f7582a219d18ab7110c2b02d60a1d8e7131557"
 }

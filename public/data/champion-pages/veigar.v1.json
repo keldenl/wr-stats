@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10122",
   "riotSlug": "veigar",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/veigar/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/veigar",
   "title": "VEIGAR",
   "subtitle": "the Tiny Master of Evil",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Veigar now gains passive stacks by hitting enemy champions once again.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6e5ce73c9475b9de8aaa235199189aae1873aa9d-96x96.jpg?accountingTag=WR",
       "label": "PHENOMENAL EVIL POWER",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/3a4e74dc0bef4060aa12908509ba732d29aaf36c.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Blasts target enemy champion, dealing a large amount of magic damage, increasing based on the target's missing health.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/303c7c779ee994f8ded506c526091ee57704a416-96x96.jpg?accountingTag=WR",
       "label": "PRIMORDIAL BURST",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/c5578a17782d3b0dcb220aa6f79018ba38c22b74.mp4?accountingTag=WR"
     }
   ],
@@ -97,5 +97,5 @@
     }
   ],
   "publishDate": "2021-10-08T22:57:42Z",
-  "hash": "c7237bd5007c6e19c3919d2d5d01276270064e7e8cf946a80a6b0482ce0bccf5"
+  "hash": "792a96cd04e9d4566ed6e8e88dbf135d39152de6712b6a6b4bc63bb8423834e8"
 }

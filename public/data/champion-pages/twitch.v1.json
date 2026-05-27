@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10053",
   "riotSlug": "twitch",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/twitch/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/twitch",
   "title": "TWITCH",
   "subtitle": "THE PLAGUE RAT",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Twitch's basic attacks infect the target, dealing true damage each second.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/d075a7841bc9f4a92cf466db39092fcadb46673d-96x96.jpg?accountingTag=WR",
       "label": "DEADLY VENOM",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/fb4fb75763b45b3534002713c7bef56cddac44c3.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Twitch unleashes the full power of his crossbow, shooting bolts over a great distance that pierce all enemies caught in their path.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/fe53e784a146aafad8afcc39ceb3eb5a27ad730e-96x96.jpg?accountingTag=WR",
       "label": "SPRAY AND PRAY",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/ba2d87f44d8430ef04e8ae998b7a6e20724992ea.mp4?accountingTag=WR"
     }
   ],
@@ -82,5 +82,5 @@
     }
   ],
   "publishDate": "2023-04-14T21:33:16Z",
-  "hash": "17b3c8f6ef51e8aa580e1ccc68564a4cb568492b632fbdf809f6c3a39f70e413"
+  "hash": "94ce4eea8f4503394fb60306a203271edf6efde1868cdbfe03dab31186865ae4"
 }

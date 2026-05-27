@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10062",
   "riotSlug": "dr-mundo",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/dr-mundo/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/dr-mundo",
   "title": "DR. MUNDO",
   "subtitle": "the Madman of Zaun",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Dr. Mundo resists the first Immobilizing effect that hits him, instead losing Health and dropping a chemical cannister nearby. Dr. Mundo can pick it up by walking over it, restoring Health and reducing this Ability's Cooldown. Dr. Mundo also has significantly increased Health regeneration.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/b0dd4fe2be33bdd3e7af378707126731de0c8c0e-96x96.jpg?accountingTag=WR",
       "label": "GOES WHERE HE PLEASES",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/3aafa6d12269d0e7f63ceecc8c1e346c167c91d9.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Dr. Mundo pumps himself with chemicals, instantly healing a percent of his missing Health. He then gains bonus Attack Damage and Move Speed, and regenerates a portion of his maximum Health over a long duration.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/c3aac306cd79a33ffe3b30703d4e9c081e362223-96x96.jpg?accountingTag=WR",
       "label": "MAXIMUM DOSAGE",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/8007b7ad58134bf0d77a334018af20564be6b890.mp4?accountingTag=WR"
     }
   ],
@@ -88,5 +88,5 @@
     }
   ],
   "publishDate": "2020-10-08T20:06:22Z",
-  "hash": "60d6eb23909b8ab99ea7e28b99cdf2f67addcec6f7700d7d4a5e3135a11dc9f0"
+  "hash": "d3cbd9e2c0bf47abdea05d0e3919d036d46ec2631d9edc5e66e7c9b1fc50ca1c"
 }

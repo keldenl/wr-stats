@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10016",
   "riotSlug": "xin-zhao",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/xin-zhao/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/xin-zhao",
   "title": "XIN ZHAO",
   "subtitle": "the Seneschal of Demacia",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Every third attack deals bonus damage and heals Xin Zhao.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b28071cfe8fe1af7a110ce73e1ce43673944594b-96x96.jpg?accountingTag=WR",
       "label": "Determination",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/3b202aa4817f975dee52b2055970dc75d9888082.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Xin Zhao deals damage to nearby enemies based on their current Health and knocks non-challenged targets back. Xin Zhao is impervious to damage dealt by champions outside of the circle created.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/37d0a2e79fb324e283b4042a8fc407d9d7b57c20-96x96.jpg?accountingTag=WR",
       "label": "Crescent Guard",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/8ca66710e1a9ccd0b47c5471e276eaccb48a12ce.mp4?accountingTag=WR"
     }
   ],
@@ -108,5 +108,5 @@
     }
   ],
   "publishDate": "2020-10-08T20:52:22Z",
-  "hash": "76f9d508e7fc46beccb0879ea3c13775602d753f1b089ee5281fd8dc597cab6a"
+  "hash": "37769ca7d1c4e625605bb10ee04aab5aea1ec864a17c292cbb7ce086c11307c6"
 }

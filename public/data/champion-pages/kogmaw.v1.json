@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10110",
   "riotSlug": "kogmaw",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/kogmaw/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/kogmaw",
   "title": "KOG'MAW",
   "subtitle": "THE MOUTH OF THE ABYSS",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Upon death, Kog’Maw continues moving, gaining Move Speed for a brief time. After a short period Kog’Maw explodes, dealing True Damage to nearby enemies.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4ac81c154694c81a7df934e9a53956ad7ebaf683-800x800.png?accountingTag=WR",
       "label": "ICATHIAN SURPRISE",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/391c55e8aca3963179d21e77b1282c0b8cc53ff7.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Passive: Kog’Maw gains Attack Speed.\nKog'Maw fires acid in area dealing Magic Damage to and revealing enemies hit. Damage is increased when targeting low Health enemies. Additionally, multiple Living Artilleries in a short period of time cause them to cost additional Mana.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1564a9f4cf196fb021278a874aafbadaa704fd24-800x800.png?accountingTag=WR",
       "label": "LIVING ARTILLERY",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/fe27fcc17486630b3887d9ddcd5f01e13f8a5613.mp4?accountingTag=WR"
     }
   ],
@@ -65,8 +65,13 @@
       "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/af6e27d065c01b874f9fe50f0c942677ba26ba53-1280x720.jpg?accountingTag=WR",
       "label": "SHAN HAI SCROLLS KOG'MAW",
       "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/af6e27d065c01b874f9fe50f0c942677ba26ba53-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/600b447a51cd2b5f88c280d6d4e77f8e767ea639-1280x720.jpg?accountingTag=WR",
+      "label": "PUG'MAW",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/600b447a51cd2b5f88c280d6d4e77f8e767ea639-1280x720.jpg?accountingTag=WR"
     }
   ],
   "publishDate": "2025-12-05T16:00:00Z",
-  "hash": "687136c6efc841cc94eb85c663a611348912c2b23991db020e34ba6da59d6e8e"
+  "hash": "915bc1ad046f783dc74d20f29106469868bed43efeb7d07ca5287af0ee2f4c2e"
 }

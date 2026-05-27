@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10116",
   "riotSlug": "rell",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/rell/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/rell",
   "title": "RELL",
   "subtitle": "THE IRON MAIDEN",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Rell's Basic Attacks and Abilities deal additional Magic Damage and steal Enemy Champion’s Armor and Magic Resist on hit. Refreshes on subsequent hits and stacks up to 5 times. Basic attacks deal Bonus Magic Damage.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/8aaa806a008b0509f0bbe829e0061e06d19decce-512x512.jpg?accountingTag=WR",
       "label": "BREAK THE MOLD",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/bf7815cddb80356f49394062fb34e5c03bf257d1.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Rell explodes in a magnetic fury, pulling nearby enemies toward herself. Rell continues pulling in nearby enemy champions, dealing Magic Damage.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/d4a77ee03a740b6aa4119798714823fdaa9ec9a1-512x512.png?accountingTag=WR",
       "label": "MAGNET STORM",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/8935b271ce46c8714d82dd3485af33f41f4724ac.mp4?accountingTag=WR"
     }
   ],
@@ -68,5 +68,5 @@
     }
   ],
   "publishDate": "2025-11-12T13:09:02Z",
-  "hash": "ba03129b4ab2d727c5adbd5cddd2fedc03ff676ba3c53ee96d9218e663a8d4c3"
+  "hash": "ba5190284505dc83570646e73a52f214086ab566c484d1f5f05e45357ff5bfe8"
 }

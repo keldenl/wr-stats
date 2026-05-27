@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10099",
   "riotSlug": "galio",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/galio/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/galio",
   "title": "GALIO",
   "subtitle": "the Colossus",
   "roles": [
@@ -95,8 +95,13 @@
       "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0b14eb74003cbb745ed443562aeba2a8794e8a28-1280x720.jpg?accountingTag=WR",
       "label": "GLORIOUS AIGRETTE GALIO",
       "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0b14eb74003cbb745ed443562aeba2a8794e8a28-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4f9a2426e82a98716f141381628748f068915b85-1280x720.jpg?accountingTag=WR",
+      "label": "COSMIC GUARDIAN GALIO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4f9a2426e82a98716f141381628748f068915b85-1280x720.jpg?accountingTag=WR"
     }
   ],
   "publishDate": "2021-04-28T21:31:50Z",
-  "hash": "d226ef0249654e15ce722ea0b0050302feaffd1383b730223fd6cb9cc52dfa1c"
+  "hash": "0a88df057f0d9002349c188d96e2cd3f94dd34b74e1312bf74074ec47934d37d"
 }

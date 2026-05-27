@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10100",
   "riotSlug": "akshan",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/akshan/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/akshan",
   "title": "AKSHAN",
   "subtitle": "the Rogue Sentinel",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Every third attack or ability hit deals bonus physical damages. Against champions, also gains damage shield for brief moment.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6ad8a62a37d7221936e23ecfe219528f514ebaec-96x96.jpg?accountingTag=WR",
       "label": "DIRTY FIGHTING",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/c1b0a7bc10ae383b664480001311c25376686c09.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Locks onto an enemy champion and begins overcharging Mist shots over a few seconds.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/f25d2f3fc17a73c72a2982c74c3ea5f6ee38de31-96x96.jpg?accountingTag=WR",
       "label": "COMEUPPANCE",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/ff716174845c71ebe33f5252b09b4bc055204e34.mp4?accountingTag=WR"
     }
   ],
@@ -73,5 +73,5 @@
     }
   ],
   "publishDate": "2021-07-15T21:13:13Z",
-  "hash": "992dfd0fa59b7f0fc44c70fc0413ca33d24508569ae9d2ef4a742ed9c9b6f3b3"
+  "hash": "f9c74cfa13969786ab1a3321eb7cc9c05e9bb21cf709f940156696f6391441d8"
 }

@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10007",
   "riotSlug": "karma",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/karma/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/karma",
   "title": "KARMA",
   "subtitle": "the Enlightened One",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "After using 3 abilities, Karma's next ability will be enhanced.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7bfe4f9b39db557a2d72c7564a7bc9839c7eaf67-96x96.jpg?accountingTag=WR",
       "label": "MANTRA",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/96fa5bb113ca6d4ef71ff1038eb7c2ef01db7bc2.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Karma forms a ring of spirit energy at a target location. After a brief delay, it detonates, dealing magic damage to all enemies inside and slowing them for a few seconds. If enemies are hit at the edge of the ring, they will be pulled in toward the center. Karma immediately enters the Mantra state.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/506c25ed03aa3b9ea6e5d43802b9895eb8c10433-96x96.jpg?accountingTag=WR",
       "label": "TRANSCENDENT EMBRACE",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/9e1c9327a1eb1c5fc902c5abc4fff485b50c0b99.mp4?accountingTag=WR"
     }
   ],
@@ -93,5 +93,5 @@
     }
   ],
   "publishDate": "2022-03-07T20:04:14Z",
-  "hash": "522d4b8516c9239f37e007bf2c76dd6ae35e9c8342d84e4bfd0f7abfe1db5779"
+  "hash": "1273904713d5f1e419ff0db180bdb380810f21140545bc597a8a5c6258ceba0f"
 }

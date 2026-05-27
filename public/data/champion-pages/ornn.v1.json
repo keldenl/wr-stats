@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10136",
   "riotSlug": "ornn",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ornn/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ornn",
   "title": "ORNN",
   "subtitle": "The Fire Below The Mountain",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Ornn gains additional bonus Armor and Magic Resistance from all sources. Ornn can spend gold to forge non-consumable items anywhere. Additionally, when Ornn reaches a certain level, forging items will grant a nearby ally the ability to buy one item from anywhere on the map. This will trigger every few levels.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/732f4bb6fee38e4fc2997555c291b4d48a540dcd-96x96.jpg?accountingTag=WR",
       "label": "LIVING FORGE",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/8aa37d76977ffa7285d3c853c630032575473203.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Ornn summons a massive elemental at a location which travels toward him with increasing speed. Enemies run over by the elemental take damage, are slowed and are made Brittle. Ornn can recast the ability to charge into the elemental, redirecting it in the direction he hits it, causing the elemental to affect any enemies it runs over to be knocked up, dealing the same damage and re-applying Brittle.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/be54ec007415ee6a2524d75f8e587eb9606b1df5-96x96.jpg?accountingTag=WR",
       "label": "CALL OF THE FORGE GOD",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/03c3ae1ae9597413c3fa315d508287ae20d9755c.mp4?accountingTag=WR"
     }
   ],
@@ -69,8 +69,13 @@
       "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/9b5502b3a8465c31199372a757a212a7d0988322-1280x720.jpg?accountingTag=WR",
       "label": "Shan Hai Scrolls Ornn",
       "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/9b5502b3a8465c31199372a757a212a7d0988322-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1fb18fa2334324a5bce108d3679d41afa9c083ec-1280x720.jpg?accountingTag=WR",
+      "label": "CHOO-CHOO ORNN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1fb18fa2334324a5bce108d3679d41afa9c083ec-1280x720.jpg?accountingTag=WR"
     }
   ],
   "publishDate": "2023-06-16T00:22:36Z",
-  "hash": "a37e9fef31a6bbfbc069b6f49d76f7f63bf55414caf3459958dc5d7bc2cc178c"
+  "hash": "65235fef0820d27032e50adcf95d5cdda3c155a11363214ec55cc85cf115db63"
 }

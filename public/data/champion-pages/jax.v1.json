@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10040",
   "riotSlug": "jax",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/jax/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/jax",
   "title": "JAX",
   "subtitle": "Grandmaster at Arms",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Jax's consecutive basic attacks continuously increase his Attack Speed.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/2b8133159ea071b862df7c9a2a15bdec89fe3778-96x96.jpg?accountingTag=WR",
       "label": "Relentless Assault",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/eef79a4de7a316fa50194850c5569b903be6b576.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Every third consecutive attack deals additional Magic Damage. Additionally, Jax can activate this ability to strengthen his resolve, increasing his Armor and Magic Resist for a short duration.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/1012cba4be0d426c6bfc99d531ae00ddc60427f1-96x96.jpg?accountingTag=WR",
       "label": "Grandmaster's Might",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/e8601904a593aea2d1c0d6ee9d45f422eeb99dbe.mp4?accountingTag=WR"
     }
   ],
@@ -94,8 +94,13 @@
       "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ec54aab91324a27f985cc9369d8c767344e63c77-1280x720.jpg?accountingTag=WR",
       "label": "DRAGONMANCER JAX",
       "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ec54aab91324a27f985cc9369d8c767344e63c77-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fb139e63dfc3c0931ef23301bd879eb7179e68b5-1280x720.jpg?accountingTag=WR",
+      "label": "GLORIOUS EMINENCE JAX",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fb139e63dfc3c0931ef23301bd879eb7179e68b5-1280x720.jpg?accountingTag=WR"
     }
   ],
   "publishDate": "2020-10-08T20:10:27Z",
-  "hash": "775dcb8c3f7ac59c2c8724e71a24f65473e02f3ae08188ee1462f5667a9f5767"
+  "hash": "7c893962ce2c29f0c6ea4477b5bf51a629c2b9ca0ad6015ad2a774be2d62b30a"
 }

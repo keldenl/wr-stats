@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10069",
   "riotSlug": "yone",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/yone/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/yone",
   "title": "YONE",
   "subtitle": "The Unforgotten",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Yone deals magic damage with every second Attack. In addition, his critical strike chance is increased.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/1001c9a986072a7b3068d89041ebcb8866105529-96x96.jpg?accountingTag=WR",
       "label": "WAY OF THE HUNTER",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/9419b1021f06e8eb08339819f2a2632e33c9e86a.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Yone blinks behind the last champion in a line with a slash so powerful it pulls all enemies hit towards him.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/742a75e2ef6eb9366d316d6e3d23da4be87eb183-96x96.jpg?accountingTag=WR",
       "label": "FATE SEALED",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/b7819d357a15436c7baed5edab6855a9c99f0d21.mp4?accountingTag=WR"
     }
   ],
@@ -102,5 +102,5 @@
     }
   ],
   "publishDate": "2022-09-16T17:29:59Z",
-  "hash": "c42365633e375c78e3ea9ae7e92fbc4adaed5d20a1b1083de6715af29fa70b50"
+  "hash": "d1a43869bf6f7317041beef651c98394daa8b9a45a7cb73ad0ca9e7013899293"
 }

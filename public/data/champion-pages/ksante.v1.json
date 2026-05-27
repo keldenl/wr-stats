@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-09T03:32:13.492Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10152",
   "riotSlug": "ksante",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ksante/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ksante",
   "title": "K'Sante",
   "subtitle": "The Pride of Nazumah",
   "roles": [
@@ -49,7 +49,7 @@
     },
     {
       "description": "K’Sante becomes unstoppable and splits his ntofos to know back an enemy. If the enemy collides with terrain, they are knocked through, taking additional damage. K’Sante, then dashes behind them and enters All Out. While All Out, K’Sante’s abilities are upgraded. He also gains Attack Speed, Armor Penetration, and Omnivamp, while losing some maximum Health, Armor, and Magic Resist.",
-      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3a022550213addb4aab8bc69f7dd79adb53d128d-256x256.png?accountingTag=WR",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/3a022550213addb4aab8bc69f7dd79adb53d128d-256x256.png?accountingTag=WR",
       "label": "ALL OUT",
       "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/099cd97aec1678f9cf36fbe13d3d4c65178e90da.mp4?accountingTag=WR"
@@ -68,5 +68,5 @@
     }
   ],
   "publishDate": "2026-04-08T15:35:08Z",
-  "hash": "2b68d6a78e27693bd06e39b797d923cb3abbc6ecc9a1de78a520e47e30e3f5f5"
+  "hash": "dd3b4efc48fd683d03b4c5a0b9271c40acaf39e210ff45b01e83f900a366d73f"
 }

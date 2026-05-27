@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10098",
   "riotSlug": "ezreal",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ezreal/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ezreal",
   "title": "EZREAL",
   "subtitle": "the Prodigal Explorer",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Ezreal gains increasing Attack Speed each time he successfully hits a spell, stacking up to 4 times.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/23fa797f779dae3db16d6c2dad0568d0aa14af22-96x96.jpg?accountingTag=WR",
       "label": "Rising Spell Force",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/135bf34d91d65cf0742edd843c69a37f2699ac95.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Ezreal winds up before firing a powerful barrage of energy that deals massive damage to each unit it passes through (damage is reduced for minions and non-epic monsters).",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/8186530fdd1c9c2a8125e9335097d1a5e9aea0ed-96x96.jpg?accountingTag=WR",
       "label": "Trueshot Barrage",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/bbae2dc4b408b6307c52105b0263c0d3991ba592.mp4?accountingTag=WR"
     }
   ],
@@ -133,5 +133,5 @@
     }
   ],
   "publishDate": "2020-10-08T20:06:47Z",
-  "hash": "5dcdd2701027e862c9c571d5c9428e106c5047f0fc034ff04a0f13764854f5f5"
+  "hash": "d20c288917874103723ffc22872cb6b1fe7b883fc1bc5f18f5293e6a487791cb"
 }

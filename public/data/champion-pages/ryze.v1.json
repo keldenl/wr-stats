@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10137",
   "riotSlug": "ryze",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ryze/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ryze",
   "title": "RYZE",
   "subtitle": "THE RUNE MAGE",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Ryze's spells deal extra damage based on his Bonus Mana, and he gains a percentage increase to his maximum Mana based on his Ability Power.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/dcaae946c2ff618d130d45a9868324532ee7aef6-800x800.png?accountingTag=WR",
       "label": "ARCANE MASTERY",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/e77ebc9dea7c9620a3f1222cd52d6bfc121d1972.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Passively, Overload deals even more damage against targets with Flux. On cast, Ryze creates a portal to a nearby location. After a few seconds, allies standing near the portal are teleported to the target location.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/1cb06298227eb4dd2a9dd8c64588ac664ca0badf-800x800.png?accountingTag=WR",
       "label": "REALM WARP",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/dc62df4abcab26589c2845e8bd624046898a14ac.mp4?accountingTag=WR"
     }
   ],
@@ -67,5 +67,5 @@
     }
   ],
   "publishDate": "2025-04-01T09:22:51Z",
-  "hash": "bb695eb142438001ba5442a9039972a047b21c8cefc218e4fe5ec61c2793265e"
+  "hash": "72aa5731a1f7f0b5a9121d550e1eb9152a7da55fa222940aca579bbefad2094d"
 }

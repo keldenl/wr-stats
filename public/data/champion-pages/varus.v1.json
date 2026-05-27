@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10093",
   "riotSlug": "varus",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/varus/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/varus",
   "title": "VARUS",
   "subtitle": "the Arrow of Retribution",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "On kill or assist, Varus temporarily gains Attack Speed. This bonus is larger if the enemy is a champion.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/14c275f8f04323032045623b5a793d24034a59bd-96x96.jpg?accountingTag=WR",
       "label": "Living Vengeance",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/3f9a364048cf5228459864e3d1a2edd499933834.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Varus flings out a damaging tendril of corruption that immobilizes the first enemy champion hit and then spreads towards nearby uninfected champions, immobilizing them too on contact.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/40fe8e66e73971887ea23f8a879e3be032bbc9ce-96x96.jpg?accountingTag=WR",
       "label": "Chain of Corruption",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/ed00c2b1b2f6a0815ba5c0f5fcfe17bb769367a5.mp4?accountingTag=WR"
     }
   ],
@@ -105,8 +105,13 @@
       "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2232a34f53bf73497f28688717423edd5ff33cc7-1280x720.jpg?accountingTag=WR",
       "label": "CALLIGRAPHIA VARUS",
       "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2232a34f53bf73497f28688717423edd5ff33cc7-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0830b0543af6207bb2a0aac50b0ff807ad92721b-1280x720.jpg?accountingTag=WR",
+      "label": "SOUL FIGHTER VARUS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0830b0543af6207bb2a0aac50b0ff807ad92721b-1280x720.jpg?accountingTag=WR"
     }
   ],
   "publishDate": "2020-10-08T20:50:37Z",
-  "hash": "c9fc28d1718b749a5a3fbf64b350feb316a278ba0031237a38c3c26ee4f0e3ab"
+  "hash": "c58e1c4edfa190019fc1e478c2d739be7724dea4647cdd5797dd02b30a66c107"
 }

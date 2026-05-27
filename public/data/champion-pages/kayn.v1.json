@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10005",
   "riotSlug": "kayn",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/kayn/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/kayn",
   "title": "KAYN",
   "subtitle": "The Shadow Reaper",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Kayn wields an ancient weapon and fights Rhaast, the darkin within it, for control. Either the Darkin will triumph, or Kayn will master Rhaast and become the Shadow Assassin. Darkin: Heal for a percentage of spell damage dealt to champions. Shadow Assassin: For the first few seconds in combat with enemy champions, deal bonus damage.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/42bfe3e43b846f48326334e3f06e43b2e26e3070-96x96.jpg?accountingTag=WR",
       "label": "THE DARKIN SCYTHE",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/13fa1bda4c5bf03e73b71653d5bc63cd437193c8.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Kayn hides in an enemy's body, dealing massive damage when he bursts out.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/4105acd0d152cbe7cc8989d57dc16ee0e4fc692d-96x96.jpg?accountingTag=WR",
       "label": "UMBRAL TRESPASS",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/940595e561cda53f3cb7c0cf3eba4f60f52c8fc4.mp4?accountingTag=WR"
     }
   ],
@@ -77,5 +77,5 @@
     }
   ],
   "publishDate": "2022-11-16T01:42:58Z",
-  "hash": "6fc98728d050ebbe4b52dc99648ffae1636f01b396b8506330189c2e1813d555"
+  "hash": "8e3864f15e18917ee23436f3bb2ccd65faeebf775f56e64f56695c280d837cab"
 }

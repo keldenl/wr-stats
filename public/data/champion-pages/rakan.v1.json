@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10052",
   "riotSlug": "rakan",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/rakan/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/rakan",
   "title": "RAKAN",
   "subtitle": "the Charmer",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Rakan periodically gains a shield.\n\nLover's Leap: Rakan can join Xayah's recall.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/953fed441cc67ba0bdc1f6dbb2ace3b6907ea715-96x96.jpg?accountingTag=WR",
       "label": "FEY FEATHERS",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/695c6b500a3509fd99c1bb85b65dfed6c250d0ea.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Gains movement speed, charming and dealing magic damage to enemies touched.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/0227cd44f70802f5c0143eaf30a755a49ffcb4b0-96x96.jpg?accountingTag=WR",
       "label": "THE QUICKNESS",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/022d5945dc98551487aa44fbe719b44a5d7ac29e.mp4?accountingTag=WR"
     }
   ],
@@ -98,5 +98,5 @@
     }
   ],
   "publishDate": "2021-02-10T19:19:39Z",
-  "hash": "165d77619ece9d73ba5c4e1232aa4e92e6f64d525065f1fda5941db377d209c4"
+  "hash": "f517a206472e14ec8fffc745ac4374c36ff4bc82aab30a9ed5dffe90f175827f"
 }

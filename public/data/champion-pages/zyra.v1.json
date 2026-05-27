@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10063",
   "riotSlug": "zyra",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/zyra/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/zyra",
   "title": "ZYRA",
   "subtitle": "Rise of The Thorns",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "When hitting enemies with Grasping Roots, Zyra spawns Thorn Spitters who fight for her. If it misses, a Thorn Spitter will spawn at the end of the root’s travel path instead. Thorn Spitters automatically attack Zyra’s target, dealing Magic Damage. Deadly Spines or Stranglethorns spawn additional Thorn Spitters for each extra enemy champion, large monster, or epic monster hit.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/a70c126505cb5ae0b82e0f09657a093b50bd91c8-96x96.jpg?accountingTag=WR",
       "label": "GARDEN OF THORNS",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/fb2e90045eaf1bd96b04d0d1aa357fa3df3739df.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Zyra summons a massive thicket at a target location, dealing Magic Damage to enemies as it expands and knocking them airborne as it contracts. When enemy champions are hit, a Thorn Spitter will spawn.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/07d45db9dca335fe0f579b1ab08f007fb51ead28-96x96.jpg?accountingTag=WR",
       "label": "STRANGLETHORNS",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/53ac3ecbbd17f3d1cac263896ddc5b9d9630137b.mp4?accountingTag=WR"
     }
   ],
@@ -77,5 +77,5 @@
     }
   ],
   "publishDate": "2023-12-05T18:46:43Z",
-  "hash": "49c455678af8bec1d3eeba2ddf0f11deba504dd7fa93481480359eafab7be596"
+  "hash": "39e6584e57823b5030c7347baba2d365e863ec01cba4afba8d86604cb3d47d2a"
 }

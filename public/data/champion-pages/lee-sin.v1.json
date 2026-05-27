@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10059",
   "riotSlug": "lee-sin",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/lee-sin/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/lee-sin",
   "title": "LEE SIN",
   "subtitle": "the Blind Monk",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "After Lee Sin uses an ability, his next 2 basic attacks gain Attack Speed and return Energy.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d054deda664ef785931ed10873e76909866ee1ba-96x96.jpg?accountingTag=WR",
       "label": "Flurry",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/7fc9c84e969da41b6cd9733ce1315dc3dceb7767.mp4?accountingTag=WR"
     },
     {
@@ -36,7 +36,7 @@
     {
       "description": "Lee Sin rushes to target position, shielding himself from damage if an enemy champion or monster is near the landing point. After using Safeguard, Lee Sin can cast Iron Will for the next few seconds. Iron Will: Lee Sin's next attack deals bonus magic damage and has omnivamp.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/884543307c6ae8a8113c682ca32c42dec89b05b8-96x96.jpg?accountingTag=WR",
-      "label": "Safeguard",
+      "label": "Safeguard / Iron Will",
       "subtitle": "2",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/58aa51b982bd3ec53cd4e378ed26d8310a65e02f.mp4?accountingTag=WR"
     },
@@ -51,7 +51,7 @@
       "description": "Lee Sin performs a powerful roundhouse kick launching his target back, dealing physical damage to the target and any enemies they collide with. Enemies the target collides with are knocked into the air for a short duration.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/8dfc7b2d51b5d53d6fb400fc38d8ef17da229877-96x96.jpg?accountingTag=WR",
       "label": "Dragon's Rage",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/a816b8796b77a7ca6e82d397e8f73dced8d9bc68.mp4?accountingTag=WR"
     }
   ],
@@ -118,5 +118,5 @@
     }
   ],
   "publishDate": "2020-10-08T20:43:36Z",
-  "hash": "cc957dd78c7bd18e2836208fa427575b65c1f69742e508ac4f859c708d20606f"
+  "hash": "80b6d775a35dcf712d926e0f66ed143a44ed62887a1c64b03b0039aac1f322ff"
 }

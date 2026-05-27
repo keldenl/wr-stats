@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10095",
   "riotSlug": "katarina",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/katarina/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/katarina",
   "title": "KATARINA",
   "subtitle": "the Sinister Blade",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Whenever an enemy champion dies that Katarina has damaged recently, her remaining ability cooldowns are dramatically reduced. If Katarina picks up a Dagger, she uses it to slash through all nearby enemies, dealing magic damage.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/64522a426633969553de57153352991b090e5a8c-96x96.jpg?accountingTag=WR",
       "label": "VORACITY",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/da74bb5aace60b5b3839dc503ad79d49fde007bf.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Katarina becomes a flurry of blades, dealing damage over time and applying healing reduction. Katarina is able to slowly reposition for a short time.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/026f0679e80e02b3081f2db0c75299bcad7df7e3-96x96.jpg?accountingTag=WR",
       "label": "DEATH LOTUS",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/a8fc114a2b6214b04b3042c319f813c3aed77ece.mp4?accountingTag=WR"
     }
   ],
@@ -103,5 +103,5 @@
     }
   ],
   "publishDate": "2021-02-25T18:41:28Z",
-  "hash": "c09a8358c91c620bc3bc96bf3fce7b05d7b8587e9a3896609b7e2cb630580d8b"
+  "hash": "866a9ca869bf2ceab3f95c99d4611bdaade55369e7da9d995a1e37e65b807ecf"
 }

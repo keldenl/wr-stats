@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10038",
   "riotSlug": "ahri",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ahri/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ahri",
   "title": "AHRI",
   "subtitle": "the Nine-Tailed Fox",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Whenever Ahri hits a target with a spell, she gains a stack of Essence Theft. When she has enough stacks, her next spell that hits an enemy also heals her.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/e7995a2cb142c475d81e538a5178c29a763659de-96x96.jpg?accountingTag=WR",
       "label": "Essence Theft",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/2e94a612896bde91a045729d85c68ce66cf4fa0c.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Ahri dashes forward and fires essence bolts, damaging nearby enemies. Spirit Rush can be cast up to three times before going on cooldown.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/89d14ca6cc3e402726d4710f169297aba0e5af3a-96x96.jpg?accountingTag=WR",
       "label": "Spirit Rush",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/9b69836a004d82162114cc00d2a97fe4a6bc094e.mp4?accountingTag=WR"
     }
   ],
@@ -118,5 +118,5 @@
     }
   ],
   "publishDate": "2020-09-30T08:10:33Z",
-  "hash": "d85c086211929c43c8486214a4f85e7499caa3368b046f90eb2a7b32e988c584"
+  "hash": "a6134fd4419e8b06f2f2e22d8f250a616563d249c721a319daa80c06fdd32d9a"
 }

@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10084",
   "riotSlug": "nidalee",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/nidalee/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/nidalee",
   "title": "NIDALEE",
   "subtitle": "THE BESTIAL HUNTRESS",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Moving through brush increases Nidalee's Move Speed, increasing when moving towards an enemy. Hitting champions or monsters with Javelin Toss or Bushwhack triggers a Hunt, granting brief True Sight of them. During this time, Nidalee gains Move Speed (increased when moving towards the Hunted target) and her Takedown and Pounce are enhanced against them.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/b35d69ee96123c008b442d4acb2aa05c4cd00b55-128x128.png?accountingTag=WR",
       "label": "PROWL",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/d09a6805b0e2e5bb4e4f7d8ecbd607a2198f260e.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Passive: While in Human Form, marking enemies as hunted will reset Aspect of the Cougar’s cooldown.\nActive: Nidalee transforms between cougar and human, gaining new abilities.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/c77c11417c28ac0b9216aca20ca454da69bfe6bb-128x128.png?accountingTag=WR",
       "label": "ASPECT OF THE COUGAR",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/752cc7f942b300a4dbf2770da2c63e18751b48a2.mp4?accountingTag=WR"
     }
   ],
@@ -68,5 +68,5 @@
     }
   ],
   "publishDate": "2025-10-15T13:22:41Z",
-  "hash": "2ef54bc0a15a155ecf33a268393c2d5c534edff630b75157b36ddaa80fb33456"
+  "hash": "c62679abe6d5571f8882a115d9bbeebec44d4a6c0affc8163c7aad07b81f4064"
 }

@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10009",
   "riotSlug": "wukong",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/wukong/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/wukong",
   "title": "WUKONG",
   "subtitle": "the Monkey King",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Wukong and his clones' attacks and abilities apply stacks of Crushing Blows. For each stack, Wukong and his clones deal increased damage to the target.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/0655c0b1c759bda95e7bffbbe3a9c167cd98b55e-96x96.jpg?accountingTag=WR",
       "label": "CRUSHING BLOWS",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/3e517d973ed9d659fa203d14999a4a17c806d2cf.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Wukong extends his staff and spins it around repeatedly, gaining Movement Speed. Enemies struck take damage and are knocked up. Cyclone can be recast within a short time window.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/65c4216d32b04b39325af841c1143ed9624af78a-96x96.jpg?accountingTag=WR",
       "label": "CYCLONE",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/2c678c600a3cbba7f74a1c162a5305c9040b5f02.mp4?accountingTag=WR"
     }
   ],
@@ -93,5 +93,5 @@
     }
   ],
   "publishDate": "2021-01-26T21:56:36Z",
-  "hash": "83be8c8ba79fc0737ae1d64bb304b9f7f2b48409c8ddc4eeb03d02d4668db79a"
+  "hash": "0a236dbdf6ae52e59bfc87095e306799fce91327adbd71ebff7341641ad3b466"
 }

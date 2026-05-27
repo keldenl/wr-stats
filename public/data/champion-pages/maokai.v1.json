@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10074",
   "riotSlug": "maokai",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/maokai/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/maokai",
   "title": "MAOKAI",
   "subtitle": "The Twisted Treant",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Maokai's basic attack also heals him and deals additional damage on a moderate cooldown. Each time Maokai casts a spell or is struck by an enemy's spell, this cooldown is reduced.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/163cccfcace22f88bd8b98d968795eb5426164d5-256x256.png?accountingTag=WR",
       "label": "SAP MAGIC",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/debf32b49653060732122f1155e8ecc5a8946fbf.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Maokai summons a colossal wall of brambles and thorns that slowly advances forwards, damaging and rooting any enemies in the path.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b25608e1fdeca2bbf14df9d0a139eb365b97dafe-256x256.png?accountingTag=WR",
       "label": "NATURE'S GRASP",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/224357dc25bd4f090626ad592657db98072e52fb.mp4?accountingTag=WR"
     }
   ],
@@ -72,5 +72,5 @@
     }
   ],
   "publishDate": "2024-06-10T22:35:10Z",
-  "hash": "6a9018659f9e181bec5736e72ad0b19cf3f9ef0b111cd2dd967801fcb494e5fc"
+  "hash": "e449b6a53926af0792372f2efed35f2f8a1f1807fdfc0c723493d1731067c0a1"
 }

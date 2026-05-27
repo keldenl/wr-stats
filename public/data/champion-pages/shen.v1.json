@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10118",
   "riotSlug": "shen",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/shen/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/shen",
   "title": "SHEN",
   "subtitle": "the Eye of Twilight",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "After casting a spell, Shen gets a shield. Affecting other champions reduces the cooldown of this effect.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/4eacd53a66c7aa39d36d338ba0decdfb08d49250-96x96.jpg?accountingTag=WR",
       "label": "KI BARRIER",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/a2d7b44a54d61b611da90205a6f6dad3468e9089.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Shen shields target allied champion from incoming damage, and soon after teleports to their location.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/2350f87cc35c800902c8e40ebe288f679c2d4823-96x96.jpg?accountingTag=WR",
       "label": "STAND UNITED",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/4e5299247070c0b2e5589417991ad9f5b2349ebd.mp4?accountingTag=WR"
     }
   ],
@@ -83,5 +83,5 @@
     }
   ],
   "publishDate": "2022-03-08T00:16:17Z",
-  "hash": "9d9588b7ce315390b5de016ea0eaeb7db38416eb35e581d10422a001518eba2f"
+  "hash": "5a4abed72cd1678be61f96ec5407e45a4e2ce77023f1d717f99e2773843896bc"
 }

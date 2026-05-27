@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10019",
   "riotSlug": "hecarim",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/hecarim/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/hecarim",
   "title": "HECARIM",
   "subtitle": "The Shadow of War",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Hecarim gains Attack Damage equal to a percentage of his bonus Move Speed.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/90699903eb0a05252107d0d833ad8bf546ddd976-96x96.png?accountingTag=WR",
       "label": "WARPATH",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/827ec6a7614b8f3b34b07e4adaec3db412975f38.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Hecarim summons spectral riders and charges forward, dealing magic damage in a line. Hecarim creates a shockwave when he finishes his charge, causing nearby enemies to flee in terror.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/5289af14ade94e53faa9f047749cb8f4f764882d-96x96.png?accountingTag=WR",
       "label": "ONSLAUGHT OF SHADOWS",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/d3a71a1b61ceb0727adb79fc866ac96fb8913036.mp4?accountingTag=WR"
     }
   ],
@@ -74,8 +74,13 @@
       "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e90905f2da45a9c3d577da1addf405e68eae3a79-1280x720.jpg?accountingTag=WR",
       "label": "PETALS OF SPRING HECARIM",
       "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e90905f2da45a9c3d577da1addf405e68eae3a79-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3cd3b16bb95c6ac20467db964696e47c0e96916f-1280x720.jpg?accountingTag=WR",
+      "label": "NEON DAREDEVIL HECARIM",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3cd3b16bb95c6ac20467db964696e47c0e96916f-1280x720.jpg?accountingTag=WR"
     }
   ],
   "publishDate": "2023-09-19T00:19:00Z",
-  "hash": "b2149b569bf4b152ed865b0331279485b86da7f199515c43552fe4ab5bf91715"
+  "hash": "a3aa3d94379f0b8cd29d4c90dcda4e279e16284618fbfc1a783279a22d55e49a"
 }

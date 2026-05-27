@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10082",
   "riotSlug": "ambessa",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ambessa/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ambessa",
   "title": "AMBESSA",
   "subtitle": "THE MATRIARCH OF WAR",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Entering an attack or movement command while casting an ability will cause Ambessa to dash a short distance once the ability is cast, granting her next attack bonus range, damage, and attack speed, and refunding energy.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/12cafbd0f4399269f558fe93bccd8a94a755c382-512x512.png?accountingTag=WR",
       "label": "DRAKEHOUND'S STEP",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/06464756ac3dbe53dcb14ccdf96708a9bfe67cea.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Ambessa blinks to the farthest enemy champion in a line of her choosing and suppresses them upon her arrival. She then slams the enemy into the ground where they take damage and are stunned.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/42d558821aab18ebc8b78c2a0468c400a17eb0f7-512x512.png?accountingTag=WR",
       "label": "PUBLIC EXECUTION",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/304bc3f57fa84cc8a7c80e19be70ed343bd0cc5e.mp4?accountingTag=WR"
     }
   ],
@@ -65,8 +65,13 @@
       "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bbe015af3e4bc5014fa2da0de5f3f5370d096319-1280x720.jpg?accountingTag=WR",
       "label": "Arcane Iron Will Ambessa",
       "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bbe015af3e4bc5014fa2da0de5f3f5370d096319-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9368046e852ca1ae1bb9a2b0e594a38e5437eea1-1280x720.jpg?accountingTag=WR",
+      "label": "SOUL FIGHTER AMBESSA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9368046e852ca1ae1bb9a2b0e594a38e5437eea1-1280x720.jpg?accountingTag=WR"
     }
   ],
   "publishDate": "2024-11-27T23:17:33Z",
-  "hash": "26ed352feb4f1c96abaf7b5658b1f4bb285bae20975cb8e3072c721de0d9f50c"
+  "hash": "4fb67eae1db4759e533f91b1b81364d9d924c709600dba2a3215126bdc165341"
 }

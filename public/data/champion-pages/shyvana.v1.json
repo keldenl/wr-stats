@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10049",
   "riotSlug": "shyvana",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/shyvana/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/shyvana",
   "title": "SHYVANA",
   "subtitle": "the Half-Dragon",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Shyvana gains stacks when slaying large and epic monsters, as well as champions. Dragons grant extra stacks. Every 100 stack enhances one of Shyvana's abilities.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ba2de7940d4f05eb3225317e9fefa9eea126d37d-96x96.jpg?accountingTag=WR",
       "label": "Fury of the Dragonborn",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/eaa4e4f1b264b14bf6d32d993d882a63dd26f01e.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Shyvana transforms into a dragon and takes flight to a target location. Enemies along her path take damage and are knocked toward her target location. Shyvana passively gains Fury per second and gains 2 Fury on basic attack.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/a8bd73b9d7f2b6715142318fe7e68477a46e3bb1-96x96.jpg?accountingTag=WR",
       "label": "Dragon's Descent",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/c5c8f8d9df336a860ae7446bec56b09016f90292.mp4?accountingTag=WR"
     }
   ],
@@ -93,5 +93,5 @@
     }
   ],
   "publishDate": "2020-10-08T20:47:48Z",
-  "hash": "8356a2ca7543f43cfc7d5e1be54598c8e14af394c66168751ceb7329a0af7031"
+  "hash": "b35b5f798c2b78bdf17297c9266140547a5a5304da8fbeab13f74d19f6fc93a3"
 }

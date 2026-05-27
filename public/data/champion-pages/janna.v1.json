@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10075",
   "riotSlug": "janna",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/janna/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/janna",
   "title": "JANNA",
   "subtitle": "the Storm's Fury",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Janna passively gains move speed and gives nearby allied champions the same bonus.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/061869532af51bade4078584b3c19338347c83c9-96x96.jpg?accountingTag=WR",
       "label": "Tailwind",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/1ab281bb694372d6f9f45f81baee90b29cfb27f6.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Janna calls forth mighty winds of salvation, knocking back surrounding enemies and healing nearby allies.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/134b2f9f318e45cd6e3f8afe9b1a1c2185eb00c2-96x96.jpg?accountingTag=WR",
       "label": "Monsoon",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/9b6ab1254706d0097352c9a9a2cc43eca811e991.mp4?accountingTag=WR"
     }
   ],
@@ -98,5 +98,5 @@
     }
   ],
   "publishDate": "2020-10-08T20:09:32Z",
-  "hash": "173f5a5be2557467c92d47914faaba0133e2e3b588728fdb2419ebaad2cc4767"
+  "hash": "e352adbd793c6845292bc94cffde459a4b87db79eded829526570425d14db1e5"
 }

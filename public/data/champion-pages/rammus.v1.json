@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10064",
   "riotSlug": "rammus",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/rammus/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/rammus",
   "title": "RAMMUS",
   "subtitle": "the Armordillo",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Rammus starts rolling while out of combat, gaining movement speed. Entering battle will temporarily disable this effect.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/91179f301d3d2a83fbd4af5282333ad26d80efb5-96x96.jpg?accountingTag=WR",
       "label": "ROLLING ARMORDILLO",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/5394f12a9918e6fc28830910d4a26ee985feab72.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Rammus hops into the air and slams down, dealing damage and creating aftershocks. Aftershocks slow enemies. The hopping distance increases based upon Powerball's current speed.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/67db2a2460a34e5c5f0c0e411da0e40ab9bd1cf0-96x96.jpg?accountingTag=WR",
       "label": "SOARING SLAM",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/e38f9d3231e041329b9a261718e2cbe81c5fd0a7.mp4?accountingTag=WR"
     }
   ],
@@ -69,8 +69,13 @@
       "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b28451a21b3d4cc3a515efe9cc5acc1a5322c4ae-1280x755.jpg?accountingTag=WR",
       "label": "SWEEPER RAMMUS",
       "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b28451a21b3d4cc3a515efe9cc5acc1a5322c4ae-1280x755.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3ded80fc15a8bfd3ff622755b5277acf3e66c2bc-1280x720.jpg?accountingTag=WR",
+      "label": "DURIAN DEFENDER RAMMUS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3ded80fc15a8bfd3ff622755b5277acf3e66c2bc-1280x720.jpg?accountingTag=WR"
     }
   ],
   "publishDate": "2021-04-28T21:36:55Z",
-  "hash": "a2f55b79ce7d6df8dc6c96864ec217be5a9f1cb81f7407f07e884b12265bc46c"
+  "hash": "5742e1695f5ae37edca72259da1ed32c3d49bb7f8bb7e14fa77f11e14d2cb508"
 }

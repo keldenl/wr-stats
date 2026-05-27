@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10039",
   "riotSlug": "zed",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/zed/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/zed",
   "title": "ZED",
   "subtitle": "the Master of Shadows",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Zed's basic attacks against low health targets deals bonus Magic Damage. This effect can only occur once every few seconds on the same target.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/5b3a55746b42e243e3a0485ef9ea92f7aacab046-96x96.jpg?accountingTag=WR",
       "label": "Contempt for the Weak",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/53cf3fef8b3180c80c4974f06423517c21e3ef8a.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Zed becomes untargetable and dashes to an enemy champion, marking them. After a few seconds the mark triggers, repeating a portion of all the damage Zed dealt to the target while they were marked. Zed leaves a shadow behind and can reactive Death Mark to switch places with this shadow.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/3d13f92b3513a3b80341b2a951699e9adaa3f5b4-96x96.jpg?accountingTag=WR",
       "label": "Death Mark",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/75e3bf105d7207aedc3c0f9ad63b04bdbe5e3ad1.mp4?accountingTag=WR"
     }
   ],
@@ -94,8 +94,13 @@
       "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1c04027437d09704e5a6254a6b73ea5525c94155-1280x720.jpg?accountingTag=WR",
       "label": "GALAXY SLAYER ZED EXQUISITE EDITION",
       "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1c04027437d09704e5a6254a6b73ea5525c94155-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4a607c82239ef99edc837388a2820e3928c3ba0e-1280x720.jpg?accountingTag=WR",
+      "label": "NEON DAREDEVIL ZED",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4a607c82239ef99edc837388a2820e3928c3ba0e-1280x720.jpg?accountingTag=WR"
     }
   ],
   "publishDate": "2020-10-08T20:53:34Z",
-  "hash": "6f264861939144cd83dc5d3e802e4b9ee42f25a3138bda7addd1519ab5fc232a"
+  "hash": "2b375d1eb0949536f64fab7b1d7a8cb9c8aebf08559426824454679284d39c5e"
 }

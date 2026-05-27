@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10131",
   "riotSlug": "warwick",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/warwick/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/warwick",
   "title": "WARWICK",
   "subtitle": "The Uncaged Wrath Of Zaun",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Warwick's basic attacks deal bonus magic damage. If Warwick is below 50% health, he heals for the same amount.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/28a4e239c4de34c4773d6bdee6c16ea26bcf6b47-96x96.jpg?accountingTag=WR",
       "label": "ETERNAL HUNGER",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/072d4d380a863fbc7209beb8c5d796f74b3783f6.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Warwick leaps in a direction (scaling with his bonus Move Speed), suppressing the first champion he collides with for 1.5 seconds.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/7b5e3608177a4a811ef6bcbe9d409e03cb0621c3-96x96.jpg?accountingTag=WR",
       "label": "INFINITE DURESS",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/00c7f4ad91f96d80a9731bae3acb9156ef6c2d54.mp4?accountingTag=WR"
     }
   ],
@@ -77,5 +77,5 @@
     }
   ],
   "publishDate": "2022-10-27T02:22:35Z",
-  "hash": "0fc6a25bcbf180f55f442fcaa0909545f5c7fd5cf43d2b0f416d6edcc3b5dab3"
+  "hash": "937343fac083e8fe29d1899bab301898f900cbd0a3ec2fa2ae1120775ba2dbfc"
 }

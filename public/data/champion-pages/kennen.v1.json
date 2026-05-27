@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10061",
   "riotSlug": "kennen",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/kennen/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/kennen",
   "title": "KENNEN",
   "subtitle": "the Heart of the Tempest",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Kennen stuns enemies he hits 3 times with his abilities.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/fdb6d6b214a1b33ca15fd569affc8631f3755bbd-96x96.jpg?accountingTag=WR",
       "label": "MARK OF THE STORM",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/bc874d466ea3c6d0c5988e662788eafb294e5484.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Kennen summons a storm that strikes at nearby enemy champions for magical damage.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/3cb5d96bac4732b727dd551b16c7add786f1096e-96x96.jpg?accountingTag=WR",
       "label": "SLICING MAELSTROM",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/0d001dd8d11e33568e60a8bed3fcd9565854e7ed.mp4?accountingTag=WR"
     }
   ],
@@ -88,5 +88,5 @@
     }
   ],
   "publishDate": "2021-01-26T22:25:52Z",
-  "hash": "747822a63a97d644c57fc449b1d7084319da981826013f7c8ff4ec5f9ab24ab6"
+  "hash": "2227d141ee26c48bc04fcd6276c58a91260c651778c85b78de487cc4a856fedb"
 }

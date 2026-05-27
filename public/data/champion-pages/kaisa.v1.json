@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10026",
   "riotSlug": "kaisa",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/kaisa/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/kaisa",
   "title": "KAI'SA",
   "subtitle": "Daughter of the Void",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Kai'Sa's basic attacks stack Plasma, dealing increasing bonus magic damage. Allies' immobilizing effects help stack Plasma. Additionally, Kai'Sa's item purchases upgrade her basic spells to have more powerful properties.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8e5a628441a54cf36112a519fa2f1a8d804f95ac-96x96.jpg?accountingTag=WR",
       "label": "SECOND SKIN",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/35ae1639300370804f7baa08c8b4b54959d23111.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Kai'Sa dashes near an enemy champion marked by Plasma and gains a temporary shield.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/3495f169849118d9086b0e7e7ec744911c89fad7-96x96.jpg?accountingTag=WR",
       "label": "KILLER INSTINCT",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/cf4f6d523e12ef866444a3708b6c4ac6086d0731.mp4?accountingTag=WR"
     }
   ],
@@ -97,11 +97,26 @@
       "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8a2969e783882fde7fc38adda7db7ab35934a215-1280x720.jpg?accountingTag=WR"
     },
     {
-      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c2954947d512dad3dd63c1a151b709e92d2e6f41-1280x720.jpg?accountingTag=WR",
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/318721329f178fbd45fa3151ebf567d330688890-1280x720.png?accountingTag=WR",
       "label": "Crystal Rose Kai'Sa",
-      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c2954947d512dad3dd63c1a151b709e92d2e6f41-1280x720.jpg?accountingTag=WR"
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/318721329f178fbd45fa3151ebf567d330688890-1280x720.png?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/912dbf73e6b5e1615ac592b8bf865424671c5e95-5913x3326.jpg?accountingTag=WR",
+      "label": "STAR GUARDIAN KAI'SA EXQUISITE EDITION",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/912dbf73e6b5e1615ac592b8bf865424671c5e95-5913x3326.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/85ea14c63689054afe2ed8e1e028e4db858b56c4-1280x720.jpg?accountingTag=WR",
+      "label": "NEON DAREDEVIL KAI'SA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/85ea14c63689054afe2ed8e1e028e4db858b56c4-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/28323875785d06f1eb0e1c31826dc600539809e9-1280x720.jpg?accountingTag=WR",
+      "label": "PRESTIGE SELECT NEON DAREDEVIL KAI'SA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/28323875785d06f1eb0e1c31826dc600539809e9-1280x720.jpg?accountingTag=WR"
     }
   ],
   "publishDate": "2020-10-29T22:09:32Z",
-  "hash": "ec441de9183d40e019d72cebf702266623b9e37507562559c8c0c9d072852191"
+  "hash": "4de61fc4bfa59c644d3cb3a5f239dc0f1a5b640ee1a4ec9e8a8246b3897656fd"
 }

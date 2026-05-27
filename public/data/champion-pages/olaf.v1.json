@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10106",
   "riotSlug": "olaf",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/olaf/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/olaf",
   "title": "OLAF",
   "subtitle": "the Berserker",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Olaf's Attack Speed is increased by 1% for each 1% of his Health he is missing.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/23e1c590cbbcb6c0fb1be62a7df2d7bdcd7f39a6-96x96.jpg?accountingTag=WR",
       "label": "Berserker Rage",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/3e63c36ef9c45eb9f57a69647fc4226e49dcdca4.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Olaf temporarily becomes immune to disables.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/e2a848d5535d17d34e3cd6bb894f613fcbf2eb3d-96x96.jpg?accountingTag=WR",
       "label": "Ragnarok",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/0cbf904dda21fadbf0ca3aa726be05a2c1fe5ce3.mp4?accountingTag=WR"
     }
   ],
@@ -61,9 +61,9 @@
       "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/57d0ebe92191dce4c206861d5715283b66c78e02-1280x720.jpg?accountingTag=WR"
     },
     {
-      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d63517d5de83004d922398f91e52ac7cc818551f-1280x720.jpg?accountingTag=WR",
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/d63517d5de83004d922398f91e52ac7cc818551f-1280x720.jpg?accountingTag=WR",
       "label": "BROLAF",
-      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d63517d5de83004d922398f91e52ac7cc818551f-1280x720.jpg?accountingTag=WR"
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/d63517d5de83004d922398f91e52ac7cc818551f-1280x720.jpg?accountingTag=WR"
     },
     {
       "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ef25cdb0a2c5b882c3239155b1bb15d209e6887d-1280x720.jpg?accountingTag=WR",
@@ -92,5 +92,5 @@
     }
   ],
   "publishDate": "2020-10-08T20:46:51Z",
-  "hash": "0babebcdb6b5f400421d65342ece1787f8b82c0c98b946641ca247fd2b2b13ef"
+  "hash": "f7771490fa09b45ad40f15bb0d42c05a7fd4808041dff42342d673885373999f"
 }

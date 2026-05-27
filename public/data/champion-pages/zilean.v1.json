@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10080",
   "riotSlug": "zilean",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/zilean/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/zilean",
   "title": "ZILEAN",
   "subtitle": "THE CHRONOKEEPER",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Zilean stores time as Experience and can grant it to his allies. Zilean can impart this Experience on the nearest allied champion when he has enough to complete their next level up. Zilean receives as much Experience as he gives.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/fcca69f985c939b5b4101b88e9bb5994f515c64f-256x256.png?accountingTag=WR",
       "label": "TIME IN A BOTTLE",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/fd044e54b75e3e62582977159111622d5b0911a1.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Places a protective time rune on Zilean or an allied champion. If the rune bearer takes lethal damage during this time, they teleport back in time and become untargetable before they are revived and healed. If the rune bearer does not trigger the rune's revival effect, a part of Chronoshift's cooldown will be refunded.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/1bf01227f5880f522897bef496c9703bd02aea19-256x256.png?accountingTag=WR",
       "label": "CHRONOSHIFT",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/e2226146385cbbabfca2c49f9e1b65c88c26581e.mp4?accountingTag=WR"
     }
   ],
@@ -68,5 +68,5 @@
     }
   ],
   "publishDate": "2025-06-09T16:01:02Z",
-  "hash": "a446dca4afa486224c77f3b66b7193aecce9046b203808c8bfe84e5131fc18d2"
+  "hash": "85b8aa608fca333888927d39fed2c9740b534ff1c0469cf74304d5176e5a0632"
 }

@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10097",
   "riotSlug": "soraka",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/soraka/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/soraka",
   "title": "SORAKA",
   "subtitle": "the Starchild",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Soraka runs faster towards nearby low health allies.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/177f8d1678cf430025cc36cd98d74cffe1530aed-96x96.jpg?accountingTag=WR",
       "label": "Salvation",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/aaafe89552b776f9fc57209522dafd61c5c30c0e.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Soraka fills her allies with hope, instantly restoring health to herself and all friendly champions.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/26f95883b00046f25f10bf5ba813285a8ab2cc85-96x96.jpg?accountingTag=WR",
       "label": "Wish",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/db05bd3fffc7f6c2b14c9cb7e3c73f98b0dfaf33.mp4?accountingTag=WR"
     }
   ],
@@ -93,5 +93,5 @@
     }
   ],
   "publishDate": "2020-10-08T20:49:10Z",
-  "hash": "12f585cc217cbc1233191b356b76c436e1933d8b24164aeb65594f58c88a71c2"
+  "hash": "0d5873ed28b7865e638483a55f0d3dd5ccd03ff3e0766f20e4a18fd8fdf9f47c"
 }

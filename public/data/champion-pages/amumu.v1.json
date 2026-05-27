@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10004",
   "riotSlug": "amumu",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/amumu/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/amumu",
   "title": "AMUMU",
   "subtitle": "the Sad Mummy",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Amumu's basic attacks Curse his enemies, causing them to take bonus true damage from incoming magic damage.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/05075a2bfe7f8d885be0e9237738c055dcd4e4b1-96x96.jpg?accountingTag=WR",
       "label": "Cursed Touch",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/87a6b65b507ca624ff7250c771c45e0bbf702e3c.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Amumu entangles surrounding enemy units in bandages, applying his Curse, damaging them and rendering them unable to attack or move.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/7a597597108f944a0001191562201d85e31e895c-96x96.jpg?accountingTag=WR",
       "label": "Curse of the Sad Mummy",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/d520b2037c623708b2a3272dcbf8c3a46be0f0d6.mp4?accountingTag=WR"
     }
   ],
@@ -87,5 +87,5 @@
     }
   ],
   "publishDate": "2020-10-08T20:03:09Z",
-  "hash": "ba0d1a4787855efbbe6d842fcc77e9da9e570f9fa064c76558aae92f8bae2366"
+  "hash": "da6504c25071536e8b0ac159da464569c34a5f44f8e16cb439f83d7c8ed103c9"
 }

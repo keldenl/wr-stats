@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10086",
   "riotSlug": "fizz",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/fizz/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/fizz",
   "title": "FIZZ",
   "subtitle": "the Tidal Trickster",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Fizz's attacks deal additional damage over time.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/9a6abbe76fc8ded3f349649e04751e216f976313-96x96.jpg?accountingTag=WR",
       "label": "SEASTONE TRIDENT",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/e26aae26341d25c58fabbd60fb1b4323a85b87e7.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Fizz tosses a fish in a direction that attaches to any champion that touches it, slowing the target. After a short delay, a shark erupts from the ground, knocking up the target and knocking any nearby enemies aside. All enemies hit are dealt magic damage and slowed.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/728b6b46da5a317bcb22582ac505e1a68a44ad90-96x96.jpg?accountingTag=WR",
       "label": "Chum the Waters",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/bcf6561441e6dadb562a69d68c4e5233586a3e56.mp4?accountingTag=WR"
     }
   ],
@@ -98,5 +98,5 @@
     }
   ],
   "publishDate": "2020-10-08T20:07:41Z",
-  "hash": "af1df337de1efb363cba4c65f3318b924f42e73a331f092dfd14b78533f82be1"
+  "hash": "a799dc7583ecf0e9629bbed7f4638186a84f82942d88363c9dd6ad56f6365448"
 }

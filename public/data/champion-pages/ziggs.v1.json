@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10087",
   "riotSlug": "ziggs",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ziggs/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ziggs",
   "title": "ZIGGS",
   "subtitle": "the Hexplosives Expert",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "All of Ziggs’s abilities also damage structures. Periodically, his next ability deals bonus magic damage. This cooldown is reduced whenever Ziggs uses an ability.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/7ff27f375c46d2bfcf9e258c28d704678ef3756d-96x96.jpg?accountingTag=WR",
       "label": "Short Fuse",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/8620dcc646889b508139d18450bab9c660851064.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Ziggs deploys his ultimate creation, the Mega Inferno Bomb, hurling it an enormous distance. Enemies in the primary blast zone take more damage than those farther away. When quick casting, the bomb will target the enemy with the lowest HP.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/913aa713b1ac03c67ac1500655cadc149b0d3e44-96x96.jpg?accountingTag=WR",
       "label": "Mega Inferno Bomb",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/9c951a8f83f7cf8d3271d3f41f8381ece66b3a79.mp4?accountingTag=WR"
     }
   ],
@@ -97,5 +97,5 @@
     }
   ],
   "publishDate": "2020-10-08T20:54:05Z",
-  "hash": "453118c38992369b1bcfcfaeead6b659830220a2e38ddca648b6f37ec6489d54"
+  "hash": "ce89f970fa543b56132ec3e72f378a53be18416cb5cdff2c5f3071c12e962097"
 }

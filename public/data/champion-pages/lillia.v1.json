@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10135",
   "riotSlug": "lillia",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/lillia/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/lillia",
   "title": "LILLIA",
   "subtitle": "The Bashful Bloom",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Hitting a champion or monster with a skill will deal additional max Health damage over time.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/bd7244df76f95238f9f6ec781e1fbf249c9dd43b-96x96.jpg?accountingTag=WR",
       "label": "DREAM-LADEN BOUGH",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/61d44c5024e3fe67c373bea303700e115ecd829b.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Lillia causes all enemies with Dream Dust on them to become Drowsy before falling asleep. Those enemies will take extra damage on being forcibly woken up.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/93cc161152c99c252c5486b7585c2e89c173c40e-96x96.jpg?accountingTag=WR",
       "label": "LILTING LULLABY",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/15bd7c4edaeb3ef4927129ddbb2d79880db6cbc7.mp4?accountingTag=WR"
     }
   ],
@@ -92,5 +92,5 @@
     }
   ],
   "publishDate": "2022-12-09T21:00:54Z",
-  "hash": "d2fdf4d0e202702bc97b27102b641258b7dd7bb391057804d32d7a54db8485d2"
+  "hash": "a22c284eb7815bbfa091b29870226feb22cc93d3e347e82107585c3f0a916a08"
 }

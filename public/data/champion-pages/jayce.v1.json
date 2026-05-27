@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10101",
   "riotSlug": "jayce",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/jayce/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/jayce",
   "title": "JAYCE",
   "subtitle": "the Defender of Tomorrow",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "When Jayce swaps weapons he gains movement speed for a short duration.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/55043dccfd2a0500d8c14320e5af100f71a56d25-96x96.jpg?accountingTag=WR",
       "label": "HEXTECH CAPACITOR",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/5a9bc40b33ca1c4b2b4011f5dc26b75efff9d8ef.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Hammer Stance: Transforms the Mercury Hammer into the Mercury Cannon gaining new abilities and increased range. The first attack in this form reduces the target's Armor and Magic Resist. Cannon Stance: Transforms the Mercury Cannon into the Mercury Hammer gaining new abilities and increasing Armor and Magic Resist. The first attack in this form deals additional magic damage.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/cb70e4541ed6f48ba2fbd31947dcb02da3328e1c-96x96.jpg?accountingTag=WR",
       "label": "MERCURY CANNON / MERCURY HAMMER",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/852731b84b54861dff8cb94d7c1537a66f64fb58.mp4?accountingTag=WR"
     }
   ],
@@ -95,8 +95,13 @@
       "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e85d457f214276d6cd2bffdc2c0da9628b75f4d0-1280x720.jpg?accountingTag=WR",
       "label": "RESISTANCE JAYCE",
       "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e85d457f214276d6cd2bffdc2c0da9628b75f4d0-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/08db9187a3ed5a3d83800e2caa03d2658334af4d-1280x720.jpg?accountingTag=WR",
+      "label": "CONFESSION MELODY JAYCE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/08db9187a3ed5a3d83800e2caa03d2658334af4d-1280x720.jpg?accountingTag=WR"
     }
   ],
   "publishDate": "2021-11-03T07:23:37Z",
-  "hash": "ab8e227ddca3f4e7aa102e87af82745d4679af13268df4ffcaeef56aacaa9d58"
+  "hash": "b6ba101ed3022cbd89731b292f05a4c5ec0ab778291d55c95a758a58cb6c3bdc"
 }

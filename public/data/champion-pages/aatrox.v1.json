@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10002",
   "riotSlug": "aatrox",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/aatrox/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/aatrox",
   "title": "AATROX",
   "subtitle": "The Darkin Blade",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Periodically, Aatrox's next basic attack deals bonus physical damage and heals him, based on the target's max health.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/a7f384dadc3eb5a196e91048e7a9f108d9dc685d-96x96.jpg?accountingTag=WR",
       "label": "DEATHBRINGER STANCE",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/c7b9d571fb0a138a038e15a82544573d7332a7c4.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Aatrox unleashes his demonic form, fearing nearby enemy minions and gaining attack damage, increased healing, and Move Speed. If he gets a takedown, this effect is extended.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/d856f3fef116a61f23a7303928bb70950395bbd7-96x96.jpg?accountingTag=WR",
       "label": "WORLD ENDER",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/fc15d9c323d23377212e5669aa050e63c5c3b6d1.mp4?accountingTag=WR"
     }
   ],
@@ -97,5 +97,5 @@
     }
   ],
   "publishDate": "2022-11-15T20:57:58Z",
-  "hash": "c6abc2d98932ad833a281ee30b958391930144615c4700b349805974a1b11297"
+  "hash": "a786a5c6407098d508b592586a0df6aef44dc9a01530acec4aae4a3eff447bf1"
 }

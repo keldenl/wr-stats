@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10112",
   "riotSlug": "caitlyn",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/caitlyn/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/caitlyn",
   "title": "CAITLYN",
   "subtitle": "the Sheriff of Piltover",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Every few basic attacks, or against a target she has trapped or netted, Caitlyn will fire a headshot dealing bonus damage that scales with her critical strike chance. On trapped or netted targets, Caitlyn's Headshot attack range is doubled.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/615ecd9e9f576fd330756bd380934d9bc2b65a1b-96x96.jpg?accountingTag=WR",
       "label": "HEADSHOT",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/044e6404fced0f5050da599ed468e18df9c8afe3.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Caitlyn takes time to line up the perfect shot, dealing massive damage to a single target at a huge range. Enemy champions can intercept the bullet for their ally.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/801861e397d864a0686e720ff209bd810886aa2c-96x96.jpg?accountingTag=WR",
       "label": "ACE IN THE HOLE",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/a6aa8559fdb3bbb4db73b5d4a64170fa8596fb9d.mp4?accountingTag=WR"
     }
   ],
@@ -112,5 +112,5 @@
     }
   ],
   "publishDate": "2021-11-03T07:31:32Z",
-  "hash": "96fbe774732d23b7114e5e2a30a19046de456eeefcab987b837e88adb6700fea"
+  "hash": "bc5ee52defad5c3063922413b1ec90942d58dceb5933a3e10569b5134fccbfd8"
 }

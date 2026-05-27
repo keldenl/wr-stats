@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10068",
   "riotSlug": "sett",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/sett/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/sett",
   "title": "SETT",
   "subtitle": "the Boss",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Sett's basic attacks alternate between left and right punch. Right punch is slightly stronger and faster. Sett also hates losing, gaining additional health regeneration based off of his missing health.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/32652f94db46ab7a1eddff988d61eee37ecfdacb-96x96.jpg?accountingTag=WR",
       "label": "PIT GRIT",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/5194528a012b3e925b2c1db924b4fe734d0f66a4.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Sett carries an enemy champion through the air and slams them into the ground, dealing damage and slowing all enemies near where they land.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/01ce3997c16fabdac710e2cc6bed5d6180c9bfc9-96x96.jpg?accountingTag=WR",
       "label": "THE SHOW STOPPER",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/a0dc92685db10e3b40daf784620ac88bc7c8afa2.mp4?accountingTag=WR"
     }
   ],
@@ -107,5 +107,5 @@
     }
   ],
   "publishDate": "2022-01-21T18:03:14Z",
-  "hash": "2f3cddd58f650a8420416ca3f478b0d00b5744c62b691db774833f2bf1779af4"
+  "hash": "a3a4bf3940a49359afc17da283653661f1e575f5d97af7ef55149c95bdd76eac"
 }

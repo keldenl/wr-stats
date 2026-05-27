@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10129",
   "riotSlug": "velkoz",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/velkoz/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/velkoz",
   "title": "VEL'KOZ",
   "subtitle": "THE EYE OF THE VOID",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Vel'Koz's abilities apply Organic Deconstruction to enemies on hit. If 3 stacks are accumulated, the enemy will take a burst of true damage.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/44779c39dd2de75f7d7574bb0a9d562c60684045-128x128.png?accountingTag=WR",
       "label": "ORGANIC DECONSTRUCTION",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/198d069ff5c3a5d7ff98a9bafcebebaced3b5e5e.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Passive: Apply 3 Deconstruction stacks to an enemy champion marking them as Researched for 7 seconds.\nActive: Vel'Koz unleashes a channelled beam that he can steer in a target direction to deal magic damage and slow enemies hit. Researched enemy champions take true damage instead.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7d1fbc9407f2529f12d0c0a3a8d3aaf6cf4773dd-128x128.png?accountingTag=WR",
       "label": "LIFE FORM DISINTEGRATION RAY",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/ed96950d2ac53441161ea9d12b377335193329c2.mp4?accountingTag=WR"
     }
   ],
@@ -68,5 +68,5 @@
     }
   ],
   "publishDate": "2025-09-09T19:40:05Z",
-  "hash": "b9b0c5bedea386fc59046ebad87431331918dc2a46b38ebf592c6a3771e797f8"
+  "hash": "61537c47c4c75692bd9ab2fe184a460fa9e73d0e35eba9c6dc6eed3ed501493b"
 }

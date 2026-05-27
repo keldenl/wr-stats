@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10094",
   "riotSlug": "irelia",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/irelia/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/irelia",
   "title": "IRELIA",
   "subtitle": "the Blade Dancer",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "When Irelia strikes enemies with spells she gains stacking bonus Attack Speed. At maximum stacks she also gains bonus damage on hit.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/f90827da91c3efa3f73d507acc40037da034e0ab-96x96.jpg?accountingTag=WR",
       "label": "IONIAN FERVOR",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/fdc33eb21d14ff5781abf3cb038c3c0051429df0.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Irelia fires a massive number of blades that explode outward upon hitting an enemy champion. Enemies hit by the blades are damaged and Marked. Afterwards the blades form a wall that will damage and slow enemies that walk through it.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/dd3c3ff7307886ebb1505304319ae71ae3454da7-96x96.jpg?accountingTag=WR",
       "label": "VANGUARD'S EDGE",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/7001bcc44aa6edfadc47cf420402535b7bb79a65.mp4?accountingTag=WR"
     }
   ],
@@ -82,9 +82,9 @@
       "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b8d30e3dfacdfcc8ca4187257a66cfff3d8d74f5-1280x720.jpg?accountingTag=WR"
     },
     {
-      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6e4ff8e14ab76ec573f739e55be34042cd963c89-1280x720.jpg?accountingTag=WR",
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f959ee90d467e00fff033c65ed0417a7d8b7a270-1280x720.jpg?accountingTag=WR",
       "label": "SOUL FIGHTER IRELIA",
-      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6e4ff8e14ab76ec573f739e55be34042cd963c89-1280x720.jpg?accountingTag=WR"
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f959ee90d467e00fff033c65ed0417a7d8b7a270-1280x720.jpg?accountingTag=WR"
     },
     {
       "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/85e1bd6f412bc85a16256879e80ac61f4b06f295-1280x720.jpg?accountingTag=WR",
@@ -100,8 +100,13 @@
       "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3a2574f04a06f873e8c5a6cf766cedb9589edd2d-1280x720.jpg?accountingTag=WR",
       "label": "FROSTBLADE IRELIA",
       "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3a2574f04a06f873e8c5a6cf766cedb9589edd2d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5fb218cddc3fff0a41a84ee5be410ac0a13fc7ad-1280x720.jpg?accountingTag=WR",
+      "label": "NEON DAREDEVIL IRELIA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5fb218cddc3fff0a41a84ee5be410ac0a13fc7ad-1280x720.jpg?accountingTag=WR"
     }
   ],
   "publishDate": "2021-05-25T16:03:53Z",
-  "hash": "6e51cfe860781ace79451db30f2afd6e7fa5312013206391bc60cd432f837112"
+  "hash": "bebe4a1ccc76525d4e00d1ddbc9892c1b62ed202243c1428f160162d55872bcf"
 }

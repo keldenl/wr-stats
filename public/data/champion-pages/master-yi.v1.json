@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10070",
   "riotSlug": "master-yi",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/master-yi/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/master-yi",
   "title": "MASTER YI",
   "subtitle": "the Wuju Bladesman",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Every few consecutive basic attacks, Master Yi strikes twice.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/91bf53294513d45bdfe562698d13afa117d1916a-96x96.jpg?accountingTag=WR",
       "label": "Double Strike",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/91cc69667980f21927a62cfd31d785b3233d3b80.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Master Yi moves with unparalleled agility, temporarily increasing his Movement and Attack Speeds as well as making him immune to all slowing effects. While active, Champion kills or assists extend Highlander's duration. Passively reduces cooldown for his other abilities on a kill or assist.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/3b62831c3de9489edaf0d675c0c691e1395acffb-96x96.jpg?accountingTag=WR",
       "label": "Highlander",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/b6a058df4d2ab0f2ff1fe2e361d0b0bd6337785e.mp4?accountingTag=WR"
     }
   ],
@@ -97,9 +97,9 @@
       "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c35e7a526587e0adc8fdad869c171e499e17366b-1280x720.jpg?accountingTag=WR"
     },
     {
-      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7913de85eddb1563d87e050d962c905566115a56-1280x720.jpg?accountingTag=WR",
-      "label": "Zephyr Dragon Master Yi Mythic Chroma",
-      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7913de85eddb1563d87e050d962c905566115a56-1280x720.jpg?accountingTag=WR"
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/fda3bc0739ad1251e62084ff9011d1b17e2ff614-1280x720.jpg?accountingTag=WR",
+      "label": "ZEPHYR DRAGON MASTER YI MYTHIC CHROMA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/fda3bc0739ad1251e62084ff9011d1b17e2ff614-1280x720.jpg?accountingTag=WR"
     },
     {
       "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9d3949089920cbf02df35e1f89f9a46e801417b9-1280x720.jpg?accountingTag=WR",
@@ -110,8 +110,38 @@
       "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8be611ce1861b169f682a0d869f50c9356aba31d-1280x720.jpg?accountingTag=WR",
       "label": "PROJECT: Yi",
       "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8be611ce1861b169f682a0d869f50c9356aba31d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/8f1ffb0388cfda5a7456c8887602f8968c11c2d9-1280x720.jpg?accountingTag=WR",
+      "label": "PSY OPS MASTER YI (SPECIAL EDITION)",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/8f1ffb0388cfda5a7456c8887602f8968c11c2d9-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/69a7d7a61da7a67f7da2dc7c4288bab76d1e760e-1280x720.jpg?accountingTag=WR",
+      "label": "NEON DAREDEVIL MASTER YI: ORIGIN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/69a7d7a61da7a67f7da2dc7c4288bab76d1e760e-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/af69802ae4a1c596e45d538f98de7456606115b3-1280x720.jpg?accountingTag=WR",
+      "label": "NEON DAREDEVIL MASTER YI: VELOCITY",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/af69802ae4a1c596e45d538f98de7456606115b3-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/05f8598a0bce15263c9ebdb6516372a111bb479d-1280x720.jpg?accountingTag=WR",
+      "label": "NEON DAREDEVIL MASTER YI: MEGACORPS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/05f8598a0bce15263c9ebdb6516372a111bb479d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/47830e41b7cb0a1180d1961cd76a89ad47a5e971-1280x720.jpg?accountingTag=WR",
+      "label": "NEON DAREDEVIL MASTER YI: NEON SPEED",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/47830e41b7cb0a1180d1961cd76a89ad47a5e971-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e490e13fc0e9878fc3bbc7d882fa9d66b6b2b788-1280x720.jpg?accountingTag=WR",
+      "label": "NEON DAREDEVIL MASTER YI: SWIFTBLADEZ",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e490e13fc0e9878fc3bbc7d882fa9d66b6b2b788-1280x720.jpg?accountingTag=WR"
     }
   ],
   "publishDate": "2020-10-08T20:45:05Z",
-  "hash": "249107886ca85266557a9463e85da4301660ac0cda4c492620830501d75817b7"
+  "hash": "f8eb42ff8c21eca105640c076814a2adfa8670440ae4f3303dbcc96dbeab6b22"
 }

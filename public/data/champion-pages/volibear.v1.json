@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10058",
   "riotSlug": "volibear",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/volibear/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/volibear",
   "title": "VOLIBEAR",
   "subtitle": "The Relentless Storm",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Volibear's Attacks and abilities grant Attack Speed, and eventually cause his Attacks to deal bonus magic damage to nearby enemies.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5e1e2446c9dc697dd5d7c538f8bd779e6f923f66-96x96.jpg?accountingTag=WR",
       "label": "THE RELENTLESS STORM",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/322973ad77e66d2213edad4e8144fa327da1234f.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Volibear leaps to a target location, Slowing and damaging enemies beneath him while gaining bonus Health. Enemy towers near his landing location become temporarily disabled.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/68d7df543f0778a59a35265cd958eba87db943c0-96x96.jpg?accountingTag=WR",
       "label": "STORMBRINGER",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/4f5e3eb5fa3169a552dca86006cc4d9419ab541c.mp4?accountingTag=WR"
     }
   ],
@@ -83,5 +83,5 @@
     }
   ],
   "publishDate": "2023-06-16T00:28:04Z",
-  "hash": "83b476d8cfb4b62e00575271c5602c14bc70f932587c9ea38f2c27393319cfd0"
+  "hash": "0bf539b5077839595b7ebb39dc913befe745cdbe05d3b43786640344a2694241"
 }

@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10029",
   "riotSlug": "evelynn",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/evelynn/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/evelynn",
   "title": "EVELYNN",
   "subtitle": "Agony's Embrace",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "When out of combat, Evelynn enters Demon Shade. Demon Shade heals Evelynn when she is low on health and grants Camouflage after level 5.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/204da58dade31ef684fc76296ae595722b93ce43-96x96.jpg?accountingTag=WR",
       "label": "DEMON SHADE",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/0ed3012852050cd4cf4b5313b126025ceb1ce334.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Evelynn briefly goes untargetable and decimates the area in front of her before warping backwards a long distance.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/589f01487716aa00da95b8f9236768bec43c8e0f-96x96.jpg?accountingTag=WR",
       "label": "LAST CARESS",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/4dcb7e45486afdc5a35e1d7c1dd48a1b6c39c128.mp4?accountingTag=WR"
     }
   ],
@@ -87,5 +87,5 @@
     }
   ],
   "publishDate": "2020-10-29T22:02:51Z",
-  "hash": "8aec68baed8bcd0b3b1baa7ca691b420a54b87aafad41d591b09fc3b38df8b9d"
+  "hash": "e7aea1584f44b17b5e59d1c103f50d154999537ad828898b3740d1cf5ef09829"
 }

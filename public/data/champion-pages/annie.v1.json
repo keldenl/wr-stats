@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10036",
   "riotSlug": "annie",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/annie/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/annie",
   "title": "ANNIE",
   "subtitle": "the Dark Child",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "After casting 4 spells, Annie's next offensive spell will stun the target.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/b7f7813fe0367fe34e917b951cca3bc5cb7ca3b8-96x96.jpg?accountingTag=WR",
       "label": "Pyromania",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/3cc0dd35d1b08086500839b17f14704366549a58.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Annie summons Tibbers, dealing damage in the area. Tibbers enrages after pouncing on an enemy or when Annie dies, gaining move and attack speed. Recast: Annie orders Tibbers to pounce on a target. He deals damage and knocks up the target when he lands.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/610f1b34137a719fa2677c0897fbe46847d2aff1-96x96.jpg?accountingTag=WR",
       "label": "Summon: Tibbers",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/f88f933b8ebed6c804c5eab2cf18d077d9205c6a.mp4?accountingTag=WR"
     }
   ],
@@ -98,5 +98,5 @@
     }
   ],
   "publishDate": "2020-10-08T20:03:34Z",
-  "hash": "28234ead45573bee8a9572393c2ef278679b2a3519d85eb1811a4062c8dcef63"
+  "hash": "3ea2803a1d7f430c7872db6f64a403239d2e34491c98b0b05517f60e4d0456d0"
 }

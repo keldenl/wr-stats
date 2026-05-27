@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10067",
   "riotSlug": "zeri",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/zeri/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/zeri",
   "title": "ZERI",
   "subtitle": "THE SPARK OF ZAUN",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Zeri gains Move Speed whenever she receives a shield. When she damages an enemy shield she absorbs its energy, shielding herself.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ae2ee36768555f3c9a6ba35b1abc7d110e6ef2a7-96x96.jpg?accountingTag=WR",
       "label": "LIVING BATTERY",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/6d78a549695038358fa978488fa6730741cbe780.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Zeri discharges a nova of electricity and overcharges herself, gaining increased damage and stacking Move Speed that refreshes and gets stronger every time she hits an enemy champion. While overcharged, Burst fire becomes a faster triple shot that chains lightning between enemies.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/f56d8327ca38ea2015244678275176b55b10664b-96x96.jpg?accountingTag=WR",
       "label": "LIGHTNING CRASH",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/3471fa08fc9dae7ab554421120100a860c034417.mp4?accountingTag=WR"
     }
   ],
@@ -87,5 +87,5 @@
     }
   ],
   "publishDate": "2023-02-14T23:07:37Z",
-  "hash": "d659dee7508f422bbddf032d18342d1e1fa57a740ca8b9efe82154c16eca55f0"
+  "hash": "705a31bc871c33b8f74071d73f1804f69e095515285b76334f02a092706a4524"
 }

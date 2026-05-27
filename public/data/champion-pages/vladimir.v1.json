@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10090",
   "riotSlug": "vladimir",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/vladimir/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/vladimir",
   "title": "VLADIMIR",
   "subtitle": "The Crimson Reaper",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Every 30 points of bonus Health gives Vladimir 1 Ability Power and every 1 point of Ability Power gives Vladimir 1.6 bonus Health (does not stack with itself).",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/f54b1f86c8b3c1fc0326a9159c62fa1a92d9a1b8-96x96.jpg?accountingTag=WR",
       "label": "CRIMSON PACT",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/a7e9cfdda019fbf25f6b044d66d3afde50877a7e.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Vladimir infects an area with a virulent plague. Affected enemies take increased damage for the duration. After a few seconds, Hemoplague deals magic damage to infected enemies and heals Vladimir for each enemy Champion hit.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/179bef101af7f2478cd6aa12400e176cc3e5c316-96x96.jpg?accountingTag=WR",
       "label": "HEMOPLAGUE",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/8d8ee7b3b982de80c10e7d52246065a72f1be7ba.mp4?accountingTag=WR"
     }
   ],
@@ -77,5 +77,5 @@
     }
   ],
   "publishDate": "2023-08-13T14:49:26Z",
-  "hash": "caf68f1b73c90d4847d8ab81a99d47621e7fbdc7020cfb854493f86c60274634"
+  "hash": "37a26f51079b322e19bb792a5aa4fb725ef1228e9b770987977695449f311e0e"
 }

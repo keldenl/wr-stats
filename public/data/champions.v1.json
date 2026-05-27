@@ -8,7 +8,7 @@
       "searchText": "garen 德玛西亚之力 盖伦 gailun",
       "title": "德玛西亚之力",
       "riotSlug": "garen",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/garen/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/garen"
     },
     "10002": {
       "alias": "yatuokesi",
@@ -18,7 +18,7 @@
       "searchText": "aatrox 暗裔剑魔 亚托克斯 yatuokesi",
       "title": "暗裔剑魔",
       "riotSlug": "aatrox",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/aatrox/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/aatrox"
     },
     "10003": {
       "alias": "lakesi",
@@ -28,7 +28,7 @@
       "searchText": "lux 光辉女郎 拉克丝 lakesi",
       "title": "光辉女郎",
       "riotSlug": "lux",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/lux/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/lux"
     },
     "10004": {
       "alias": "emumu",
@@ -38,7 +38,7 @@
       "searchText": "amumu 殇之木乃伊 阿木木 emumu",
       "title": "殇之木乃伊",
       "riotSlug": "amumu",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/amumu/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/amumu"
     },
     "10005": {
       "alias": "kaiyin",
@@ -48,7 +48,7 @@
       "searchText": "kayn 影流之镰 凯隐 kaiyin",
       "title": "影流之镰",
       "riotSlug": "kayn",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/kayn/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/kayn"
     },
     "10006": {
       "alias": "leienjiaer",
@@ -58,7 +58,7 @@
       "searchText": "rengar 傲之追猎者 雷恩加尔 leienjiaer",
       "title": "傲之追猎者",
       "riotSlug": "rengar",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/rengar/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/rengar"
     },
     "10007": {
       "alias": "kaerma",
@@ -68,7 +68,7 @@
       "searchText": "karma 天启者 卡尔玛 kaerma",
       "title": "天启者",
       "riotSlug": "karma",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/karma/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/karma"
     },
     "10008": {
       "alias": "nunuheweilangpu",
@@ -78,7 +78,7 @@
       "searchText": "nunu 雪原双子 努努和威朗普 nunuheweilangpu",
       "title": "雪原双子",
       "riotSlug": "nunu-and-willump",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/nunu-and-willump/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/nunu-and-willump"
     },
     "10009": {
       "alias": "sunwukong",
@@ -88,7 +88,7 @@
       "searchText": "wukong 齐天大圣 孙悟空 sunwukong",
       "title": "齐天大圣",
       "riotSlug": "wukong",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/wukong/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/wukong"
     },
     "10010": {
       "alias": "weien",
@@ -98,7 +98,7 @@
       "searchText": "vayne 暗夜猎手 薇恩 weien",
       "title": "暗夜猎手",
       "riotSlug": "vayne",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/vayne/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/vayne"
     },
     "10011": {
       "alias": "aike",
@@ -108,7 +108,7 @@
       "searchText": "ekko 时间刺客 艾克 aike",
       "title": "时间刺客",
       "riotSlug": "ekko",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ekko/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ekko"
     },
     "10012": {
       "alias": "aolianna",
@@ -118,7 +118,7 @@
       "searchText": "orianna 发条魔灵 奥莉安娜 aolianna",
       "title": "发条魔灵",
       "riotSlug": "orianna",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/orianna/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/orianna"
     },
     "10013": {
       "alias": "daianna",
@@ -128,7 +128,7 @@
       "searchText": "diana 皎月女神 黛安娜 daianna",
       "title": "皎月女神",
       "riotSlug": "diana",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/diana/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/diana"
     },
     "10014": {
       "alias": "zuoyi",
@@ -138,7 +138,7 @@
       "searchText": "zoe 暮光星灵 佐伊 zuoyi",
       "title": "暮光星灵",
       "riotSlug": "zoe",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/zoe/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/zoe"
     },
     "10015": {
       "alias": "taidamier",
@@ -148,7 +148,7 @@
       "searchText": "tryndamere 蛮族之王 泰达米尔 taidamier",
       "title": "蛮族之王",
       "riotSlug": "tryndamere",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/tryndamere/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/tryndamere"
     },
     "10016": {
       "alias": "zhaoxin",
@@ -158,7 +158,7 @@
       "searchText": "xin zhao 德邦总管 赵信 zhaoxin",
       "title": "德邦总管",
       "riotSlug": "xin-zhao",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/xin-zhao/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/xin-zhao"
     },
     "10017": {
       "alias": "kazike",
@@ -168,7 +168,7 @@
       "searchText": "khazix 虚空掠夺者 卡兹克 kazike",
       "title": "虚空掠夺者",
       "riotSlug": "khazix",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/khazix/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/khazix"
     },
     "10018": {
       "alias": "jinkesi",
@@ -178,7 +178,7 @@
       "searchText": "jinx 暴走萝莉 金克丝 jinkesi",
       "title": "暴走萝莉",
       "riotSlug": "jinx",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/jinx/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/jinx"
     },
     "10019": {
       "alias": "hekalimu",
@@ -188,7 +188,7 @@
       "searchText": "hecarim 战争之影 赫卡里姆 hekalimu",
       "title": "战争之影",
       "riotSlug": "hecarim",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/hecarim/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/hecarim"
     },
     "10020": {
       "alias": "youmi",
@@ -198,7 +198,7 @@
       "searchText": "yuumi 魔法猫咪 悠米 youmi",
       "title": "魔法猫咪",
       "riotSlug": "yuumi",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/yuumi/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/yuumi"
     },
     "10021": {
       "alias": "bulong",
@@ -208,7 +208,7 @@
       "searchText": "braum 弗雷尔卓德之心 布隆 bulong",
       "title": "弗雷尔卓德之心",
       "riotSlug": "braum",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/braum/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/braum"
     },
     "10022": {
       "alias": "jin",
@@ -218,7 +218,7 @@
       "searchText": "jhin 戏命师 烬 jin",
       "title": "戏命师",
       "riotSlug": "jhin",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/jhin/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/jhin"
     },
     "10023": {
       "alias": "aoruilian·suoer",
@@ -228,7 +228,7 @@
       "searchText": "aurelion sol 铸星龙王 奥瑞利安·索尔 aoruilian·suoer",
       "title": "铸星龙王",
       "riotSlug": "aurelion-sol",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/aurelion-sol/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/aurelion-sol"
     },
     "10024": {
       "alias": "xindela",
@@ -238,7 +238,7 @@
       "searchText": "syndra 暗黑元首 辛德拉 xindela",
       "title": "暗黑元首",
       "riotSlug": "syndra",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/syndra/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/syndra"
     },
     "10025": {
       "alias": "cuisite",
@@ -248,7 +248,7 @@
       "searchText": "twisted fate 卡牌大师 崔斯特 cuisite",
       "title": "卡牌大师",
       "riotSlug": "twisted-fate",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/twisted-fate/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/twisted-fate"
     },
     "10026": {
       "alias": "kasha",
@@ -258,7 +258,7 @@
       "searchText": "kaisa 虚空之女 卡莎 kasha",
       "title": "虚空之女",
       "riotSlug": "kaisa",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/kaisa/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/kaisa"
     },
     "10027": {
       "alias": "ni菈",
@@ -268,7 +268,7 @@
       "searchText": "nilah 不羁之悦 尼菈 ni菈",
       "title": "不羁之悦",
       "riotSlug": "nilah",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/nilah/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/nilah"
     },
     "10028": {
       "alias": "moganna",
@@ -278,7 +278,7 @@
       "searchText": "morgana 堕落天使 莫甘娜 moganna",
       "title": "堕落天使",
       "riotSlug": "morgana",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/morgana/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/morgana"
     },
     "10029": {
       "alias": "yifulin",
@@ -288,7 +288,7 @@
       "searchText": "evelynn 痛苦之拥 伊芙琳 yifulin",
       "title": "痛苦之拥",
       "riotSlug": "evelynn",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/evelynn/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/evelynn"
     },
     "10030": {
       "alias": "pansen",
@@ -298,7 +298,7 @@
       "searchText": "pantheon 不屈之枪 潘森 pansen",
       "title": "不屈之枪",
       "riotSlug": "pantheon",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/pantheon/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/pantheon"
     },
     "10031": {
       "alias": "ekali",
@@ -308,7 +308,7 @@
       "searchText": "akali 离群之刺 阿卡丽 ekali",
       "title": "离群之刺",
       "riotSlug": "akali",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/akali/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/akali"
     },
     "10032": {
       "alias": "feiaona",
@@ -318,7 +318,7 @@
       "searchText": "fiora 无双剑姬 菲奥娜 feiaona",
       "title": "无双剑姬",
       "riotSlug": "fiora",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/fiora/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/fiora"
     },
     "10033": {
       "alias": "bulici",
@@ -328,7 +328,7 @@
       "searchText": "blitzcrank 蒸汽机器人 布里茨 bulici",
       "title": "蒸汽机器人",
       "riotSlug": "blitzcrank",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/blitzcrank/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/blitzcrank"
     },
     "10034": {
       "alias": "salefenni",
@@ -338,7 +338,7 @@
       "searchText": "seraphine 星籁歌姬 萨勒芬妮 salefenni",
       "title": "星籁歌姬",
       "riotSlug": "seraphine",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/seraphine/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/seraphine"
     },
     "10035": {
       "alias": "modekaisa",
@@ -348,7 +348,7 @@
       "searchText": "mordekaiser 铁铠冥魂 莫德凯撒 modekaisa",
       "title": "铁铠冥魂",
       "riotSlug": "mordekaiser",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/mordekaiser/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/mordekaiser"
     },
     "10036": {
       "alias": "anni",
@@ -358,7 +358,7 @@
       "searchText": "annie 黑暗之女 安妮 anni",
       "title": "黑暗之女",
       "riotSlug": "annie",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/annie/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/annie"
     },
     "10037": {
       "alias": "yasuo",
@@ -368,7 +368,7 @@
       "searchText": "yasuo 疾风剑豪 亚索 yasuo",
       "title": "疾风剑豪",
       "riotSlug": "yasuo",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/yasuo/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/yasuo"
     },
     "10038": {
       "alias": "eli",
@@ -378,7 +378,7 @@
       "searchText": "ahri 九尾妖狐 阿狸 eli",
       "title": "九尾妖狐",
       "riotSlug": "ahri",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ahri/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ahri"
     },
     "10039": {
       "alias": "jie",
@@ -388,7 +388,7 @@
       "searchText": "zed 影流之主 劫 jie",
       "title": "影流之主",
       "riotSlug": "zed",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/zed/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/zed"
     },
     "10040": {
       "alias": "jiakesi",
@@ -398,7 +398,7 @@
       "searchText": "jax 武器大师 贾克斯 jiakesi",
       "title": "武器大师",
       "riotSlug": "jax",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/jax/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/jax"
     },
     "10041": {
       "alias": "kaier",
@@ -408,7 +408,7 @@
       "searchText": "kayle 正义天使 凯尔 kaier",
       "title": "正义天使",
       "riotSlug": "kayle",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/kayle/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/kayle"
     },
     "10042": {
       "alias": "luxian",
@@ -418,7 +418,7 @@
       "searchText": "lucian 圣枪游侠 卢锡安 luxian",
       "title": "圣枪游侠",
       "riotSlug": "lucian",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/lucian/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/lucian"
     },
     "10044": {
       "alias": "leiouna",
@@ -428,7 +428,7 @@
       "searchText": "leona 曙光女神 蕾欧娜 leiouna",
       "title": "曙光女神",
       "riotSlug": "leona",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/leona/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/leona"
     },
     "10045": {
       "alias": "cuisitana",
@@ -438,7 +438,7 @@
       "searchText": "tristana 麦林炮手 崔丝塔娜 cuisitana",
       "title": "麦林炮手",
       "riotSlug": "tristana",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/tristana/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/tristana"
     },
     "10046": {
       "alias": "timo",
@@ -448,7 +448,7 @@
       "searchText": "teemo 迅捷斥候 提莫 timo",
       "title": "迅捷斥候",
       "riotSlug": "teemo",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/teemo/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/teemo"
     },
     "10047": {
       "alias": "suona",
@@ -458,7 +458,7 @@
       "searchText": "sona 琴瑟仙女 娑娜 suona",
       "title": "琴瑟仙女",
       "riotSlug": "sona",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/sona/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/sona"
     },
     "10048": {
       "alias": "lulu",
@@ -468,7 +468,7 @@
       "searchText": "lulu 仙灵女巫 璐璐 lulu",
       "title": "仙灵女巫",
       "riotSlug": "lulu",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/lulu/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/lulu"
     },
     "10049": {
       "alias": "xiwana",
@@ -478,7 +478,7 @@
       "searchText": "shyvana 龙血武姬 希瓦娜 xiwana",
       "title": "龙血武姬",
       "riotSlug": "shyvana",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/shyvana/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/shyvana"
     },
     "10050": {
       "alias": "wei",
@@ -488,7 +488,7 @@
       "searchText": "vi 皮城执法官 蔚 wei",
       "title": "皮城执法官",
       "riotSlug": "vi",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/vi/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/vi"
     },
     "10051": {
       "alias": "xia",
@@ -498,7 +498,7 @@
       "searchText": "xayah 逆羽 霞 xia",
       "title": "逆羽",
       "riotSlug": "xayah",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/xayah/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/xayah"
     },
     "10052": {
       "alias": "luo",
@@ -508,7 +508,7 @@
       "searchText": "rakan 幻翎 洛 luo",
       "title": "幻翎",
       "riotSlug": "rakan",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/rakan/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/rakan"
     },
     "10053": {
       "alias": "tuqi",
@@ -518,7 +518,7 @@
       "searchText": "twitch 瘟疫之源 图奇 tuqi",
       "title": "瘟疫之源",
       "riotSlug": "twitch",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/twitch/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/twitch"
     },
     "10054": {
       "alias": "gewen",
@@ -528,7 +528,7 @@
       "searchText": "gwen 灵罗娃娃 格温 gewen",
       "title": "灵罗娃娃",
       "riotSlug": "gwen",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/gwen/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/gwen"
     },
     "10055": {
       "alias": "kamier",
@@ -538,7 +538,7 @@
       "searchText": "camille 青钢影 卡蜜尔 kamier",
       "title": "青钢影",
       "riotSlug": "camille",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/camille/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/camille"
     },
     "10056": {
       "alias": "jiawensishi",
@@ -548,7 +548,7 @@
       "searchText": "jarvan iv 德玛西亚皇子 嘉文四世 jiawensishi",
       "title": "德玛西亚皇子",
       "riotSlug": "jarvan-iv",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/jarvan-iv/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/jarvan-iv"
     },
     "10057": {
       "alias": "foyege",
@@ -558,7 +558,7 @@
       "searchText": "viego 破败之王 佛耶戈 foyege",
       "title": "破败之王",
       "riotSlug": "viego",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/viego/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/viego"
     },
     "10058": {
       "alias": "wolibeier",
@@ -568,7 +568,7 @@
       "searchText": "volibear 不灭狂雷 沃利贝尔 wolibeier",
       "title": "不灭狂雷",
       "riotSlug": "volibear",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/volibear/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/volibear"
     },
     "10059": {
       "alias": "liqing",
@@ -578,7 +578,7 @@
       "searchText": "lee sin 盲僧 李青 liqing",
       "title": "盲僧",
       "riotSlug": "lee-sin",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/lee-sin/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/lee-sin"
     },
     "10060": {
       "alias": "kuqi",
@@ -588,7 +588,7 @@
       "searchText": "corki 英勇投弹手 库奇 kuqi",
       "title": "英勇投弹手",
       "riotSlug": "corki",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/corki/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/corki"
     },
     "10061": {
       "alias": "kainan",
@@ -598,7 +598,7 @@
       "searchText": "kennen 狂暴之心 凯南 kainan",
       "title": "狂暴之心",
       "riotSlug": "kennen",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/kennen/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/kennen"
     },
     "10062": {
       "alias": "mengduoyisheng",
@@ -608,7 +608,7 @@
       "searchText": "dr mundo 祖安狂人 蒙多医生 mengduoyisheng",
       "title": "祖安狂人",
       "riotSlug": "dr-mundo",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/dr-mundo/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/dr-mundo"
     },
     "10063": {
       "alias": "jiela",
@@ -618,7 +618,7 @@
       "searchText": "zyra 荆棘之兴 婕拉 jiela",
       "title": "荆棘之兴",
       "riotSlug": "zyra",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/zyra/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/zyra"
     },
     "10064": {
       "alias": "lamosi",
@@ -628,7 +628,7 @@
       "searchText": "rammus 披甲龙龟 拉莫斯 lamosi",
       "title": "披甲龙龟",
       "riotSlug": "rammus",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/rammus/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/rammus"
     },
     "10065": {
       "alias": "neisesi",
@@ -638,7 +638,7 @@
       "searchText": "nasus 沙漠死神 内瑟斯 neisesi",
       "title": "沙漠死神",
       "riotSlug": "nasus",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/nasus/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/nasus"
     },
     "10066": {
       "alias": "eyunxiaojie",
@@ -648,7 +648,7 @@
       "searchText": "miss fortune 赏金猎人 厄运小姐 eyunxiaojie",
       "title": "赏金猎人",
       "riotSlug": "miss-fortune",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/miss-fortune/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/miss-fortune"
     },
     "10067": {
       "alias": "zeli",
@@ -658,7 +658,7 @@
       "searchText": "zeri 祖安花火 泽丽 zeli",
       "title": "祖安花火",
       "riotSlug": "zeri",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/zeri/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/zeri"
     },
     "10068": {
       "alias": "seti",
@@ -668,7 +668,7 @@
       "searchText": "sett 腕豪 瑟提 seti",
       "title": "腕豪",
       "riotSlug": "sett",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/sett/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/sett"
     },
     "10069": {
       "alias": "yongen",
@@ -678,7 +678,7 @@
       "searchText": "yone 封魔剑魂 永恩 yongen",
       "title": "封魔剑魂",
       "riotSlug": "yone",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/yone/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/yone"
     },
     "10070": {
       "alias": "yi",
@@ -688,7 +688,7 @@
       "searchText": "master yi 无极剑圣 易 yi",
       "title": "无极剑圣",
       "riotSlug": "master-yi",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/master-yi/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/master-yi"
     },
     "10071": {
       "alias": "delaiesi",
@@ -698,7 +698,7 @@
       "searchText": "darius 诺克萨斯之手 德莱厄斯 delaiesi",
       "title": "诺克萨斯之手",
       "riotSlug": "darius",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/darius/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/darius"
     },
     "10072": {
       "alias": "geleifusi",
@@ -708,7 +708,7 @@
       "searchText": "graves 枪火狂徒 格雷福斯 geleifusi",
       "title": "枪火狂徒",
       "riotSlug": "graves",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/graves/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/graves"
     },
     "10073": {
       "alias": "qianjue",
@@ -718,7 +718,7 @@
       "searchText": "kindred 永猎双子 千珏 qianjue",
       "title": "永猎双子",
       "riotSlug": "kindred",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/kindred/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/kindred"
     },
     "10074": {
       "alias": "maokai",
@@ -728,7 +728,7 @@
       "searchText": "maokai 扭曲树精 茂凯 maokai",
       "title": "扭曲树精",
       "riotSlug": "maokai",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/maokai/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/maokai"
     },
     "10075": {
       "alias": "jiana",
@@ -738,7 +738,7 @@
       "searchText": "janna 风暴之怒 迦娜 jiana",
       "title": "风暴之怒",
       "riotSlug": "janna",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/janna/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/janna"
     },
     "10076": {
       "alias": "bobi",
@@ -748,7 +748,7 @@
       "searchText": "poppy 圣锤之毅 波比 bobi",
       "title": "圣锤之毅",
       "riotSlug": "poppy",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/poppy/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/poppy"
     },
     "10077": {
       "alias": "delaiwen",
@@ -758,7 +758,7 @@
       "searchText": "draven 荣耀行刑官 德莱文 delaiwen",
       "title": "荣耀行刑官",
       "riotSlug": "draven",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/draven/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/draven"
     },
     "10078": {
       "alias": "naer",
@@ -768,7 +768,7 @@
       "searchText": "gnar 迷失之牙 纳尔 naer",
       "title": "迷失之牙",
       "riotSlug": "gnar",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/gnar/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/gnar"
     },
     "10079": {
       "alias": "aixi",
@@ -778,7 +778,7 @@
       "searchText": "ashe 寒冰射手 艾希 aixi",
       "title": "寒冰射手",
       "riotSlug": "ashe",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ashe/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ashe"
     },
     "10080": {
       "alias": "jilan",
@@ -788,7 +788,7 @@
       "searchText": "zilean 时光守护者 基兰 jilan",
       "title": "时光守护者",
       "riotSlug": "zilean",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/zilean/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/zilean"
     },
     "10081": {
       "alias": "elisita",
@@ -798,7 +798,7 @@
       "searchText": "alistar 牛头酋长 阿利斯塔 elisita",
       "title": "牛头酋长",
       "riotSlug": "alistar",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/alistar/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/alistar"
     },
     "10082": {
       "alias": "anbeisa",
@@ -808,7 +808,7 @@
       "searchText": "ambessa 铁血狼母 安蓓萨 anbeisa",
       "title": "铁血狼母",
       "riotSlug": "ambessa",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ambessa/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ambessa"
     },
     "10083": {
       "alias": "mofeite",
@@ -818,7 +818,7 @@
       "searchText": "malphite 熔岩巨兽 墨菲特 mofeite",
       "title": "熔岩巨兽",
       "riotSlug": "malphite",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/malphite/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/malphite"
     },
     "10084": {
       "alias": "naideli",
@@ -828,7 +828,7 @@
       "searchText": "nidalee 狂野女猎手 奈德丽 naideli",
       "title": "狂野女猎手",
       "riotSlug": "nidalee",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/nidalee/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/nidalee"
     },
     "10085": {
       "alias": "eluola",
@@ -838,7 +838,7 @@
       "searchText": "aurora 双界灵兔 阿萝拉 eluola",
       "title": "双界灵兔",
       "riotSlug": "aurora",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/aurora/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/aurora"
     },
     "10086": {
       "alias": "feizi",
@@ -848,7 +848,7 @@
       "searchText": "fizz 潮汐海灵 菲兹 feizi",
       "title": "潮汐海灵",
       "riotSlug": "fizz",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/fizz/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/fizz"
     },
     "10087": {
       "alias": "jigesi",
@@ -858,7 +858,7 @@
       "searchText": "ziggs 爆破鬼才 吉格斯 jigesi",
       "title": "爆破鬼才",
       "riotSlug": "ziggs",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ziggs/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ziggs"
     },
     "10089": {
       "alias": "gulajiasi",
@@ -868,7 +868,7 @@
       "searchText": "gragas 酒桶 古拉加斯 gulajiasi",
       "title": "酒桶",
       "riotSlug": "gragas",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/gragas/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/gragas"
     },
     "10090": {
       "alias": "fulajimier",
@@ -878,7 +878,7 @@
       "searchText": "vladimir 猩红收割者 弗拉基米尔 fulajimier",
       "title": "猩红收割者",
       "riotSlug": "vladimir",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/vladimir/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/vladimir"
     },
     "10091": {
       "alias": "namei",
@@ -888,7 +888,7 @@
       "searchText": "nami 唤潮鲛姬 娜美 namei",
       "title": "唤潮鲛姬",
       "riotSlug": "nami",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/nami/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/nami"
     },
     "10092": {
       "alias": "ruiwen",
@@ -898,7 +898,7 @@
       "searchText": "riven 放逐之刃 锐雯 ruiwen",
       "title": "放逐之刃",
       "riotSlug": "riven",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/riven/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/riven"
     },
     "10093": {
       "alias": "weilusi",
@@ -908,7 +908,7 @@
       "searchText": "varus 惩戒之箭 韦鲁斯 weilusi",
       "title": "惩戒之箭",
       "riotSlug": "varus",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/varus/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/varus"
     },
     "10094": {
       "alias": "airuiliya",
@@ -918,7 +918,7 @@
       "searchText": "irelia 刀锋舞者 艾瑞莉娅 airuiliya",
       "title": "刀锋舞者",
       "riotSlug": "irelia",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/irelia/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/irelia"
     },
     "10095": {
       "alias": "katelinna",
@@ -928,7 +928,7 @@
       "searchText": "katarina 不祥之刃 卡特琳娜 katelinna",
       "title": "不祥之刃",
       "riotSlug": "katarina",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/katarina/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/katarina"
     },
     "10096": {
       "alias": "xinjide",
@@ -938,7 +938,7 @@
       "searchText": "singed 炼金术士 辛吉德 xinjide",
       "title": "炼金术士",
       "riotSlug": "singed",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/singed/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/singed"
     },
     "10097": {
       "alias": "suolaka",
@@ -948,7 +948,7 @@
       "searchText": "soraka 众星之子 索拉卡 suolaka",
       "title": "众星之子",
       "riotSlug": "soraka",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/soraka/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/soraka"
     },
     "10098": {
       "alias": "yizeruier",
@@ -958,7 +958,7 @@
       "searchText": "ezreal 探险家 伊泽瑞尔 yizeruier",
       "title": "探险家",
       "riotSlug": "ezreal",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ezreal/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ezreal"
     },
     "10099": {
       "alias": "jialiao",
@@ -968,7 +968,7 @@
       "searchText": "galio 正义巨像 加里奥 jialiao",
       "title": "正义巨像",
       "riotSlug": "galio",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/galio/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/galio"
     },
     "10100": {
       "alias": "ekeshang",
@@ -978,7 +978,7 @@
       "searchText": "akshan 影哨 阿克尚 ekeshang",
       "title": "影哨",
       "riotSlug": "akshan",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/akshan/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/akshan"
     },
     "10101": {
       "alias": "jiesi",
@@ -988,7 +988,7 @@
       "searchText": "jayce 未来守护者 杰斯 jiesi",
       "title": "未来守护者",
       "riotSlug": "jayce",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/jayce/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/jayce"
     },
     "10102": {
       "alias": "ejiate",
@@ -998,7 +998,7 @@
       "searchText": "urgot 无畏战车 厄加特 ejiate",
       "title": "无畏战车",
       "riotSlug": "urgot",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/urgot/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/urgot"
     },
     "10103": {
       "alias": "kasading",
@@ -1008,7 +1008,7 @@
       "searchText": "kassadin 虚空行者 卡萨丁 kasading",
       "title": "虚空行者",
       "riotSlug": "kassadin",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/kassadin/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/kassadin"
     },
     "10104": {
       "alias": "shamila",
@@ -1018,7 +1018,7 @@
       "searchText": "samira 沙漠玫瑰 莎弥拉 shamila",
       "title": "沙漠玫瑰",
       "riotSlug": "samira",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/samira/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/samira"
     },
     "10105": {
       "alias": "bade",
@@ -1028,7 +1028,7 @@
       "searchText": "bard 星界游神 巴德 bade",
       "title": "星界游神",
       "riotSlug": "bard",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/bard/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/bard"
     },
     "10106": {
       "alias": "aolafu",
@@ -1038,7 +1038,7 @@
       "searchText": "olaf 狂战士 奥拉夫 aolafu",
       "title": "狂战士",
       "riotSlug": "olaf",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/olaf/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/olaf"
     },
     "10107": {
       "alias": "xiweier",
@@ -1048,7 +1048,7 @@
       "searchText": "sivir 战争女神 希维尔 xiweier",
       "title": "战争女神",
       "riotSlug": "sivir",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/sivir/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/sivir"
     },
     "10108": {
       "alias": "miliou",
@@ -1058,7 +1058,7 @@
       "searchText": "milio 明烛 米利欧 miliou",
       "title": "明烛",
       "riotSlug": "milio",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/milio/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/milio"
     },
     "10109": {
       "alias": "lisangzhuo",
@@ -1068,7 +1068,7 @@
       "searchText": "lissandra 冰霜女巫 丽桑卓 lisangzhuo",
       "title": "冰霜女巫",
       "riotSlug": "lissandra",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/lissandra/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/lissandra"
     },
     "10110": {
       "alias": "kegemo",
@@ -1078,7 +1078,7 @@
       "searchText": "kogmaw 深渊巨口 克格莫 kegemo",
       "title": "深渊巨口",
       "riotSlug": "kogmaw",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/kogmaw/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/kogmaw"
     },
     "10112": {
       "alias": "kaitelin",
@@ -1088,7 +1088,7 @@
       "searchText": "caitlyn 皮城女警 凯特琳 kaitelin",
       "title": "皮城女警",
       "riotSlug": "caitlyn",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/caitlyn/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/caitlyn"
     },
     "10116": {
       "alias": "ruier",
@@ -1098,7 +1098,7 @@
       "searchText": "rell 镕铁少女 芮尔 ruier",
       "title": "镕铁少女",
       "riotSlug": "rell",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/rell/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/rell"
     },
     "10118": {
       "alias": "shen",
@@ -1108,7 +1108,7 @@
       "searchText": "shen 暮光之眼 慎 shen",
       "title": "暮光之眼",
       "riotSlug": "shen",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/shen/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/shen"
     },
     "10119": {
       "alias": "bulande",
@@ -1118,7 +1118,7 @@
       "searchText": "brand 复仇焰魂 布兰德 bulande",
       "title": "复仇焰魂",
       "riotSlug": "brand",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/brand/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/brand"
     },
     "10121": {
       "alias": "leikedun",
@@ -1128,7 +1128,7 @@
       "searchText": "renekton 荒漠屠夫 雷克顿 leikedun",
       "title": "荒漠屠夫",
       "riotSlug": "renekton",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/renekton/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/renekton"
     },
     "10122": {
       "alias": "weijia",
@@ -1138,7 +1138,7 @@
       "searchText": "veigar 邪恶小法师 维迦 weijia",
       "title": "邪恶小法师",
       "riotSlug": "veigar",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/veigar/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/veigar"
     },
     "10123": {
       "alias": "saina",
@@ -1148,7 +1148,7 @@
       "searchText": "senna 涤魂圣枪 赛娜 saina",
       "title": "涤魂圣枪",
       "riotSlug": "senna",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/senna/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/senna"
     },
     "10124": {
       "alias": "paike",
@@ -1158,7 +1158,7 @@
       "searchText": "pyke 血港鬼影 派克 paike",
       "title": "血港鬼影",
       "riotSlug": "pyke",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/pyke/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/pyke"
     },
     "10125": {
       "alias": "saien",
@@ -1168,7 +1168,7 @@
       "searchText": "sion 亡灵战神 赛恩 saien",
       "title": "亡灵战神",
       "riotSlug": "sion",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/sion/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/sion"
     },
     "10126": {
       "alias": "siweiyin",
@@ -1178,7 +1178,7 @@
       "searchText": "swain 诺克萨斯统领 斯维因 siweiyin",
       "title": "诺克萨斯统领",
       "riotSlug": "swain",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/swain/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/swain"
     },
     "10127": {
       "alias": "heimodingge",
@@ -1188,7 +1188,7 @@
       "searchText": "heimerdinger 大发明家 黑默丁格 heimodingge",
       "title": "大发明家",
       "riotSlug": "heimerdinger",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/heimerdinger/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/heimerdinger"
     },
     "10128": {
       "alias": "tailong",
@@ -1198,7 +1198,7 @@
       "searchText": "talon 刀锋之影 泰隆 tailong",
       "title": "刀锋之影",
       "riotSlug": "talon",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/talon/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/talon"
     },
     "10129": {
       "alias": "weikezi",
@@ -1208,7 +1208,7 @@
       "searchText": "velkoz 虚空之眼 维克兹 weikezi",
       "title": "虚空之眼",
       "riotSlug": "velkoz",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/velkoz/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/velkoz"
     },
     "10130": {
       "alias": "chuishi",
@@ -1218,7 +1218,7 @@
       "searchText": "thresh 魂锁典狱长 锤石 chuishi",
       "title": "魂锁典狱长",
       "riotSlug": "thresh",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/thresh/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/thresh"
     },
     "10131": {
       "alias": "wolike",
@@ -1228,7 +1228,7 @@
       "searchText": "warwick 祖安怒兽 沃里克 wolike",
       "title": "祖安怒兽",
       "riotSlug": "warwick",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/warwick/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/warwick"
     },
     "10132": {
       "alias": "nuotilesi",
@@ -1238,7 +1238,7 @@
       "searchText": "nautilus 深海泰坦 诺提勒斯 nuotilesi",
       "title": "深海泰坦",
       "riotSlug": "nautilus",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/nautilus/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/nautilus"
     },
     "10133": {
       "alias": "feidetike",
@@ -1248,7 +1248,7 @@
       "searchText": "fiddlesticks 远古恐惧 费德提克 feidetike",
       "title": "远古恐惧",
       "riotSlug": "fiddlesticks",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/fiddlesticks/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/fiddlesticks"
     },
     "10134": {
       "alias": "kalisita",
@@ -1258,7 +1258,7 @@
       "searchText": "kalista 复仇之矛 卡莉丝塔 kalisita",
       "title": "复仇之矛",
       "riotSlug": "kalista",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/kalista/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/kalista"
     },
     "10135": {
       "alias": "liliya",
@@ -1268,7 +1268,7 @@
       "searchText": "lillia 含羞蓓蕾 莉莉娅 liliya",
       "title": "含羞蓓蕾",
       "riotSlug": "lillia",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/lillia/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/lillia"
     },
     "10136": {
       "alias": "aoen",
@@ -1278,7 +1278,7 @@
       "searchText": "ornn 山隐之焰 奥恩 aoen",
       "title": "山隐之焰",
       "riotSlug": "ornn",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ornn/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ornn"
     },
     "10137": {
       "alias": "ruizi",
@@ -1288,7 +1288,7 @@
       "searchText": "ryze 符文法师 瑞兹 ruizi",
       "title": "符文法师",
       "riotSlug": "ryze",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ryze/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ryze"
     },
     "10138": {
       "alias": "simode",
@@ -1298,7 +1298,7 @@
       "searchText": "smolder 炽炎雏龙 斯莫德 simode",
       "title": "炽炎雏龙",
       "riotSlug": "smolder",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/smolder/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/smolder"
     },
     "10139": {
       "alias": "meier",
@@ -1308,7 +1308,7 @@
       "searchText": "mel 流光镜影 梅尔 meier",
       "title": "流光镜影",
       "riotSlug": "mel",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/mel/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/mel"
     },
     "10140": {
       "alias": "lanbo",
@@ -1318,7 +1318,7 @@
       "searchText": "rumble 机械公敌 兰博 lanbo",
       "title": "机械公敌",
       "riotSlug": "rumble",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/rumble/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/rumble"
     },
     "10141": {
       "alias": "weigusi",
@@ -1328,7 +1328,7 @@
       "searchText": "vex 愁云使者 薇古丝 weigusi",
       "title": "愁云使者",
       "riotSlug": "vex",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/vex/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/vex"
     },
     "10144": {
       "alias": "weiketuo",
@@ -1338,7 +1338,7 @@
       "searchText": "viktor 奥术先驱 维克托 weiketuo",
       "title": "奥术先驱",
       "riotSlug": "viktor",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/viktor/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/viktor"
     },
     "10146": {
       "alias": "taliya",
@@ -1348,7 +1348,7 @@
       "searchText": "taliyah 岩雀 塔莉垭 taliya",
       "title": "岩雀",
       "riotSlug": "taliyah",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/taliyah/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/taliyah"
     },
     "10151": {
       "alias": "moteng",
@@ -1358,7 +1358,7 @@
       "searchText": "nocturne 永恒梦魇 魔腾 moteng",
       "title": "永恒梦魇",
       "riotSlug": "nocturne",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/nocturne/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/nocturne"
     },
     "10152": {
       "alias": "kuisangti",
@@ -1368,7 +1368,7 @@
       "searchText": "ksante 纳祖芒荣耀 奎桑提 kuisangti",
       "title": "纳祖芒荣耀",
       "riotSlug": "ksante",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ksante/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ksante"
     },
     "10166": {
       "alias": "nuola",
@@ -1378,7 +1378,7 @@
       "searchText": "norra 奇妙远旅 诺拉 nuola",
       "title": "奇妙远旅",
       "riotSlug": "norra",
-      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/norra/"
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/norra"
     }
   },
   "generatedAt": "2026-05-15T04:30:21.290Z",

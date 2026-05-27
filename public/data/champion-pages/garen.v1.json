@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10001",
   "riotSlug": "garen",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/garen/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/garen",
   "title": "GAREN",
   "subtitle": "the Might of Demacia",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "If Garen has not recently been struck by damage or enemy abilities, he regenerates a percentage of his total health each second.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/3e3d2e20a694c5ac12f1957dbfa7f56cfe4fd5b3-96x96.jpg?accountingTag=WR",
       "label": "Perseverance",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/1dfe4e239a0a1c9abb4fd49343db890d41559508.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Garen calls upon the might of Demacia to attempt to execute an enemy champion, dealing damage in an area around his target.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/27bc2e231bc65fdb9d6e7edf0fa20327a3d221ca-96x96.jpg?accountingTag=WR",
       "label": "Demacian Justice",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/40ea348bc391e67d432e8a5c4af677ac23ab9cec.mp4?accountingTag=WR"
     }
   ],
@@ -98,5 +98,5 @@
     }
   ],
   "publishDate": "2020-10-08T20:08:08Z",
-  "hash": "da86b73ae19fcfdf2b9cece12f98c874937ced1537efb63692fbb2f266221e12"
+  "hash": "67cb575578106e4bae58e1fc34cd862d87029d3306aa45696acf6eedeea8cca1"
 }

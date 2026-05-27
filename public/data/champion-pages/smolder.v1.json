@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10138",
   "riotSlug": "smolder",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/smolder/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/smolder",
   "title": "SMOLDER",
   "subtitle": "The Fiery Fledgling",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Hitting champions with abilities and killing enemies with Super Scorcher Breath grants a stack of Dragon Practice. Stacks increase the damage of Smolder’s basic abilities.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bd99a83f831ff02bb0a43ad9a548aaa921342cdc-512x512.png?accountingTag=WR",
       "label": "DRAGON PRACTICE",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/c74f72a06a481a6f04fd224fda97e34c670e8079.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Smolder calls his mom to breathe fire from above, dealing extra damage and slowing enemies in the center of her fire. Getting hit by the fire himself, Smolder gains health.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/883c0867e6183e90565b1b8e251843b390981ddb-512x512.png?accountingTag=WR",
       "label": "MMOOOMMMM!",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/c441b6d746dc439b576b2454421aa1d75456efa6.mp4?accountingTag=WR"
     }
   ],
@@ -68,5 +68,5 @@
     }
   ],
   "publishDate": "2026-01-16T19:24:39Z",
-  "hash": "b1c63bf5818e490485cd5a4368e22dc14db09e024cbd83aaadf0b445af109a99"
+  "hash": "44602192226767378ec641e7a4e93e1cecc9a2a52f3ed451e83ed93c2a675725"
 }

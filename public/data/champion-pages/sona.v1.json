@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10047",
   "riotSlug": "sona",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/sona/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/sona",
   "title": "SONA",
   "subtitle": "Maven of the Strings",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "After 3 spell casts, Sona's next attack will deal bonus magic damage and stun the target.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/7e52dfb8a130ad06948717decbafa02599686979-96x96.jpg?accountingTag=WR",
       "label": "Power Chord",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/40ac094e61e19a2d340e4b5f02e8fc623ce729b2.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Passive: Sona’s halo strengthens, providing higher buffs. Sona’s ultimate chord advances slowly to the target point, dealing damage on its way. Every enemy hit for the first time is stunned.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/bd3c54c2e782f14be6fa8d2240fca3158966c4da-96x96.jpg?accountingTag=WR",
       "label": "Crescendo",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/367e5d97ea69c301d11c43306d63621d6d75208d.mp4?accountingTag=WR"
     }
   ],
@@ -108,5 +108,5 @@
     }
   ],
   "publishDate": "2020-10-08T20:48:43Z",
-  "hash": "eaa27997f7cf4390841af710a5daf59bda99fb1d2e1cdf0b0d94da855691d86c"
+  "hash": "ae7b8c820eb757082bf91c1c7672f15b96ba2b3ef7a38d8ae96c7ce7585130db"
 }

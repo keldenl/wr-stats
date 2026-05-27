@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10096",
   "riotSlug": "singed",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/singed/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/singed",
   "title": "SINGED",
   "subtitle": "the Mad Chemist",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Singed drafts off nearby champions, gaining a burst of movement speed when passing them.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/82bff72f4bf213e63524a8000e7a3e574c6c61c2-96x96.jpg?accountingTag=WR",
       "label": "Noxious Slipstream",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/f9292051079ee51166685e0a190720c8c34a9412.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Singed drinks a potent brew of chemicals, granting him increased combat stats.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/2b8ae93a939c9c3aab2a0f5555cf8ebb14bf48ed-96x96.jpg?accountingTag=WR",
       "label": "Insanity Potion",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/aea9bff224a944e7aea988bdd9da53877b0cf7a4.mp4?accountingTag=WR"
     }
   ],
@@ -83,5 +83,5 @@
     }
   ],
   "publishDate": "2020-10-08T20:48:15Z",
-  "hash": "7b738f03e905f820be50c338198ef353fa9afd6d39c95478cdb60d1ba91d255f"
+  "hash": "a85414a1ca975a3e2e652a13be13995409a1b303917f3a4b8b15e7fbfa3513a3"
 }

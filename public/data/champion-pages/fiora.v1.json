@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10032",
   "riotSlug": "fiora",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/fiora/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/fiora",
   "title": "FIORA",
   "subtitle": "the Grand Duelist",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Fiora challenges nearby enemy Champions to dodge her. She calls out a direction from which she will try to strike. If she can complete her own challenge, she receives a small bonus and calls out a new direction.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/670323b63d638d53c6e891d72014a4a4d4343dcb-96x96.jpg?accountingTag=WR",
       "label": "Duelist's Dance",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/7af117514f994559fec28ac6a240149c53263966.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Fiora reveals all four Vitals on an enemy champion and gains movement speed while near them. If Fiora hits all 4 Vitals or if the target dies after she has hit at least one, Fiora and her allies in the area are healed over the next few seconds.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/77ad61038a528053c137eea65d75e87410ffd694-96x96.jpg?accountingTag=WR",
       "label": "Grand Challenge",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/d34ec1eac2fb77e8317e5bfef280672e7b2875c9.mp4?accountingTag=WR"
     }
   ],
@@ -118,5 +118,5 @@
     }
   ],
   "publishDate": "2020-10-08T20:07:13Z",
-  "hash": "2897305c8baaf2c6940d1689e086ce908b25d6a8e1f82e9ebc7c206de3aa47fc"
+  "hash": "2a3cd1d27814f000116fc081bd99d452dd40594f93895172a0835a385ea990d4"
 }

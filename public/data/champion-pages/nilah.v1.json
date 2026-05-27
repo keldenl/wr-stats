@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10027",
   "riotSlug": "nilah",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/nilah/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/nilah",
   "title": "NILAH",
   "subtitle": "The Joy Unbound",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Nilah gains increased experience from last-hitting minions along with the ability to enhance and share nearby healing and shielding from her allies.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a072bb11e54c27122c3211fbca19b89d6936c38d-96x96.jpg?accountingTag=WR",
       "label": "JOY UNENDING",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/c94e23a5702445e1effe543b4058b9867e71dbf5.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Twirling her whip-blade in joyful exuberance, Nilah deals damage to enemies around her before pulling them closer with her weapon.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d4f0ed389a873b942617758fefe2ac4574dd103f-96x96.jpg?accountingTag=WR",
       "label": "APOTHEOSIS",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/f4842428e3722fd3817bcf4cbaf52d1fd646600f.mp4?accountingTag=WR"
     }
   ],
@@ -82,5 +82,5 @@
     }
   ],
   "publishDate": "2023-07-18T17:41:50Z",
-  "hash": "792895828366330d372b1c1ed28c9b4f11b1da849cd50df7ab7ee8c3d58d4b62"
+  "hash": "9bae85bbbd86e96dc1a41f66d4f9953b04d5fd90a1ad2b1a6dc5e1701122a994"
 }

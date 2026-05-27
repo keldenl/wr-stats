@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10123",
   "riotSlug": "senna",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/senna/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/senna",
   "title": "SENNA",
   "subtitle": "the Redeemer",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "When units die near Senna, their souls are periodically trapped by the Black Mist. Senna can attack these souls to free them, absorbing the Mist that held them in death. Mist fuels her Relic Cannon's power with increased Attack Damage, Attack Range, and Critical Strike Chance. Attacks from Senna's Relic Cannon take longer to fire, deals bonus damage , and briefly grant her a portion of her target's Movement Speed.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/9ac91a90f05f8d354954189671465257169c3913-96x96.jpg?accountingTag=WR",
       "label": "ABSOLUTION",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/55b87bab4ba342ff71993f6771a97124c3bb1a4e.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Senna calls upon the relic stones of fallen Sentinels, splitting her relic cannon into a holy array of shadow and light. She then fires a global beam that shields allies from harm, while damaging enemies caught in the center.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/2d3057c56896eb827665aca01e377091c8c24e15-96x96.jpg?accountingTag=WR",
       "label": "DAWNING SHADOW",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/26b1aaeab4a270b9871559c203bdaf052e1e8c5b.mp4?accountingTag=WR"
     }
   ],
@@ -80,8 +80,13 @@
       "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7b5b44f930158eea981c0c593eefb31aef235a13-1280x720.jpg?accountingTag=WR",
       "label": "Star Guardian Senna",
       "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7b5b44f930158eea981c0c593eefb31aef235a13-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1b75c2db14c4ff83c10611e6167c76cd3c029bff-1280x720.jpg?accountingTag=WR",
+      "label": "SOUL FIGHTER SENNA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1b75c2db14c4ff83c10611e6167c76cd3c029bff-1280x720.jpg?accountingTag=WR"
     }
   ],
   "publishDate": "2021-06-30T23:12:59Z",
-  "hash": "d4a3d434b16524d84d6be04309d4ec11938fa096140a48985baffc759807672e"
+  "hash": "9479c347c752404540eafa3ed716c4550040f4934a2a88a37ba2c9121957bab2"
 }

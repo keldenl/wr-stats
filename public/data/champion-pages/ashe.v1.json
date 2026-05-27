@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10079",
   "riotSlug": "ashe",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ashe/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ashe",
   "title": "ASHE",
   "subtitle": "the Frost Archer",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Ashe's attacks slow their target, causing her to deal increased damage to these targets. Ashe's critical strikes deal no bonus damage but apply an empowered slow to the target.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/23a3eff436b2ec32b2a79fe1b75221e2836ac8fb-96x96.jpg?accountingTag=WR",
       "label": "Frost Shot",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/2fab9262e09b57a3964de11cc62d3e391bfc6290.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Ashe fires a missile of ice which she can steer in the air. If the arrow collides with an enemy Champion, it deals damage and stuns the Champion, stunning for longer the farther arrow has traveled. In addition, surrounding enemy units take damage and are slowed.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/df785a4db250f45a6fb0e003926eb487d721ddb1-96x96.jpg?accountingTag=WR",
       "label": "Enchanted Crystal Arrow",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/ba6f57da07604dffc2b5466e2f94a02dd2516101.mp4?accountingTag=WR"
     }
   ],
@@ -118,5 +118,5 @@
     }
   ],
   "publishDate": "2020-10-08T20:04:01Z",
-  "hash": "1c98de9c4523823b2e4215eec63d944e55d476d2efb1a49edfbd54f2b72ead2c"
+  "hash": "7e57474a010e5270b1b947d813937697b75fb09598d6a974702d817279916137"
 }

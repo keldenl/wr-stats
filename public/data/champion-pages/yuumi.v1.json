@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10020",
   "riotSlug": "yuumi",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/yuumi/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/yuumi",
   "title": "YUUMI",
   "subtitle": "the Magical Cat",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Periodically, Yuumi’s Basic Attacks and Abilities will Shield Yuumi. If Yuumi is Attached to an ally or attaches within a few seconds they are Shielded for the same amount. While Attached to an ally, Yuumi grants them Friendship stacks when they kill enemy champions or minions. The ally with the highest Friendship stack becomes Yuumi’s Best Friend, which empowers her abilities towards them.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/60e3dca169c7d953ebdc70dc41cabc9b88d340fe-128x128.png?accountingTag=WR",
       "label": "Feline Friendship",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/a915ed1d0ef4be9e128f39c26a3ec8e52b392080.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Yuumi launches five waves in the target direction. While Attached Yuumi can steer the direction of the waves. Detaching stops this bonus effect. Allied champions hit by the waves are Healed, with increased Healing for the Best Friend. Excess Healing converts into a Shield. Enemies struck by the waves take Magic Damage and are Slowed. The Slow stacks and refreshes on each hit.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1f82f439c0c2f8d76c2b68f34baac9d7052dff15-128x128.png?accountingTag=WR",
       "label": "FINAL CHAPTER",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/a4a89479667af28031808d55564a54ce02b048cb.mp4?accountingTag=WR"
     }
   ],
@@ -93,5 +93,5 @@
     }
   ],
   "publishDate": "2022-02-02T19:44:21Z",
-  "hash": "03ab7002f548ed09d04e4caa7030e57358abe0778439c61edfc64049a77f48bd"
+  "hash": "31959b055f2e4902a63ba8fce279e8d8bd331bf76bcdd012339eec40a0fed558"
 }

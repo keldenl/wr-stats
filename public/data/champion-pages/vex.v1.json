@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10141",
   "riotSlug": "vex",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/vex/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/vex",
   "title": "VEX",
   "subtitle": "The Gloomist",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Vex periodically becomes empowered, causing her next basic Ability to fear enemies and interrupt dashes. Whenever a nearby enemy dashes, Vex applies a mark that can be consumed for bonus damage that also reduces the cooldown of her empowered state.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/44148ffcd6778a14fb4149bfb43ad17b1381dcfd-96x96.jpg?accountingTag=WR",
       "label": "DOOM 'N GLOOM",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/b85db40e1e7327d84800bceec99d65a49f8419cb.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Fire a missile that marks an enemy champion. Recast to dash to them and deal damage.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/6468741b8f42f29b929201655b6206c3f139cf33-96x96.jpg?accountingTag=WR",
       "label": "SHADOW SURGE",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/426a211c9d870ecc3dfa34583c1e3240ca55597c.mp4?accountingTag=WR"
     }
   ],
@@ -82,5 +82,5 @@
     }
   ],
   "publishDate": "2022-10-20T00:02:16Z",
-  "hash": "589078a2bd8e67fd3e3b593a4ee0df882f7ac3ca2d092c4db963a142ed9937d9"
+  "hash": "f43467e13e9d88a5c66c77be47cb3a0756463b71d1d15a6202df7c2c59b3646c"
 }

@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10050",
   "riotSlug": "vi",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/vi/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/vi",
   "title": "VI",
   "subtitle": "the Piltover Enforcer",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Every third attack on the same enemy deals a percentage of their maximum Health, reduces their Armor, and grants Vi Attack Speed.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/bf1d2befd59d40514ea64e1739c0e309739a490e-96x96.jpg?accountingTag=WR",
       "label": "DENTING BLOWS",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/681e99f113f856ae6d3f3d87ece86d05a08a2dcb.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Vi runs down an enemy, knocking aside anyone in the way. When she reaches her target she knocks it into the air, jumps after it, and slams it back into the ground.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/8d6c285e075928129c29a0c1cec99c7b6fd06419-96x96.jpg?accountingTag=WR",
       "label": "Assault and Battery",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/1271c5c7020bff0d045bece0e4bff6e76c2de783.mp4?accountingTag=WR"
     }
   ],
@@ -102,5 +102,5 @@
     }
   ],
   "publishDate": "2020-10-08T20:51:51Z",
-  "hash": "9a915b5b4ba8eb67f1331b4b7c1b6da00bc9452d12601a9ede8949a383869249"
+  "hash": "6d1fc8ee7dfc2a18c1b45f2931863900d7325b44ea6ba96a584a52fa5144f3eb"
 }

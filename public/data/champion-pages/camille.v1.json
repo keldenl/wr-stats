@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10055",
   "riotSlug": "camille",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/camille/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/camille",
   "title": "CAMILLE",
   "subtitle": "the Steel Shadow",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Basic attacks on champions grant a shield equal to 20% of Camille's maximum health against their damage type (Physical or Magic) for a brief duration.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/b51cc6aaacdd38ee84079be50413dbe0b9f67c57-96x96.jpg?accountingTag=WR",
       "label": "Adaptive Defenses",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/90e5351570d4b0628fc516f9841bd74ecfdf0abb.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Camille dashes to target champion, anchoring them to the area, and knocking away other enemies.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/b52799e214bf49b2cacd9cc09dc1a5f06eeb335d-96x96.jpg?accountingTag=WR",
       "label": "The Hextech Ultimatum",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/8cc5666db6cb09ca55ca0406f77c19e870e81e80.mp4?accountingTag=WR"
     }
   ],
@@ -87,5 +87,5 @@
     }
   ],
   "publishDate": "2020-10-08T20:05:52Z",
-  "hash": "98ea1bf41ef94d7293a009ed797432c387a80e556cd4792775e9d5e292e86527"
+  "hash": "7684471cdeb0e830627bb96ebee9f3c00ad01edbc779fc6f13a70fa659406e71"
 }

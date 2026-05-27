@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10015",
   "riotSlug": "tryndamere",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/tryndamere/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/tryndamere",
   "title": "TRYNDAMERE",
   "subtitle": "the Barbarian King",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Tryndamere gains Fury for each attack, critical strike, and killing blow he makes. Fury passively increases his Critical Strike Chance and can be consumed with his Bloodlust spell.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/184a3037ab6c864295bbf81167a22bc5e7669859-96x96.jpg?accountingTag=WR",
       "label": "Battle Fury",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/c0d9c6428c7a9b6f780099fef1290e16365041d8.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Tryndamere's lust for battle becomes so strong that he is unable to die, no matter how wounded he becomes.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/86318c917e24d66155c98ffc7804b94b28a70d93-96x96.jpg?accountingTag=WR",
       "label": "Undying Rage",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/f8dcd2e60e7b324389b68872c9d15d770ef351ac.mp4?accountingTag=WR"
     }
   ],
@@ -82,7 +82,7 @@
     },
     {
       "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9fad802101035f443478d2cf1fb2f0cb86460a35-1280x720.jpg?accountingTag=WR",
-      "label": "IMMORTAL JOURNEY TRYNDAMERE",
+      "label": "WAVEBREAKER SWORD TRYNDAMERE",
       "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9fad802101035f443478d2cf1fb2f0cb86460a35-1280x720.jpg?accountingTag=WR"
     },
     {
@@ -107,5 +107,5 @@
     }
   ],
   "publishDate": "2020-10-08T20:49:37Z",
-  "hash": "9ccba2997ac7faa8e1756cd532594e0b06952ab10aace1ba255de1c66dd452e5"
+  "hash": "05450c8553e184cb075995f91ad568b81a37e0f2489cb82c2cf24e4415801fc3"
 }

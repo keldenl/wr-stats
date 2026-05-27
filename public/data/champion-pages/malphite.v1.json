@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10083",
   "riotSlug": "malphite",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/malphite/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/malphite",
   "title": "MALPHITE",
   "subtitle": "Shard of the Monolith",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Malphite is shielded by a layer of rock which absorbs damage up to 10% of his maximum Health. If Malphite has not been hit for 8 seconds, this effect recharges.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/e91dc58fadccfba5d58809141220e533096c8cdd-96x96.jpg?accountingTag=WR",
       "label": "Granite Shield",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/c0f48a68e3c6ff7bf4319a0cd4a5cd11388a4610.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Malphite ferociously charges to a location, damaging enemies and knocking them into the air.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7c1d88cdfa246cc355177211576045acd754acc4-96x96.jpg?accountingTag=WR",
       "label": "Unstoppable Force",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/ecb634815030e7fa0277ae404cbfd21c462ca990.mp4?accountingTag=WR"
     }
   ],
@@ -92,5 +92,5 @@
     }
   ],
   "publishDate": "2020-10-08T20:44:36Z",
-  "hash": "2d97e598917a53da4a3ff16d17e39f254e7997d17f94b66414bb38e6643211c8"
+  "hash": "9ce8b2a54746ef1295f4027f5f5a2fa1a4742f744ee5d349acb5ffdcefffb02f"
 }

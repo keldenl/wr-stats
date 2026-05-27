@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10133",
   "riotSlug": "fiddlesticks",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/fiddlesticks/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/fiddlesticks",
   "title": "FIDDLESTICKS",
   "subtitle": "The Ancient Fear",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "When participating in a takedown Fiddlesticks leaves behind a movable scarecrow. The scarecrow will move toward the nearest enemy champion and explode when killed or after several seconds, causing fear.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6dac9830dd7bf34eb5bc4e84be5a797b87cd1358-512x512.jpg?accountingTag=WR",
       "label": "A HARMLESS SCARECROW",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/b4112b98ed702466f7d7089f3facd44d6d7fb394.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "A murder of crows flock wildly around Fiddlesticks, dealing damage per second to all enemy units in the area.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/f9abcf2ad25eb471295e8dadd2f13554443b5272-512x512.jpg?accountingTag=WR",
       "label": "CROWSTORM",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/c77d2619e9ca20612cfb4cce43a460157ba49cd5.mp4?accountingTag=WR"
     }
   ],
@@ -72,5 +72,5 @@
     }
   ],
   "publishDate": "2023-10-19T23:37:59Z",
-  "hash": "68bf2682c8c92464343252a48e1cc57d6bbee1a465d09f43db295e38d55107d7"
+  "hash": "05ed0e2d7ecbf557af2feca4ad521ea70b27b66ffe34683f2cdc54637b697695"
 }

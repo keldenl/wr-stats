@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10102",
   "riotSlug": "urgot",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/urgot/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/urgot",
   "title": "URGOT",
   "subtitle": "THE DREADNOUGHT",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Urgot's basic attacks and Purge periodically trigger blasts of flame from his legs, dealing physical damage.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/40d2ff0fadbdcfcdffeb6eba58c89fcdf708d4c9-96x96.jpg?accountingTag=WR",
       "label": "ECHOING FLAMES",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/b3a7df81078fbf00baa3678d7b2e514dda9f5612.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Urgot fires a chem-drill that impales the first enemy champion hit. If that champion falls below a health threshold, Urgot judges them weak and can execute them.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/eca38c2679bde1bf6944dd545b4a40b23f9e5e9e-96x96.jpg?accountingTag=WR",
       "label": "FEAR BEYOND DEATH",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/5330323dc9369750b02cbdf71bafe1f3a8dec055.mp4?accountingTag=WR"
     }
   ],
@@ -82,5 +82,5 @@
     }
   ],
   "publishDate": "2023-03-10T03:07:18Z",
-  "hash": "f722853e082a22d1bb30d2d68d65cb07da4c8550916337b27f20827c63e26dad"
+  "hash": "d1f86541c881479563289a9397166b708530d39b64d2d62c1ba42fab5708bea3"
 }

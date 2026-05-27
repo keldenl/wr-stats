@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10014",
   "riotSlug": "zoe",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/zoe/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/zoe",
   "title": "ZOE",
   "subtitle": "The Aspect Of Twilight",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Zoe's next basic attack after casting a spell deals bonus magic damage.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/41ea501d4e89ab505f29db95d124d60237428266-96x96.jpg?accountingTag=WR",
       "label": "MORE SPARKLES!",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/0b242fd88079953a6268d1e9b89267717d8bdae2.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Blink to a nearby position for 1 second. Then blink back.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/3450fd39cd4b3f671ccf5eb191856e8770a210a8-96x96.jpg?accountingTag=WR",
       "label": "PORTAL JUMP",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/717a0889203d3644d97f96bfb8bd01e8c584d922.mp4?accountingTag=WR"
     }
   ],
@@ -74,8 +74,13 @@
       "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d3ba1c41b21619116a2c5e095cbe3fd10dce7662-1280x720.jpg?accountingTag=WR",
       "label": "CAFE CUTIES ZOE",
       "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d3ba1c41b21619116a2c5e095cbe3fd10dce7662-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/365b2ef256df201bedb3faa5a2154e1f927764da-1280x720.jpg?accountingTag=WR",
+      "label": "CYPER POP ZOE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/365b2ef256df201bedb3faa5a2154e1f927764da-1280x720.jpg?accountingTag=WR"
     }
   ],
   "publishDate": "2023-01-09T22:56:58Z",
-  "hash": "1722cb436552c9c5e753fbea0d70e5fae6d37bfa1e4474e71036c32a7d2f6130"
+  "hash": "aa4fa693f45867af6f7be05c70a0026cccd0ff244eec1e52664c8ad94112fa5f"
 }

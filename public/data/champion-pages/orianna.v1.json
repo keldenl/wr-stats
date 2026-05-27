@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10012",
   "riotSlug": "orianna",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/orianna/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/orianna",
   "title": "ORIANNA",
   "subtitle": "the Lady of Clockwork",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Orianna's Attacks deal additional magic damage. This damage increases the more Orianna Attacks the same target.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/d37d104a81847f7bd01de183065cf66683c3adbf-96x96.jpg?accountingTag=WR",
       "label": "Clockwork Windup",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/4e0d3357f6f7be9797f2c8b072829ce34a120966.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Orianna commands her Ball to unleash a shockwave, dealing magic damage and launching nearby enemies towards the Ball after a short delay.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/eb793c70ee0798f06c31f87c7f617ae06889a679-96x96.jpg?accountingTag=WR",
       "label": "Command: Shockwave",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/97b6b1b51e0ad90043a487f2a9a87070922f3e2e.mp4?accountingTag=WR"
     }
   ],
@@ -98,5 +98,5 @@
     }
   ],
   "publishDate": "2020-10-08T20:47:17Z",
-  "hash": "ef4ca1c1f18316f41972c6d2e258769d0b53aacd88979aed2e060c5acf396100"
+  "hash": "33555a8744f1e8cbe2bad22f0f5e6da6c59ac647a7d65607d33f3ab7675c6505"
 }

@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10134",
   "riotSlug": "kalista",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/kalista/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/kalista",
   "title": "KALISTA",
   "subtitle": "The Spear Of Vengeance",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Enter a movement command while winding up Kalista's basic attack or Pierce to lunge a short distance when she launches her attack.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/f1701e112fb52ef14291bd6eb55af578e0179a05-256x256.jpg?accountingTag=WR",
       "label": "MARTIAL POISE",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/56ea3ab4801785d8e4ff326c3b6d590dd81bd8ad.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Kalista teleports the Oathsworn ally to herself. They gain the ability to dash toward a position, knocking enemy champions back.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/daee36366c2a407d053908c0984082406aa509dd-256x256.jpg?accountingTag=WR",
       "label": "FATE'S CALL",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/3ba5b40185f27d24a4b43a8aa9d5429981c54176.mp4?accountingTag=WR"
     }
   ],
@@ -72,5 +72,5 @@
     }
   ],
   "publishDate": "2024-04-03T17:37:54Z",
-  "hash": "152454a4780fcffca227abad88d7cf05d315801e06a7b5cafdf4fbfe89cd5b94"
+  "hash": "13f179eda2ea9f1bef300e89fa97f85f0df52731fe74b832d11aa8fe8fa80396"
 }

@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10042",
   "riotSlug": "lucian",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/lucian/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/lucian",
   "title": "LUCIAN",
   "subtitle": "the Purifier",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Whenever Lucian uses an ability, his next attack becomes a double-shot.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/11f13c63b279fcc0248174cd5fc679d298e78113-96x96.jpg?accountingTag=WR",
       "label": "LIGHTSLINGER",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/fadad9074ffedf8e72a8be5d3b264339f9ea2e63.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Lucian unleashes a torrent of shots from his weapons.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/d677babea85a70b713000e65f98bc0507d9c07f5-96x96.jpg?accountingTag=WR",
       "label": "THE CULLING",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/6374f34d0e68b93ff714745a2fd408309a058966.mp4?accountingTag=WR"
     }
   ],
@@ -97,5 +97,5 @@
     }
   ],
   "publishDate": "2021-06-29T21:21:12Z",
-  "hash": "8162307ccad360db669a48bd6798c0e47aee395817f8e113f098f2eec2578e6e"
+  "hash": "198725dea57bfa213a15f02e0f2dbc4f32a8f40b670cc3df893765a91a9f15b5"
 }

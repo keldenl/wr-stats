@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-12T09:04:35.733Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10139",
   "riotSlug": "mel",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/mel/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/mel",
   "title": "MEL",
   "subtitle": "The Soul's Reflection",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Whenever Mel uses an ability, she gains three bonus projectiles (up to nine maximum) on her next attack. When Mel deals damage through an ability or attack, she applies Overwhelm, which can stack infinitely. If the enemy is hit by Mel with enough Overwhelm damage, the stacks are consumed to execute the target.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ea168c49ff42cb1cc514f4666df5212b30625641-512x512.png?accountingTag=WR",
       "label": "SEARING BRILLIANCE",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/2b78982f9082edc8e1f9a05c0b04c1f428e85ac6.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Mel strikes all enemies marked with Overwhelm regardless of their distance from her, dealing additional damage for each stack of Overwhelm. Ranks of Golden Eclipse increase Overwhelm's damage.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c126dc1035c002e003877699d961f790c65ba6a3-512x512.png?accountingTag=WR",
       "label": "GOLDEN ECLIPSE",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/15e5542cd410d052c4a6e3ae530a5a610d93125e.mp4?accountingTag=WR"
     }
   ],
@@ -67,5 +67,5 @@
     }
   ],
   "publishDate": "2026-03-11T13:05:12Z",
-  "hash": "62fa8c2a1aae7ecfb014d989759ddbffa07ebdc52882cf2e2742543992b1c1a4"
+  "hash": "a87d87932c3b975beaa207f9c405e310b7d21c5edac139e9fad88693084fdf81"
 }

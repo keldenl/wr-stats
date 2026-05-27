@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10073",
   "riotSlug": "kindred",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/kindred/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/kindred",
   "title": "KINDRED",
   "subtitle": "The Eternal Hunters",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Kindred can mark targets to Hunt. Successfully completing a Hunt permanently empowers Kindred's basic abilities. Every 4 hunts completed also increases Kindred's basic attack range.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c0c168bf39bd9e6900b07f8e8f60cdb2c4f2cfe3-128x128.png?accountingTag=WR",
       "label": "MARK OF THE KINDRED",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/3bb5a1708277546756fa4dc2d7e5c900a14590cc.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Lamb grants all living things inside a zone a respite from death. Until the effect ends, nothing can die. At the end, units are healed.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/27edb7a95f1f2cd67f7b9a48a08a12a7cfe22280-100x100.jpg?accountingTag=WR",
       "label": "LAMB'S RESPITE",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/97932129b1554a8defbcb6eb8e0d39fd53f1bda9.mp4?accountingTag=WR"
     }
   ],
@@ -77,5 +77,5 @@
     }
   ],
   "publishDate": "2024-03-26T03:20:23Z",
-  "hash": "126d1647fa17a9cb5f3fae63dbc4052e65ee70c93e8909130e96472652e090fe"
+  "hash": "333449c48d78919a368ec996eeb4cae770ee2cbfde4d91366617e31eccd75012"
 }

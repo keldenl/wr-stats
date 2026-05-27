@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10089",
   "riotSlug": "gragas",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/gragas/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/gragas",
   "title": "GRAGAS",
   "subtitle": "the Rabble Rouser",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Gragas periodically heals upon using an ability.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/c19c83ad1e82baecf45d7b2796792d6d27dbf6b9-96x96.jpg?accountingTag=WR",
       "label": "Happy Hour",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/768dccd5184dabc3a477ebcb0be14465e7cf455a.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Gragas hurls his cask to a location, dealing damage and knocking back enemies caught in the blast radius.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/65c872d529c771b12d7f393df180bf38d72b9c8e-96x96.jpg?accountingTag=WR",
       "label": "Explosive Cask",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/08a59f463c893f9f9e13032c32fa9d3a4cb66d14.mp4?accountingTag=WR"
     }
   ],
@@ -80,8 +80,13 @@
       "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e93c483cd66217dc970cb089ad09ba74a81c2ecb-1280x720.jpg?accountingTag=WR",
       "label": "ARCTIC OPS GRAGAS",
       "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e93c483cd66217dc970cb089ad09ba74a81c2ecb-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ee7f70a917a15b68ae02f0320f4c1d42e86c2fa2-1280x720.jpg?accountingTag=WR",
+      "label": "NEON DAREDEVIL GRAGAS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ee7f70a917a15b68ae02f0320f4c1d42e86c2fa2-1280x720.jpg?accountingTag=WR"
     }
   ],
   "publishDate": "2020-10-08T20:08:36Z",
-  "hash": "ed54da436e32a5059ef089a74aaf244151b4557f2c14fb2f5f42988f9fdfc0a3"
+  "hash": "626b13d037e719156fe1abe41c8227789b781ff0e550b4cb0a4a280b0116c346"
 }

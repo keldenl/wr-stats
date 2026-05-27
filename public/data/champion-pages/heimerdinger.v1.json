@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10127",
   "riotSlug": "heimerdinger",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/heimerdinger/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/heimerdinger",
   "title": "HEIMERDINGER",
   "subtitle": "THE REVERED INVENTOR",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Gain Move Speed while near allied towers and turrets deployed by Heimerdinger.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/54ba6a436e6d23a0ef69cb8f9d00e065e24eeb86-256x256.png?accountingTag=WR",
       "label": "HEXTECH AFFINITY",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/46d77ec880047c0ed5ef2a955e842e151a563913.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Heimerdinger invents an upgrade, causing his next spell to have increased effects.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ecdd57ea2714a6d37d60b36894d50796ccf4d07c-256x256.png?accountingTag=WR",
       "label": "UPGRADE!!!",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/26c7d1dc1dad0cb6cb77dc50285336861e71c420.mp4?accountingTag=WR"
     }
   ],
@@ -73,5 +73,5 @@
     }
   ],
   "publishDate": "2024-10-30T14:42:22Z",
-  "hash": "a284cc151a130a519eb81445c40f3921f23da23e1b72d23f5b493de63d60757a"
+  "hash": "712576a8db370945e077fa0d57d8988514a54da93a6735d8c4e9e1c83a29ad2a"
 }

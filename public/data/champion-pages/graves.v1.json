@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10072",
   "riotSlug": "graves",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/graves/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/graves",
   "title": "GRAVES",
   "subtitle": "the Outlaw",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Graves' shotgun has some unique properties. He must reload when he runs out of ammo. Attacks fire 4 bullets, which cannot pass through units. Non-champions struck by multiple bullets are knocked back.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/b6a550d5daf4a43b8f803fb6a7bae8b4ef883b8c-96x96.jpg?accountingTag=WR",
       "label": "New Destiny",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/903542c1ae9934a8a4eb4ca45b21a5484cec078a.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Graves fires an explosive shell dealing heavy damage to the first champion it hits, and pushing Graves back from recoil. After hitting a champion or reaching the end of its range, the shell explodes dealing damage in a cone.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/2818f2873c12f695685441cf641b3a101994919b-96x96.jpg?accountingTag=WR",
       "label": "Collateral Damage",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/c3f330ec65b42b8bbc6ae1cf4b50e8a5e07c421a.mp4?accountingTag=WR"
     }
   ],
@@ -118,5 +118,5 @@
     }
   ],
   "publishDate": "2020-10-08T20:09:04Z",
-  "hash": "dba9ab08085bb3ec695711d3400dbabcddf02af4abc88e0deb3e48f154c3910e"
+  "hash": "013ada5dbaa8e30ea255e5890d69a955181dc2d9ce6a2e6761ecdf606b5a3303"
 }

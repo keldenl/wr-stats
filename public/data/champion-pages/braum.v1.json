@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10021",
   "riotSlug": "braum",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/braum/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/braum",
   "title": "BRAUM",
   "subtitle": "the Heart of the Freljord",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Braum's basic attacks apply Concussive Blows. Once the first stack is applied, ally basic attacks also stack Concussive Blows. Upon reaching 4 stacks, the target is stunned and takes magic damage. For the next few seconds they cannot receive new stacks, but take bonus magic damage from Braum's attacks.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/a02ed9496ecb2abea5a5f6155adad3d364c8d881-96x96.jpg?accountingTag=WR",
       "label": "Concussive Blows",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/6e775d06e65279e00e0ed1e1e11cb7cf315adf05.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Braum slams the ground, knocking up enemies nearby and in a line in front of him. A fissure is left along the line that slows enemies.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ddcc54008d13e59d8d8596395a712f95ecfdc629-96x96.jpg?accountingTag=WR",
       "label": "Glacial Fissure",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/83bba8942417acc2eb6380c2f649d961b6be92a0.mp4?accountingTag=WR"
     }
   ],
@@ -98,5 +98,5 @@
     }
   ],
   "publishDate": "2020-10-08T20:05:25Z",
-  "hash": "15dbd047525f0a7fb4d241442561ce04162e6b47143c3cfb76094d9768648537"
+  "hash": "f248ae84f1f5167fddc2f6fd59cb86b9b8abbe86330e3a03fa429eb16f44ab4a"
 }

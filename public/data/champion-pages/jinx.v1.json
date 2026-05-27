@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10018",
   "riotSlug": "jinx",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/jinx/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/jinx",
   "title": "JINX",
   "subtitle": "the Loose Cannon",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Jinx receives massively increased Movement Speed and Attack Speed whenever she helps kill or destroy an enemy champions epic jungle monster, or structure.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/15e2529b96f56993dac7b9218c44698fa561a3c2-96x96.jpg?accountingTag=WR",
       "label": "Get Excited!",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/d30d4b6c186d3cc1b230d8bccf8f2260d02a8aff.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Jinx fires a super rocket across the map that gains damage as it travels. The rocket will explode upon colliding with an enemy champion, dealing damage to it and surrounding enemies based on their missing Health.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7727824cd16c591254904058922187a4eccb8cc7-96x96.jpg?accountingTag=WR",
       "label": "Super Mega Death Rocket!",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/e176bc4d17e65cce0f811f2f703f38b375a6c45e.mp4?accountingTag=WR"
     }
   ],
@@ -117,5 +117,5 @@
     }
   ],
   "publishDate": "2020-10-08T20:11:19Z",
-  "hash": "9d70d0a566a6b687f38a54db45b9305cc95fda982661d4bc72bcc17672595b89"
+  "hash": "19ac1fb1a5776381f0b2bb21f930df47ef1d1504c4c4b687eb040d8cfcd68cbe"
 }

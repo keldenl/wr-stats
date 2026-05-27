@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10010",
   "riotSlug": "vayne",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/vayne/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/vayne",
   "title": "VAYNE",
   "subtitle": "the Night Hunter",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Vayne ruthlessly hunts evil-doers, gaining 30 Move Speed when moving toward nearby enemy champions.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/97e5965b2529a9e553b64325d547b1789de9ba7e-96x96.jpg?accountingTag=WR",
       "label": "Night Hunter",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/b82f8c0a560f908634a7c56fbaaaa4f43ac954b9.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Readying herself for an epic confrontation, Vayne gains increased Attack Damage, Invisibility during Tumble, and more bonus Movement Speed from Night Hunter. When an enemy champion damaged by Vayne dies within a few seconds, Final Hour's duration is extended.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/ed832452c2e6c8e43c433491293750cd929f3657-96x96.jpg?accountingTag=WR",
       "label": "Final Hour",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/3d802b189103c5c105a80430e479239b52ba0aef.mp4?accountingTag=WR"
     }
   ],
@@ -118,5 +118,5 @@
     }
   ],
   "publishDate": "2020-10-08T20:51:02Z",
-  "hash": "32bd868f44fbf77f313e304713b6bbccbe08cfdbcd04f604face3e071f1b184d"
+  "hash": "8f2cbfe7975584e7f383a2f9f19c0c594f0a17b56d9655639dcaa9e3d70c291c"
 }

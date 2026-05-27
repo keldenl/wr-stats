@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10151",
   "riotSlug": "nocturne",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/nocturne/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/nocturne",
   "title": "NOCTURNE",
   "subtitle": "THE ETERNAL NIGHTMARE",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Every few seconds, Nocturne's next attack strikes surrounding enemies for bonus physical damage and heals himself. Nocturne's basic attacks reduce this cooldown.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c1a4425d2f2149c5b96e1417b64360a62c9b4fd2-256x256.png?accountingTag=WR",
       "label": "UMBRA BLADES",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/bc7d9aa642319c05658d05ea0f48c9d940ffb7e8.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Nocturne reduces the sight radius of all enemy champions and removes their ally vision in the process. He can then launch himself at a nearby enemy champion.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/16b159ca0e703ce615826b2805999712abfb4f72-256x256.png?accountingTag=WR",
       "label": "PARANOIA",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/75923fbd6b0c2d38529d2fab6fd728bdd2232c44.mp4?accountingTag=WR"
     }
   ],
@@ -68,5 +68,5 @@
     }
   ],
   "publishDate": "2025-05-09T11:41:17Z",
-  "hash": "f2fe95b17737cecf75d8c297b70825448429ff4005a0f7d93528ceae0fc5dbc4"
+  "hash": "c178dd2c8e5d4cf8f68e082391a220a7a49ff552b094e698bcee98c19bd6c6ef"
 }

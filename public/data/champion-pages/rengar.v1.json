@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10006",
   "riotSlug": "rengar",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/rengar/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/rengar",
   "title": "RENGAR",
   "subtitle": "the Pridestalker",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Rengar leaps to his target when attacking if he is in the brush. Unique enemy champion takedowns grant him bonus Attack Damage. Casting basic abilities grants Rengar Ferocity which empowers his basic abilities. Casting empowered abilities briefly grants him bonus Movement Speed.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/fe3944441fc21ae6cd5e5cee2ee0ac0b7e5e87fe-96x96.jpg?accountingTag=WR",
       "label": "UNSEEN PREDATOR",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/8f4e2b8f1ff6f1cc01621e551ebd59b2dea39755.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Rengar gains movement speed and reveals the nearest enemy champion for a period of time. Shortly after casting Rengar becomes camoflauged with his next attack shredding the target's armor for a period of time.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/3ef9f1ce11529afaae63a542796f2f2ea546cdb5-96x96.jpg?accountingTag=WR",
       "label": "THRILL OF THE HUNT",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/ee530ea02444e753c21becb3a333db5595227b2a.mp4?accountingTag=WR"
     }
   ],
@@ -82,5 +82,5 @@
     }
   ],
   "publishDate": "2021-04-29T20:50:47Z",
-  "hash": "f9950d9fd1fc36bd172632df7b537f27a28aea531c31c2e3ab5282d5a0ef743c"
+  "hash": "5412cdf7cd9cbe7b01420e859698335ee7068f3c9b2c19a053fd978eb2b934a4"
 }

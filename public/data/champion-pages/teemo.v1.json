@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10046",
   "riotSlug": "teemo",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/teemo/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/teemo",
   "title": "TEEMO",
   "subtitle": "the Swift Scout",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Teemo's attacks deal bonus magic damage over time.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/84a469fb026b7b30437f75dd2d29c09293edc245-96x96.jpg?accountingTag=WR",
       "label": "TOXIC SHOT",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/c9fcdcbbe686071f3196c99d577c318ce8573c87.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Teemo throws an explosive poisonous trap using one of the mushrooms stored in his pack. If an enemy steps on the trap, it will release a poisonous puddle, slowing enemies and damaging them over time. If Teemo throws a mushroom onto another mushroom it will bounce, gaining additional range.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/86013087251c458e056b1eaeb21c1beda539873c-96x96.jpg?accountingTag=WR",
       "label": "NOXIOUS TRAP",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/96dc88242893c2b14fe0e8b3701eb99d5710b1dc.mp4?accountingTag=WR"
     }
   ],
@@ -113,5 +113,5 @@
     }
   ],
   "publishDate": "2021-01-26T21:00:03Z",
-  "hash": "02d6c69fa61d1a59c86f816f0b00eaf52ae5e5fa7b31f157829814903d91eb65"
+  "hash": "b01eb90195fe0641d158cdc1638da25ada42bb36d8c24769cdb7b0abbfe4c6b6"
 }

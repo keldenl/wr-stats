@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10071",
   "riotSlug": "darius",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/darius/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/darius",
   "title": "DARIUS",
   "subtitle": "the Hand of Noxus",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Darius's attacks and damaging abilities cause enemies to bleed for physical damage over time, stacking up to a cap. Upon reaching full stacks, Darius gains Noxian Might for a few seconds, gaining Attack Damage and applying full stacks of Hemorrhage instead of 1.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/269560c41111ef1c8af80713e311d295a0f936a2-96x96.jpg?accountingTag=WR",
       "label": "HEMORRHAGE",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/e3880df8737dc2e9478c1f2d790938de1a277c15.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Darius leaps to an enemy champion and strikes a lethal blow, dealing true damage. This damage is increased for each stack of Hemorrhage on the target. If Noxian Guillotine is a killing blow, its cooldown is refreshed, granting Noxian Might and causing nearby minions and monsters to flee.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/23d9a7331e9019364dc22163676e858206a8fb18-96x96.jpg?accountingTag=WR",
       "label": "NOXIAN GUILLOTINE",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/9e1263fcc55658fb1d57124860ed98030feedab1.mp4?accountingTag=WR"
     }
   ],
@@ -102,5 +102,5 @@
     }
   ],
   "publishDate": "2021-01-22T23:13:49Z",
-  "hash": "82b9371cee6be0611f75408793fa2417915a595bb6f3f305a7b75a9fe33d9368"
+  "hash": "58811497a17561339a268bac687aabefac414c4560e956be87666856915f0804"
 }

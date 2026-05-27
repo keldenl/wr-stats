@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10028",
   "riotSlug": "morgana",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/morgana/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/morgana",
   "title": "MORGANA",
   "subtitle": "the Fallen",
   "roles": [
@@ -23,7 +23,7 @@
       "description": "Morgana drains spirit from her enemies, healing as she deals damage to champions, large minions, and medium and larger jungler monsters.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1b89213c4f6991c771b1b3731758aebcc1c3e698-96x96.jpg?accountingTag=WR",
       "label": "SOUL SIPHON",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/ed5a4a223b1250e84708afd8ca1aaab1e5c5f68c.mp4?accountingTag=WR"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Morgana unleashes the full force of her Celestial power as she unbinds her wings and hovers above the ground. She lashes chains of dark pain onto nearby enemy champions, gaining Move Speed towards them. The chains slow and deal initial damage and, after a delay, stun those who are unable to break them.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/14a7205f81d4c340c1f66bac701a685465819ce7-96x96.jpg?accountingTag=WR",
       "label": "SOUL SHACKLES",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/66a495c7c03598c38a2d2c926931f6d91f2f367e.mp4?accountingTag=WR"
     }
   ],
@@ -98,5 +98,5 @@
     }
   ],
   "publishDate": "2021-12-01T05:31:32Z",
-  "hash": "462a8bef7d7b7d5e798695820a26fd931f97b27922051ba6eef30b9252d5ea71"
+  "hash": "8ef25218c9a1b714eded8b777d98e3f069159c18ce2f5a33f9bf5f27eac30acb"
 }

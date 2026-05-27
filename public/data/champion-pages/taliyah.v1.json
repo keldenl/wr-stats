@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-15T04:31:10.153Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10146",
   "riotSlug": "taliyah",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/taliyah/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/taliyah",
   "title": "TALIYAH",
   "subtitle": "The Stoneweaver",
   "roles": [
@@ -68,5 +68,5 @@
     }
   ],
   "publishDate": "2026-05-13T07:32:46Z",
-  "hash": "206d28670f2ad6c581b429fc6518a11dea1f07886f7b4b79d9a771d3ea18d51f"
+  "hash": "c3b9ef1e34926977103f30bac869ce82070df0f7b5c1302ff4ef034f4244c26a"
 }

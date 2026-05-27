@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10166",
   "riotSlug": "norra",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/norra/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/norra",
   "title": "NORRA",
-  "subtitle": "The Portal Misterss",
+  "subtitle": "The Portal Mistress",
   "roles": [
     "MAGE"
   ],
@@ -22,7 +22,7 @@
       "description": "Norra’s next ability leaves Trinkets on the battlefield. When an enemy touches a Trinket, it activates and fires a projectile at the triggering enemy. When Norra’s abilities hit enemy champions, the ability’s cooldown is reduced.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/0401ca45fd76ab4f86346e040562ec04b0881f5c-512x512.png?accountingTag=WR",
       "label": "BELOVED TRINKETS",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/c6b5b631188e52df2d80ce27a64a0f69690c5611.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Norra conjures a huge portal enveloping all units within the area. Magical projectiles will fire four times, dealing magic damage to all enemies along their path. The projectile direction is determined by swiping. The last projectile deals bonus damage.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/b7cfcb0f9773a775d4830e0f44643bfbc93c3c54-512x512.png?accountingTag=WR",
       "label": "PORTALPALOOZA!",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/673ef5ceaa01a07106acc35f2c7de80f4356c7d1.mp4?accountingTag=WR"
     }
   ],
@@ -59,8 +59,13 @@
       "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d8d9c469381457eaf7387d10a79451bfd6b7a143-1280x720.jpg?accountingTag=WR",
       "label": "NORRA, THE PORTAL MISTRESS",
       "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d8d9c469381457eaf7387d10a79451bfd6b7a143-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7cbe9f64c702bcd2ff1f344d6d7be68b3dbebf78-1280x720.jpg?accountingTag=WR",
+      "label": "CAFE CUTIES NORRA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7cbe9f64c702bcd2ff1f344d6d7be68b3dbebf78-1280x720.jpg?accountingTag=WR"
     }
   ],
   "publishDate": "2026-02-12T21:24:44Z",
-  "hash": "2ed6f48a04568ce7125902287375f71e8788f3a67dcc22e6f782b215c60cb32a"
+  "hash": "24a620f325a60c4308f384e4384bc81008fe10cb101098a6ca4954dc3a6b699b"
 }

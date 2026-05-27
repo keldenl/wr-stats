@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "generatedAt": "2026-05-27T11:50:06.993Z",
   "championId": "10144",
   "riotSlug": "viktor",
-  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/viktor/",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/viktor",
   "title": "VIKTOR",
   "subtitle": "HERALD OF ARCANE",
   "roles": [
@@ -22,7 +22,7 @@
       "description": "Viktor can augment his basic abilities when he gets kills on enemies.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/80dced5fdda48e695cad1f4ed6bea81402722cc2-512x512.png?accountingTag=WR",
       "label": "GLORIOUS EVOLUTION",
-      "subtitle": "passive",
+      "subtitle": "PASSIVE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/b5224a6f3b7b5d91916efaa53ef2c5083947ff06.mp4?accountingTag=WR"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Viktor conjures a singularity on the field which deals magic damage and interrupts enemy channels. The singularity then periodically does magic damage to all nearby enemies.",
       "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/4c52e831e383e7047ee63460823751877e20a7b6-512x512.png?accountingTag=WR",
       "label": "ARCANE STORM",
-      "subtitle": "ultimate",
+      "subtitle": "ULTIMATE",
       "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/252063183d68f04f8e32d7276e843c1bdbb61707.mp4?accountingTag=WR"
     }
   ],
@@ -69,8 +69,13 @@
       "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3831ff916815607dfafc17a12dce7a4876f1b530-1280x720.jpg?accountingTag=WR",
       "label": "HIGH NOON VIKTOR",
       "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3831ff916815607dfafc17a12dce7a4876f1b530-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9fba8ebd4b32eb87db68c54103f3fb0cab82505f-1280x720.jpg?accountingTag=WR",
+      "label": "SOUL FIGHTER VIKTOR",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9fba8ebd4b32eb87db68c54103f3fb0cab82505f-1280x720.jpg?accountingTag=WR"
     }
   ],
   "publishDate": "2025-01-24T22:35:38Z",
-  "hash": "dd9e46867b24826e1e6231fea243fba7d79fbd6b77abfe785794db9035547655"
+  "hash": "ae0ab2ae5ea3dbf208f6722f7287f06eb03f98e58fdf7aa84be1ac26693b0497"
 }
