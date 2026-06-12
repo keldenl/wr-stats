@@ -1100,6 +1100,16 @@
       "riotSlug": "rell",
       "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/rell"
     },
+    "10117": {
+      "alias": "sikana",
+      "avatar": "data/avatars/10117.png",
+      "displayName": "Skarner",
+      "id": "10117",
+      "searchText": "skarner 上古领主 斯卡纳 sikana",
+      "title": "上古领主",
+      "riotSlug": "skarner",
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/skarner/"
+    },
     "10118": {
       "alias": "shen",
       "avatar": "data/avatars/10118.png",
@@ -1381,7 +1391,7 @@
       "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/norra"
     }
   },
-  "generatedAt": "2026-05-15T04:30:21.290Z",
-  "hash": "10743f5f80de0acf7d7694ad1ec2117ecbff76279356fe9cfe8faf90655a6cfc",
+  "generatedAt": "2026-06-12T05:08:04.294Z",
+  "hash": "ca80897fe4c0b83ba8ac27ec37deeaedf96d501ef9d9484ee555df7bbe0b2e26",
   "version": 1
 }

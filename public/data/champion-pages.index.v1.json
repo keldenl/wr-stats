@@ -1210,6 +1210,17 @@
       "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/rell",
       "title": "RELL"
     },
+    "10117": {
+      "cardImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e8e66d1da10939835480ceacbad2be008fbc7d96-96x96.jpg?accountingTag=WR",
+      "championId": "10117",
+      "listEntryHash": "43fb7ce4c066fc1b6fcf1bc8b7f974af04962dc64bf618ffee6c41b1e115f54a",
+      "pageHash": "a53bd3c8aa1b0b68e244ce29c28d0a0798fa52ec6c9183bfe13b3e75afc59cfc",
+      "pagePath": "data/champion-pages/skarner.v1.json",
+      "publishDate": "2026-06-10T21:17:50Z",
+      "riotSlug": "skarner",
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/skarner/",
+      "title": "SKARNER"
+    },
     "10118": {
       "cardImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/71e3d7ca7d26158874a567f8a2d9d8bb5c11b1db-285x323.jpg?accountingTag=WR",
       "championId": "10118",
@@ -1519,8 +1530,8 @@
       "title": "NORRA"
     }
   },
-  "listHash": "a429b208d84f1dce385ccaf965fbb380c8f2f3aadcc71095c20eb3de804f5f69",
+  "listHash": "9e83b3cb2215356f2c588e463fbf3081c2b3acb3cd729cf5b55a61e70c78080c",
   "sourceLocale": "en-us",
   "version": 1,
-  "generatedAt": "2026-05-27T11:50:06.993Z"
+  "generatedAt": "2026-06-12T05:09:08.844Z"
 }

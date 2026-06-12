@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "generatedAt": "2026-06-12T05:09:08.844Z",
+  "championId": "10117",
+  "riotSlug": "skarner",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/skarner/",
+  "title": "SKARNER",
+  "subtitle": "The Primordial Sovereign",
+  "roles": [
+    "TANK",
+    "FIGHTER"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/0c6f3447e2118b977a1b8e85af63017bbde119c2.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Skarner's Attacks, Shattered Earth, Upheaval, and Impale, apply Quaking. At max stacks of Quaking, enemies take max Health magic damage over its duration.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/326e7f2d1d5060f1181e6719d859db739e7d3fdb-256x256.png?accountingTag=WR",
+      "label": "THREADS OF VIBRATION",
+      "subtitle": "PASSIVE",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/82c4e86180811bce4dc0943a47065c0ff98163ab.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Skarner rips a boulder from the earth that empowers his attacks and can be thrown as a powerful projectile.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c37f7109f557ebbb3a51ec897467f429a08491ba-256x256.png?accountingTag=WR",
+      "label": "SHATTERED EARTH/UPHEAVAL",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/2c942428e91017cc9ec4ee94ad05a76ea8d4fb3a.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Skarner gains a shield and creates an earthquake whose shockwave damages and slows foes.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/735d32aee2455bd6537970890ccca2e93620a6f5-256x256.png?accountingTag=WR",
+      "label": "SEISMIC BASTION",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/d9788215bf9e8577519659ab07a94f2d9d4241a8.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Skarner charges forward and passes through terrain. If he collides with a champion or large monster, he'll slam them into the next wall he hits to damage and stun them.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fa8ab350919f20376c02f1935fc6c7de47898e91-256x256.png?accountingTag=WR",
+      "label": "IXTAL'S IMPACT",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/8ff64688c67ed1121c0509d78f2b293792a08c69.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Skarner's tails lash forward to damage and suppress enemy champions. Suppressed victims will be dragged along by Skarner as he moves around. If Skarner hits at least one champion, he gains Move Speed. If Shattered Earth is active, Skarner will first cast Upheaval.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/226a5dbf56591d6b314401b81f8c5b0f085a7423-256x256.png?accountingTag=WR",
+      "label": "IMPALE",
+      "subtitle": "ULTIMATE",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/4b9149fe62dc9521388adffcdc8078a692951701.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/61f4115753723996fdaeb73b311536f6d45c824a-1280x720.jpg?accountingTag=WR",
+      "label": "SKARNER, THE PRIMORDIAL SOVEREIGN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/61f4115753723996fdaeb73b311536f6d45c824a-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2026-06-10T21:17:50Z",
+  "hash": "a53bd3c8aa1b0b68e244ce29c28d0a0798fa52ec6c9183bfe13b3e75afc59cfc"
+}
