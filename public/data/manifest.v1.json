@@ -1,9 +1,24 @@
 {
   "championsPath": "data/champions.v1.json",
-  "generatedAt": "2026-06-23T04:31:53.363Z",
+  "generatedAt": "2026-06-24T04:39:48.204Z",
   "latestPath": "data/latest.v1.json",
-  "latestSnapshotId": "2026-06-23T04-31-53Z--stat-20260622--08b2ce25",
+  "latestSnapshotId": "2026-06-24T04-39-48Z--stat-20260623--ea90b7cf",
   "snapshots": [
+    {
+      "fetchedAt": "2026-06-24T04:39:48.204Z",
+      "hash": "ea90b7cf52cff2b23787c62fb9b6437fb26e68713cc6b6ab2882f1ce119139ad",
+      "id": "2026-06-24T04-39-48Z--stat-20260623--ea90b7cf",
+      "path": "data/snapshots/2026/06/2026-06-24T04-39-48Z--stat-20260623--ea90b7cf.json",
+      "rowCount": 880,
+      "statDate": "20260623",
+      "tierKeys": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
     {
       "fetchedAt": "2026-06-23T04:31:53.363Z",
       "hash": "08b2ce255e67fdd68f0d21da8adeeddd28d4a5d7e9612564321cfceebcef1802",
