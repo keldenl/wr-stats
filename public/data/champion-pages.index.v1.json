@@ -946,6 +946,17 @@
       "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ziggs",
       "title": "ZIGGS"
     },
+    "10088": {
+      "cardImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d532b61341e7297740f08996d458d589d5ab4c91-285x323.jpg?accountingTag=WR",
+      "championId": "10088",
+      "listEntryHash": "ae2b1911e914fb29f3c05adb25138af6febe4c77d427a5f611bdb8428b39746b",
+      "pageHash": "5341da9df14cc8b0d4173aa97299c2ee08ebabef4d8c749403f39f9784ddb31d",
+      "pagePath": "data/champion-pages/chogath.v1.json",
+      "publishDate": "2026-08-05T14:21:44Z",
+      "riotSlug": "chogath",
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/chogath/",
+      "title": "CHO'GATH"
+    },
     "10089": {
       "cardImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/91eb41547dbcb8e4765559984b8765d8b93cf9c5-285x323.jpg?accountingTag=WR",
       "championId": "10089",
@@ -1211,10 +1222,10 @@
       "title": "RELL"
     },
     "10117": {
-      "cardImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e8e66d1da10939835480ceacbad2be008fbc7d96-96x96.jpg?accountingTag=WR",
+      "cardImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7829853403818fecfe447864e5359624a379c26d-285x323.jpg?accountingTag=WR",
       "championId": "10117",
-      "listEntryHash": "43fb7ce4c066fc1b6fcf1bc8b7f974af04962dc64bf618ffee6c41b1e115f54a",
-      "pageHash": "a53bd3c8aa1b0b68e244ce29c28d0a0798fa52ec6c9183bfe13b3e75afc59cfc",
+      "listEntryHash": "bc49fff79e76564cffbca22554debb4216974958a9c07a9518bb3e638e572109",
+      "pageHash": "56a8fc0fca2cd8ab95ff304bcbd6baad1764655f476452d825c3a661ba54e251",
       "pagePath": "data/champion-pages/skarner.v1.json",
       "publishDate": "2026-06-10T21:17:50Z",
       "riotSlug": "skarner",
@@ -1496,6 +1507,17 @@
       "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/taliyah",
       "title": "TALIYAH"
     },
+    "10148": {
+      "cardImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/50157a1e1a9597825b3bcfac15b87c0cbac94450-285x323.jpg?accountingTag=WR",
+      "championId": "10148",
+      "listEntryHash": "6c93cf882f0ba026059d94199745cf4b98fcb17f8e00074471c8698a6bf4e62b",
+      "pageHash": "fceaa171f5efe6359303b405715b55d9c1e6c3a320422a49fc9994d33b0225de",
+      "pagePath": "data/champion-pages/yunara.v1.json",
+      "publishDate": "2026-07-07T14:52:39Z",
+      "riotSlug": "yunara",
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/yunara/",
+      "title": "YUNARA"
+    },
     "10151": {
       "cardImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/401c6039075be773174cc07a447fe37ede3f6edb-285x323.jpg?accountingTag=WR",
       "championId": "10151",
@@ -1530,8 +1552,8 @@
       "title": "NORRA"
     }
   },
-  "listHash": "9e83b3cb2215356f2c588e463fbf3081c2b3acb3cd729cf5b55a61e70c78080c",
+  "listHash": "4dabf70fd64e39ac7880148708d613fd6d797b452bf75c930db73fc60012c99e",
   "sourceLocale": "en-us",
   "version": 1,
-  "generatedAt": "2026-06-12T05:09:08.844Z"
+  "generatedAt": "2026-08-07T03:21:30.545Z"
 }

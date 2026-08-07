@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "generatedAt": "2026-08-07T03:21:30.545Z",
+  "championId": "10148",
+  "riotSlug": "yunara",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/yunara/",
+  "title": "YUNARA",
+  "subtitle": "The Unbroken Faith",
+  "roles": [
+    "MARKSMAN"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/562a3dea0ca992e694182ba117fd4695c4c3b6f8.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Yunara's Critical Strikes deal bonus magic damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/61725ced401ffafd8c3553054e463c45ade2104e-512x512.png?accountingTag=WR",
+      "label": "VOW OF THE FIRST LANDS",
+      "subtitle": "PASSIVE",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/ba5d545818597c69da76f2e09770080058fec4d1.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Yunara gains Attack Speed, bonus damage On-Hit, and her Attacks spread to nearby enemies.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4225de98294eca92c9d4218b83825814039709dd-512x512.png?accountingTag=WR",
+      "label": "CULTIVATION OF SPIRIT",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/9798115e42f1702e5ee8f2c8a565dbfe727014a3.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Yunara fires a spinning prayer bead that deals damage and slows enemies. While in her Transcendent State she instead fires off a laser that deals damage and slows enemies.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9b4f79983424cf447e59c51745a5b0db67f7ce1c-512x512.png?accountingTag=WR",
+      "label": "ARC OF JUDGMENT | ARC OF RUIN",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/1fedea0c9d9afd233ade5019c8865f2021f18c2a.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Yunara gains Move Speed and becomes Ghosted. While in her Transcendent State she instead dashes in a direction.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/56df3a666ad10d9bee4f1d5cc3aaaa069c531345-512x512.png?accountingTag=WR",
+      "label": "KANMEI'S STEPS | UNTOUCHABLE SHADOW",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/755c07c04639ed7eb53c9bbfb5a581c1f441480f.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Yunara enters a Transcendent State that upgrades her basic Abilities.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7dde88fac7a755597b10fe18a2315a2174bf8983-512x512.png?accountingTag=WR",
+      "label": "TRANSCEND ONE'S SELF",
+      "subtitle": "ULTIMATE",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/497d3fb0a1cf44ae53003fcaf1cd7bfd29f4978b.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/45d0485370dad7d7654b3b4a2e63033a47d63000-1280x720.jpg?accountingTag=WR",
+      "label": "YUNARA, THE UNBROKEN FAITH",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/45d0485370dad7d7654b3b4a2e63033a47d63000-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5e8e8d8742589f9103d226c33b84a64acf63c04a-1280x720.jpg?accountingTag=WR",
+      "label": "WEATHER ENTITY YUNARA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5e8e8d8742589f9103d226c33b84a64acf63c04a-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2026-07-07T14:52:39Z",
+  "hash": "fceaa171f5efe6359303b405715b55d9c1e6c3a320422a49fc9994d33b0225de"
+}

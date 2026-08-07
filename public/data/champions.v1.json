@@ -860,6 +860,16 @@
       "riotSlug": "ziggs",
       "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ziggs"
     },
+    "10088": {
+      "alias": "kejiasi",
+      "avatar": "data/avatars/10088.png",
+      "displayName": "Chogath",
+      "id": "10088",
+      "searchText": "chogath 虚空恐惧 科加斯 kejiasi",
+      "title": "虚空恐惧",
+      "riotSlug": "chogath",
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/chogath/"
+    },
     "10089": {
       "alias": "gulajiasi",
       "avatar": "data/avatars/10089.png",
@@ -1360,6 +1370,16 @@
       "riotSlug": "taliyah",
       "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/taliyah"
     },
+    "10148": {
+      "alias": "yunena",
+      "avatar": "data/avatars/10148.png",
+      "displayName": "Yunara",
+      "id": "10148",
+      "searchText": "yunara 不破之誓 芸阿娜 yunena",
+      "title": "不破之誓",
+      "riotSlug": "yunara",
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/yunara/"
+    },
     "10151": {
       "alias": "moteng",
       "avatar": "data/avatars/10151.png",
@@ -1391,7 +1411,7 @@
       "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/norra"
     }
   },
-  "generatedAt": "2026-06-12T05:08:04.294Z",
-  "hash": "ca80897fe4c0b83ba8ac27ec37deeaedf96d501ef9d9484ee555df7bbe0b2e26",
+  "generatedAt": "2026-08-07T03:18:44.822Z",
+  "hash": "e905fc174ca758e93424778460360e7acc6b909d5c93dfb242bafef3c8609bab",
   "version": 1
 }

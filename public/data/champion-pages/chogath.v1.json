@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "generatedAt": "2026-08-07T03:21:30.545Z",
+  "championId": "10088",
+  "riotSlug": "chogath",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/chogath/",
+  "title": "CHO'GATH",
+  "subtitle": "The Terror of the Void",
+  "roles": [
+    "TANK",
+    "MAGE"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/c44855d195e7e0d95e3ba501bcbc629e8e192dc6.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Whenever Cho'Gath kills an enemy unit, it recovers health and mana. The effect is doubled if the enemy is a champion, turret, or epic monster.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/cc79ca54535607f30edf4c21395b81e918120ccd-800x800.jpg?accountingTag=WR",
+      "label": "CARNIVORE",
+      "subtitle": "PASSIVE",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/4462ec48fbb7c2085358da65f949042f9c7efa3b.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Cho’Gath ruptures the ground at target location, knocking enemy units into the air, dealing damage and slowing them.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b52ec0d5f211df0a8a550d5f883ef1e02cbdaa77-800x800.jpg?accountingTag=WR",
+      "label": "RUPTURE",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/3576fe1a880cf3785095e6fb26a5fad04fb316af.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Cho'Gath unleashes a terrible scream at enemies in a cone, dealing magic damage and Silencing enemies for a few seconds.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/94181b4966a60ba4ed63bdde1953cf012f81a0c5-800x800.jpg?accountingTag=WR",
+      "label": "FERAL SCREAM",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/6914b03843ff316ade513dc428e1938b9ae524dd.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Cho'Gath's attacks release deadly spikes, dealing damage and slowing all enemy units in front of it.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1faf41fbb304bf963a67f86de0f24b984bf29f54-800x800.jpg?accountingTag=WR",
+      "label": "VORPAL SPIKES",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/ab387b5fbfc4e66ad3ecbc1bf1f143d223f01ac5.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Cho’Gath devours an enemy unit, dealing a high amount of true damage. If the target is killed, Cho'Gath grows in size, gaining maximum health. This effect stacks with each enemy devoured.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/51cefa20574dfdd403cdf1d5bc44ce0a9f88feb8-800x800.jpg?accountingTag=WR",
+      "label": "FEAST",
+      "subtitle": "ULTIMATE",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/ce9481953894d09a31e0a907ca761e40ec81a831.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/27faedfd16949212752436d4ab4e19cd71343732-1280x720.jpg?accountingTag=WR",
+      "label": "CHO'GATH, THE TERROR OF THE VOID",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/27faedfd16949212752436d4ab4e19cd71343732-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2026-08-05T14:21:44Z",
+  "hash": "5341da9df14cc8b0d4173aa97299c2ee08ebabef4d8c749403f39f9784ddb31d"
+}

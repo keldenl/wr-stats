@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-12T05:09:08.844Z",
+  "generatedAt": "2026-08-07T03:21:30.545Z",
   "championId": "10117",
   "riotSlug": "skarner",
   "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/skarner/",
@@ -60,8 +60,13 @@
       "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/61f4115753723996fdaeb73b311536f6d45c824a-1280x720.jpg?accountingTag=WR",
       "label": "SKARNER, THE PRIMORDIAL SOVEREIGN",
       "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/61f4115753723996fdaeb73b311536f6d45c824a-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c1eb24ab30c6327950140c1b5bc9a1a6e2ac9b80-1280x720.jpg?accountingTag=WR",
+      "label": "COSMIC STING SKARNER",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c1eb24ab30c6327950140c1b5bc9a1a6e2ac9b80-1280x720.jpg?accountingTag=WR"
     }
   ],
   "publishDate": "2026-06-10T21:17:50Z",
-  "hash": "a53bd3c8aa1b0b68e244ce29c28d0a0798fa52ec6c9183bfe13b3e75afc59cfc"
+  "hash": "56a8fc0fca2cd8ab95ff304bcbd6baad1764655f476452d825c3a661ba54e251"
 }
