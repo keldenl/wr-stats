@@ -1507,6 +1507,17 @@
       "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/taliyah",
       "title": "TALIYAH"
     },
+    "10147": {
+      "cardImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/95ec8d04793e6ae018566656751b74dcc2e71e4f-285x323.jpg?accountingTag=WR",
+      "championId": "10147",
+      "listEntryHash": "3285b6e3b89194fa0f24365a00e8fd4b0e7f25f9e33fca37089e1c07d4443ad4",
+      "pageHash": "850359ba06437ecfe982d570396558a6dcee909c4648d4b5fd6ea62b7b9b7b7c",
+      "pagePath": "data/champion-pages/hwei.v1.json",
+      "publishDate": "2026-09-18T16:45:18Z",
+      "riotSlug": "hwei",
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/hwei/",
+      "title": "HWEI"
+    },
     "10148": {
       "cardImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/50157a1e1a9597825b3bcfac15b87c0cbac94450-285x323.jpg?accountingTag=WR",
       "championId": "10148",
@@ -1552,8 +1563,8 @@
       "title": "NORRA"
     }
   },
-  "listHash": "4dabf70fd64e39ac7880148708d613fd6d797b452bf75c930db73fc60012c99e",
+  "listHash": "712b9541b97c866226708fb8016858edb03bc2961fd95e261b02b0b0a036fc39",
   "sourceLocale": "en-us",
   "version": 1,
-  "generatedAt": "2026-08-07T03:21:30.545Z"
+  "generatedAt": "2026-09-22T05:06:35.198Z"
 }

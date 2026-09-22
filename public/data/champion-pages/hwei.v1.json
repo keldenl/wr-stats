@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-22T05:06:35.198Z",
+  "championId": "10147",
+  "riotSlug": "hwei",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/hwei/",
+  "title": "HWEI",
+  "subtitle": "The Visionary",
+  "roles": [
+    "MAGE",
+    "SUPPORT"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "High",
+    "value": 3
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/fe5e1e729cee83fa6ed09376b4fa35ebfd86c89d.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Hwei damages enemy champions, priming them for his signature finisher. The second hit completes his signature, which detonates after a delay, dealing magic damage to enemies in range.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/52e66b4b6326bf330913b0293c230c22ac2b9139-650x650.png?accountingTag=WR",
+      "label": "SIGNATURE OF THE VISIONARY",
+      "subtitle": "PASSIVE",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/b28a33cacc4b88059fc2febaaf33c6b58d3bbc31.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Hwei replaces his abilities with damaging powers:\n\nDevastating Fire – fires a flaming projectile.\nSevering Bolt – casts a long range lightning strike.\nMolten Fissure – shoot a fiery path that keeps erupting.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d06e045810edd5dfe365a61834da83dab2267baf-650x650.png?accountingTag=WR",
+      "label": "SUBJECT: DISASTER",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/6f6157f8dc49ffe56c1945076b29094e285276c8.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Hwei replaces abilities with utility buffs:\n\nFleeting Current – increases move speed.\nPool of Reflection – creates water shields.\nStirring Lights – restores mana and inflicts bonus damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ff240447e932c37fc4549eb821d31418e5210a27-650x650.png?accountingTag=WR",
+      "label": "SUBJECT: SERENITY",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/cb11ae3de82ca2434fa99fd874e4fd0ed3646aa4.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Hwei replaces abilities with crowd control powers:\n\nGrim Visage – fears and slows.\nGaze of the Abyss – sends homing missile eye with True Sight.\nCrushing Maw – draws in foes to damage and slow.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/dbe6a82a9cb269a918f9558fa47f1a3710762382-650x650.png?accountingTag=WR",
+      "label": "SUBJECT: TORMENT",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/6778017c2890eb240c687145820de637abe11539.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Hwei captures enemy champions in an expanding field that slows and damages, exploding upon reaching maximum size, or the champion’s demise.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f6562e76ee86e0cc66d8f219915a95b0d73975d8-650x650.png?accountingTag=WR",
+      "label": "SPIRALING DESPAIR",
+      "subtitle": "ULTIMATE",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/7bf7441b6ebed225db495e930e524728729580cc.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/077b56fa778708eec457d8c4d2f2ea73c1e477ec-1280x720.jpg?accountingTag=WR",
+      "label": "HWEI, THE VISIONARY",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/077b56fa778708eec457d8c4d2f2ea73c1e477ec-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e8ec717130709286f71ae2a26536597e8a2c2d70-1280x720.jpg?accountingTag=WR",
+      "label": "WINTERBLESSED HWEI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e8ec717130709286f71ae2a26536597e8a2c2d70-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2026-09-18T16:45:18Z",
+  "hash": "850359ba06437ecfe982d570396558a6dcee909c4648d4b5fd6ea62b7b9b7b7c"
+}

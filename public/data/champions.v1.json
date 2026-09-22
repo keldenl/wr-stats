@@ -1370,6 +1370,16 @@
       "riotSlug": "taliyah",
       "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/taliyah"
     },
+    "10147": {
+      "alias": "hui",
+      "avatar": "data/avatars/10147.png",
+      "displayName": "Hwei",
+      "id": "10147",
+      "searchText": "hwei 异画师 彗 hui",
+      "title": "异画师",
+      "riotSlug": "hwei",
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/hwei/"
+    },
     "10148": {
       "alias": "yunena",
       "avatar": "data/avatars/10148.png",
@@ -1411,7 +1421,7 @@
       "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/norra"
     }
   },
-  "generatedAt": "2026-08-07T03:18:44.822Z",
-  "hash": "e905fc174ca758e93424778460360e7acc6b909d5c93dfb242bafef3c8609bab",
+  "generatedAt": "2026-09-22T05:05:48.669Z",
+  "hash": "d8fdfad2e5d262f529ec7cd608deba41e54e87dc1fa58e56cc87c10010fac5ea",
   "version": 1
 }
