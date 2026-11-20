@@ -1140,6 +1140,16 @@
       "riotSlug": "brand",
       "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/brand"
     },
+    "10120": {
+      "alias": "sailasi",
+      "avatar": "data/avatars/10120.png",
+      "displayName": "Sylas",
+      "id": "10120",
+      "searchText": "sylas 解脱者 塞拉斯 sailasi",
+      "title": "解脱者",
+      "riotSlug": "sylas",
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/sylas/"
+    },
     "10121": {
       "alias": "leikedun",
       "avatar": "data/avatars/10121.png",
@@ -1421,7 +1431,7 @@
       "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/norra"
     }
   },
-  "generatedAt": "2026-09-22T05:05:48.669Z",
-  "hash": "d8fdfad2e5d262f529ec7cd608deba41e54e87dc1fa58e56cc87c10010fac5ea",
+  "generatedAt": "2026-11-20T16:59:51.780Z",
+  "hash": "967a86c15544656996a524c108f833ee632b27ffa1a2eddd3cea6840d751e836",
   "version": 1
 }

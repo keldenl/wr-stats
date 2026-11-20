@@ -1254,6 +1254,17 @@
       "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/brand",
       "title": "BRAND"
     },
+    "10120": {
+      "cardImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5b7ed4d20c87a5f975e189ac397bc54e6c93f6d7-285x323.jpg?accountingTag=WR",
+      "championId": "10120",
+      "listEntryHash": "9436d27ec448379f9489ba4c828bb656836bb324186e21adf4001be46d4d56a3",
+      "pageHash": "69edfdf0a573ca194a80916334642fe0b0b6709657795ab52f9b5bd29f940794",
+      "pagePath": "data/champion-pages/sylas.v1.json",
+      "publishDate": "2026-11-03T21:39:50Z",
+      "riotSlug": "sylas",
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/sylas/",
+      "title": "SYLAS"
+    },
     "10121": {
       "cardImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/d71da849a00e19983454e03e157ed91b55afb8e2-285x323.jpg?accountingTag=WR",
       "championId": "10121",
@@ -1563,8 +1574,8 @@
       "title": "NORRA"
     }
   },
-  "listHash": "712b9541b97c866226708fb8016858edb03bc2961fd95e261b02b0b0a036fc39",
+  "listHash": "47168299b9279d3dd410dc087698023dc9e018017d163262c36a3c0a8bde8933",
   "sourceLocale": "en-us",
   "version": 1,
-  "generatedAt": "2026-09-22T05:06:35.198Z"
+  "generatedAt": "2026-11-20T17:00:32.145Z"
 }
